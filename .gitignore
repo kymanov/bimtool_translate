@@ -1,0 +1,23 @@
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+
+# Proprietary installer binary — do NOT commit (448MB, copyrighted)
+*.exe
+BMWTOOL-InstallerV188.exe
+# Ruflo runtime state / vector DB
+*.db
+*.db-shm
+*.db-wal
+ruvector.db
+.swarm/
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+.claude-flow/metrics/
+.claude-flow/neural/
+.claude-flow/learning/

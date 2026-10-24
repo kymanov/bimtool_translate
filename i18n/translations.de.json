@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "source": "BMWTOOL-InstallerV188.exe",
+    "encoding": "utf-16le",
+    "note": "Partial — only strings outside the compressed payload. Full set requires installing the app or unpacking the installer compression.",
+    "source_lang": "de",
+    "target_lang": ""
+  },
+  "strings": [
+    {
+      "id": "s0001",
+      "de": "&  /A \t Alle oder keine installieren.",
+      "target": ""
+    },
+    {
+      "id": "s0002",
+      "de": "+  /? | /h | /help \t Zeigt diese Hilfe an.",
+      "target": ""
+    },
+    {
+      "id": "s0003",
+      "de": "+Fertigstellen des Assistenten nicht m",
+      "target": ""
+    },
+    {
+      "id": "s0004",
+      "de": ",Xon / Xoff,Hardware,Keine",
+      "target": ""
+    },
+    {
+      "id": "s0005",
+      "de": "/L Sprach-ID \t Versucht, die angegebene Sprache auf allen Benutzeroberfl",
+      "target": ""
+    },
+    {
+      "id": "s0006",
+      "de": "/LM \t Legacymodus. Akzeptiert unsignierte Treiberpakete und Pakete, in denen Dateien fehlen. Diese Pakete werden auf der neuesten Version von Windows nicht installiert.",
+      "target": ""
+    },
+    {
+      "id": "s0007",
+      "de": "/SH \t Hardware doorzoeken op overeenkomstige apparaten en alleen die stuurprogramma's kopi",
+      "target": ""
+    },
+    {
+      "id": "s0008",
+      "de": "/SH \t Scanner hardware for at finde tilsvarende enheder og kopierer og installerer kun de drivere, som der findes en enhed til. Kun gyldig for Plug and Play-drivere.",
+      "target": ""
+    },
+    {
+      "id": "s0009",
+      "de": "0: installiert und deinstalliert Treiberpakete.",
+      "target": ""
+    },
+    {
+      "id": "s0010",
+      "de": "700 Endbenutzer-Lizenzvertrag (EULA)[Sie m",
+      "target": ""
+    },
+    {
+      "id": "s0011",
+      "de": "Allgemeine Optionen(Minimale Anzahle der Lese-Timeouts (ms):+Minimale Anzahle der Schreib-Timeouts (ms):$Plug&Play f",
+      "target": ""
+    },
+    {
+      "id": "s0012",
+      "de": "B  /U INF-Datei \t Deinstallation eines Treiberpakets (INF-Datei).",
+      "target": ""
+    },
+    {
+      "id": "s0013",
+      "de": "BM EinstellungenBReduzieren Sie die Werte, um Kommunikationsprobleme zu verringern.",
+      "target": ""
+    },
+    {
+      "id": "s0014",
+      "de": "Beim Installieren der Ger",
+      "target": ""
+    },
+    {
+      "id": "s0015",
+      "de": "Betriebsbereit,Installation fehlgeschlagen (Nicht signiert)7Installation fehlgeschlagen (Zertifikat ist abgelaufen)",
+      "target": ""
+    },
+    {
+      "id": "s0016",
+      "de": "DEinschalten dieses Attributes hat Vorrang vor der Ger",
+      "target": ""
+    },
+    {
+      "id": "s0017",
+      "de": "De software voor de hardware-apparaten is niet door de wizard Apparaatstuurprogramma installeren bijgewerkt, omdat er geen betere versie van de software die nu is ge",
+      "target": ""
+    },
+    {
+      "id": "s0018",
+      "de": "Default-,Gerade,Ungerade,Keine,Markierung,Leerzeichen",
+      "target": ""
+    },
+    {
+      "id": "s0019",
+      "de": "Der Assistent zum Installieren der Ger",
+      "target": ""
+    },
+    {
+      "id": "s0020",
+      "de": "Der Treiber kann nicht installiert werden, weil der erforderlicher Endbenutzer-Lizenzvertrag (EULA) fehlt.",
+      "target": ""
+    },
+    {
+      "id": "s0021",
+      "de": "Der Treiber kann nicht installiert werden, weil er entweder keine digitale Signatur hat oder nicht ordnungsgem",
+      "target": ""
+    },
+    {
+      "id": "s0022",
+      "de": "Der opstod fejl under installationen af softwaren til enhederne. Se i kolonnen Status for at f",
+      "target": ""
+    },
+    {
+      "id": "s0023",
+      "de": "Die Baudrate muss positiv sein.",
+      "target": ""
+    },
+    {
+      "id": "s0024",
+      "de": "Die Software f",
+      "target": ""
+    },
+    {
+      "id": "s0025",
+      "de": "Die Treiber wurden auf dem Computer installiert.",
+      "target": ""
+    },
+    {
+      "id": "s0026",
+      "de": "Die Treiber wurden auf dem Computer installiert. Falls ein Ger",
+      "target": ""
+    },
+    {
+      "id": "s0027",
+      "de": "Die aktuelle Sprache wird vom Ger",
+      "target": ""
+    },
+    {
+      "id": "s0028",
+      "de": "Diese Betaversion ist abgelaufen. Senden Sie eine E-Mail in englischer Sprache an die folgende E-Mail-Adresse, um weitere Informationen",
+      "target": ""
+    },
+    {
+      "id": "s0029",
+      "de": "Diese Schnittstelle wurde von einer anderen Anwendung ge",
+      "target": ""
+    },
+    {
+      "id": "s0030",
+      "de": "Einige Treiber wurden auf dem Computer installiert. Einige Treiber konnten nicht installiert werden. Weitere Details finden Sie in der Spalte \"Status\".",
+      "target": ""
+    },
+    {
+      "id": "s0031",
+      "de": "Es wird empfohlen, diese Anwendungen zu deinstallieren, wenn Sie diesen Ger",
+      "target": ""
+    },
+    {
+      "id": "s0032",
+      "de": "Es wurden keine Treiber f",
+      "target": ""
+    },
+    {
+      "id": "s0033",
+      "de": "Fjern driverpakkeKAlle enheder, der bruger denne driver, vil blive fjernet. Vil du forts",
+      "target": ""
+    },
+    {
+      "id": "s0034",
+      "de": "For de enheder, hvor der ikke blev installeret en driver, skal du kontakte enhedsproducenten.",
+      "target": ""
+    },
+    {
+      "id": "s0035",
+      "de": "Guiden Installation af enhedsdriver kunne ikke finde nogen drivere, der er udviklet til denne computer. Kontakt leverand",
+      "target": ""
+    },
+    {
+      "id": "s0036",
+      "de": "Hvis der blev leveret en enhed med softwaren, kan du tilslutte enheden til computeren nu.",
+      "target": ""
+    },
+    {
+      "id": "s0037",
+      "de": "IDPInst.exe kann auf dem aktuellen Betriebssystem nicht ausgef",
+      "target": ""
+    },
+    {
+      "id": "s0038",
+      "de": "Ich stimme dem Lizenzvertrag &nicht zu",
+      "target": ""
+    },
+    {
+      "id": "s0039",
+      "de": "K  /EL \t Aktiverer alle sprog, der ikke eksplicit er optegnet i XML-filen.",
+      "target": ""
+    },
+    {
+      "id": "s0040",
+      "de": "Met deze wizard kunt u de stuurprogramma's installeren die sommige apparaten voor uw computer nodig hebben om goed te kunnen functioneren.,De wizard Apparaatstuurprogramma installeren",
+      "target": ""
+    },
+    {
+      "id": "s0041",
+      "de": "Nicht genug Speicher f",
+      "target": ""
+    },
+    {
+      "id": "s0042",
+      "de": "OK\tAbbrechen\tSta&ndard'Advanced Communications Port Properties",
+      "target": ""
+    },
+    {
+      "id": "s0043",
+      "de": "Port Settings:Abschalten der Modemansteuerung beim Hochfahren des Ger",
+      "target": ""
+    },
+    {
+      "id": "s0044",
+      "de": "Serieller Drucker>Abbrechen der Kommunikation, wenn das Ger",
+      "target": ""
+    },
+    {
+      "id": "s0045",
+      "de": "Sie k",
+      "target": ""
+    },
+    {
+      "id": "s0046",
+      "de": "Sie m",
+      "target": ""
+    },
+    {
+      "id": "s0047",
+      "de": "Speichern &unter...",
+      "target": ""
+    },
+    {
+      "id": "s0048",
+      "de": "Treiber werden installiert...",
+      "target": ""
+    },
+    {
+      "id": "s0049",
+      "de": "V  /EL \t Alle talen inschakelen die niet expliciet worden vermeld in het XML-bestand.",
+      "target": ""
+    },
+    {
+      "id": "s0050",
+      "de": "WWarten Sie, bis die Treiber installiert wurden. Dieser Vorgang kann einige Zeit dauern.",
+      "target": ""
+    },
+    {
+      "id": "s0051",
+      "de": "Wenden Sie sich an den Hersteller der Ger",
+      "target": ""
+    },
+    {
+      "id": "s0052",
+      "de": "Wenden Sie sich an den Hersteller, von dem Sie dieses Paket erhalten haben.",
+      "target": ""
+    },
+    {
+      "id": "s0053",
+      "de": "Wenden Sie sich an den Hersteller, von dem Sie dieses Paket erhalten haben.>Sind Sie sicher, dass Sie die Installation abbrechen m",
+      "target": ""
+    },
+    {
+      "id": "s0054",
+      "de": "Wenn Sie diesen Ger",
+      "target": ""
+    },
+    {
+      "id": "s0055",
+      "de": "Y  /F \t Installation erzwingen, wenn das Treiberpaket nicht besser als das aktuelle ist.",
+      "target": ""
+    },
+    {
+      "id": "s0056",
+      "de": "[  /EL \t Aktiviert alle Sprachen, die nicht ausdr",
+      "target": ""
+    },
+    {
+      "id": "s0057",
+      "de": "[/U INF-Datei][/S | /Q][/LM][/P][/F][/SH][/SA][/A][/PATH Pfad][/EL][/L Sprach-ID][/C][/D][/LogTitle Titel][/SW][/? | /h | /help]",
+      "target": ""
+    },
+    {
+      "id": "s0058",
+      "de": "^  /C \t Protokollierungsausgabe auf angeschlossener Konsole speichern (Windows XP und h",
+      "target": ""
+    },
+    {
+      "id": "s0059",
+      "de": "ber die Fehlerursache zu erhalten.",
+      "target": ""
+    },
+    {
+      "id": "s0060",
+      "de": "chten Sie diesen Ger",
+      "target": ""
+    },
+    {
+      "id": "s0061",
+      "de": "cken Sie die BILD-AB-TASTE, um den gesamten Vertrag anzuzeigen.",
+      "target": ""
+    },
+    {
+      "id": "s0062",
+      "de": "cklich in der XML-Datei aufgef",
+      "target": ""
+    },
+    {
+      "id": "s0063",
+      "de": "ckt das EULA.",
+      "target": ""
+    },
+    {
+      "id": "s0064",
+      "de": "computeren. Hvis der blev leveret en enhed med softwaren, kan du tilslutte enheden til computeren nu. Hvis enheden blev leveret med en vejledning, b",
+      "target": ""
+    },
+    {
+      "id": "s0065",
+      "de": "der ikke i kraft f",
+      "target": ""
+    },
+    {
+      "id": "s0066",
+      "de": "dvendig (der er ingen enhed til opdatering)IAnnullerer driverinstallationen! Det kan tage flere minutter at fuldf",
+      "target": ""
+    },
+    {
+      "id": "s0067",
+      "de": "eEs wird bereits der beste Ger",
+      "target": ""
+    },
+    {
+      "id": "s0068",
+      "de": "en Sie eine oder mehrere Windows-Anwendungen um den verf",
+      "target": ""
+    },
+    {
+      "id": "s0069",
+      "de": "en der Verbindung RTS aktiv setzen",
+      "target": ""
+    },
+    {
+      "id": "s0070",
+      "de": "en. Falls Sie",
+      "target": ""
+    },
+    {
+      "id": "s0071",
+      "de": "enTReduzieren Sie die Werte, um Performance-Probleme bei geringen Baudraten zu beheben.6Erh",
+      "target": ""
+    },
+    {
+      "id": "s0072",
+      "de": "er Kraft gesetzt werden?",
+      "target": ""
+    },
+    {
+      "id": "s0073",
+      "de": "ffnet. Diese Schnittstelle umzubenennen kann unvorhersehbare Auswirkungen auf diese Anwendung haben. Wollen Sie weitermachen?2Es gab einen Fehler beim umbenennen des COM-Ports.",
+      "target": ""
+    },
+    {
+      "id": "s0074",
+      "de": "ft die Hardware nach passenden Ger",
+      "target": ""
+    },
+    {
+      "id": "s0075",
+      "de": "ft, aber keine zu aktualisierenden Ger",
+      "target": ""
+    },
+    {
+      "id": "s0076",
+      "de": "g  /P \t Dialog, wenn das Treiberpaket, das installiert werden soll, nicht besser als das aktuelle ist.",
+      "target": ""
+    },
+    {
+      "id": "s0077",
+      "de": "gen, sollten Sie diese zuerst lesen.",
+      "target": ""
+    },
+    {
+      "id": "s0078",
+      "de": "gen/entfernen\", der normalerweise f",
+      "target": ""
+    },
+    {
+      "id": "s0079",
+      "de": "glicherweise wurde diese INF f",
+      "target": ""
+    },
+    {
+      "id": "s0080",
+      "de": "gte computeren, men fandt ikke nogen enheder, der skulle opdateres.2Ikke n",
+      "target": ""
+    },
+    {
+      "id": "s0081",
+      "de": "hen Sie die Werte f",
+      "target": ""
+    },
+    {
+      "id": "s0082",
+      "de": "hren Sie den Assistenten ggf. erneut aus. Wenden Sie sich an den Ger",
+      "target": ""
+    },
+    {
+      "id": "s0083",
+      "de": "hrt werden.6Klicken Sie auf \"Weiter\", um den Vorgang fortzusetzen.",
+      "target": ""
+    },
+    {
+      "id": "s0084",
+      "de": "ig durchsucht das Tool das aktuelle Verzeichnis und versucht, alle gefundenen Treiberpakete zu installieren.",
+      "target": ""
+    },
+    {
+      "id": "s0085",
+      "de": "j/fjern programmer, der normalt oprettes for hver driverpakke.",
+      "target": ""
+    },
+    {
+      "id": "s0086",
+      "de": "ldre tilstand. Accepterer usignerede driverpakker og pakker, der mangler filer. Disse pakker kan ikke installeres p",
+      "target": ""
+    },
+    {
+      "id": "s0087",
+      "de": "nderungen werden erst nach einem Neustart des Computers wirksam.",
+      "target": ""
+    },
+    {
+      "id": "s0088",
+      "de": "nnen Sie Softwaretreiber installieren, die zum ordnungsgem",
+      "target": ""
+    },
+    {
+      "id": "s0089",
+      "de": "nnen Sie es jetzt an den Computer anschlie",
+      "target": ""
+    },
+    {
+      "id": "s0090",
+      "de": "nnen jetzt das Ger",
+      "target": ""
+    },
+    {
+      "id": "s0091",
+      "de": "nnen.hVerwenden Sie die Bildlaufleiste oder dr",
+      "target": ""
+    },
+    {
+      "id": "s0092",
+      "de": "nnte es sein, dass diese Anwendungen nicht ordnungsgem",
+      "target": ""
+    },
+    {
+      "id": "s0093",
+      "de": "r die Hardwareger",
+      "target": ""
+    },
+    {
+      "id": "s0094",
+      "de": "r die Windows Registry besitzen, um die erweiterten Einstellungen von diesem Ger",
+      "target": ""
+    },
+    {
+      "id": "s0095",
+      "de": "r die ein Ger",
+      "target": ""
+    },
+    {
+      "id": "s0096",
+      "de": "r diese Treiberinstallationsdatei ist nicht vorhanden. M",
+      "target": ""
+    },
+    {
+      "id": "s0097",
+      "de": "rdateien des Treibers nach der Deinstallation l",
+      "target": ""
+    },
+    {
+      "id": "s0098",
+      "de": "ren en installeren waarvoor een apparaat aanwezig is. Alleen geldig voor stuurprogramma's die Plug en Play-compatibel zijn.",
+      "target": ""
+    },
+    {
+      "id": "s0099",
+      "de": "rger om driverpakken, der skal installeres er bedre end den aktuelle.",
+      "target": ""
+    },
+    {
+      "id": "s0100",
+      "de": "s) tilstand. Skjuler Guiden Enhedsinstallation og alle dialogbokse, der vises af operativsystemet.",
+      "target": ""
+    },
+    {
+      "id": "s0101",
+      "de": "signiert wurde.",
+      "target": ""
+    },
+    {
+      "id": "s0102",
+      "de": "ssen dem folgenden Lizenzvertrag zustimmen, um die Installation fortsetzen zu k",
+      "target": ""
+    },
+    {
+      "id": "s0103",
+      "de": "ssen die 64-Bit-Version von DPInst.exe auf diesem Computer ausf",
+      "target": ""
+    },
+    {
+      "id": "s0104",
+      "de": "t mit der Software geliefert wurden, k",
+      "target": ""
+    },
+    {
+      "id": "s0105",
+      "de": "t vorhanden)QDie Treiberinstallation wird abgebrochen! Dieser Vorgang kann einige Zeit dauern.DDer Assistent zum Installieren der Ger",
+      "target": ""
+    },
+    {
+      "id": "s0106",
+      "de": "t wurde aktualisiert",
+      "target": ""
+    },
+    {
+      "id": "s0107",
+      "de": "te konnte nicht installiert werden, weil Sie dem Endbenutzer-Lizenzvertrag nicht zugestimmt haben.",
+      "target": ""
+    },
+    {
+      "id": "s0108",
+      "de": "te nicht eindeutig identifiziert werden und sind dadurch nicht ansprechbar oder erhalten die falschen Einstellungen. Wollen Sie weitermachen? 4Ung",
+      "target": ""
+    },
+    {
+      "id": "s0109",
+      "de": "te wurde nicht aktualisiert, weil sie nicht besser als die zurzeit installierte Software ist.",
+      "target": ""
+    },
+    {
+      "id": "s0110",
+      "de": "te, bei denen der Treiber nicht installiert wurde.",
+      "target": ""
+    },
+    {
+      "id": "s0111",
+      "de": "te, die diesen Treiber verwenden, werden entfernt. Soll der Vorgang fortgesetzt werden? Ich &stimme dem Lizenzvertrag zu&Ich stimme dem Lizenzvertrag &nicht zu",
+      "target": ""
+    },
+    {
+      "id": "s0112",
+      "de": "tehersteller, falls das Problem weiterhin besteht.",
+      "target": ""
+    },
+    {
+      "id": "s0113",
+      "de": "teinstallations-Assistenten. Das Betriebssystem l",
+      "target": ""
+    },
+    {
+      "id": "s0114",
+      "de": "ten und kopiert und installiert nur die Treiber, f",
+      "target": ""
+    },
+    {
+      "id": "s0115",
+      "de": "tesoftware sind Fehler aufgetreten. Weitere Details finden Sie in der Spalte \"Status\".",
+      "target": ""
+    },
+    {
+      "id": "s0116",
+      "de": "tetreiber hat Ihren Computer erfolgreich",
+      "target": ""
+    },
+    {
+      "id": "s0117",
+      "de": "tetreiber werden gesucht...",
+      "target": ""
+    },
+    {
+      "id": "s0118",
+      "de": "tetreiber wurde abgebrochen. 0Installation fehlgeschlagen (Ung",
+      "target": ""
+    },
+    {
+      "id": "s0119",
+      "de": "tetreiberinstallations-Assistent nicht unterst",
+      "target": ""
+    },
+    {
+      "id": "s0120",
+      "de": "tetreiberinstallation~Es wird bereits der beste Ger",
+      "target": ""
+    },
+    {
+      "id": "s0121",
+      "de": "~Wenden Sie sich an den Hersteller oder den Standortadministrator, um weitere Informationen",
+      "target": ""
+    }
+  ]
+}
