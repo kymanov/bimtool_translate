@@ -4,1552 +4,2066 @@
     "app": "VVDI2 BMW TOOL 1.8.8",
     "encoding": "utf-16le length-prefixed string table",
     "source_lang": "de",
-    "target_lang": "",
+    "target_lang": "en,tr",
     "count": 257,
-    "note": "VVDI2 BMW TOOL çok dilli string tablosundan çıkarılan Almanca UI metinleri. 'target' alanını başka bir çeviri modeliyle doldurup uygulamaya geri birleştir."
+    "note": "VVDI2 BMW TOOL Almanca UI metinleri + İngilizce (en) ve Türkçe (tr) çevirileri. Yer tutucular (\\n, \\r\\n, \"\"...\"\", %s/%d/%.1X, <a>) korunmuştur."
   },
   "strings": [
     {
       "id": "s0001",
       "de": "Schlüssel via Dump",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key via Dump",
+      "tr": "Dump ile anahtar"
     },
     {
       "id": "s0002",
       "de": "VIN ändern",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Change VIN",
+      "tr": "VIN değiştir"
     },
     {
       "id": "s0003",
       "de": "Händlerschlüssel erstellen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Make dealer key",
+      "tr": "Bayi anahtarı oluştur"
     },
     {
       "id": "s0004",
       "de": "Schlüssel hinzufügen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Add key",
+      "tr": "Anahtar ekle"
     },
     {
       "id": "s0005",
       "de": "Haben Sie das Eeprom gesichert? \nWeiter wenn gesichert, ansonsten erst eine Sicherung erstellen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Did you back up the EEPROM? \nContinue if backed up, otherwise make a backup first!",
+      "tr": "EEPROM'u yedeklediniz mi? \nYedeklediyseniz devam edin, aksi halde önce yedek alın!"
     },
     {
       "id": "s0006",
       "de": "Dieser Typ wird in einer spätere Version unterstützt!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "This type will be supported in a later version!",
+      "tr": "Bu tip ileriki bir sürümde desteklenecek!"
     },
     {
       "id": "s0007",
       "de": "KM erfolgreich gelesen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Mileage read successfully.",
+      "tr": "KM başarıyla okundu."
     },
     {
       "id": "s0008",
       "de": "KM konnten nicht gelesen werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Mileage could not be read!",
+      "tr": "KM okunamadı!"
     },
     {
       "id": "s0009",
       "de": "Init-Daten Fehler!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Init data error!",
+      "tr": "Başlatma verisi hatası!"
     },
     {
       "id": "s0010",
       "de": "EWS-Daten gelesen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "EWS data read.",
+      "tr": "EWS verisi okundu."
     },
     {
       "id": "s0011",
       "de": "EWS-Daten konnten nicht gelesen werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "EWS data could not be read!",
+      "tr": "EWS verisi okunamadı!"
     },
     {
       "id": "s0012",
       "de": "Suche Programmiergerät......",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Searching for programmer......",
+      "tr": "Programlayıcı aranıyor......"
     },
     {
       "id": "s0013",
       "de": "Programmiergerät gefunden.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Programmer found.",
+      "tr": "Programlayıcı bulundu."
     },
     {
       "id": "s0014",
       "de": "Programmiergerät nicht gefunden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Programmer not found!",
+      "tr": "Programlayıcı bulunamadı!"
     },
     {
       "id": "s0015",
       "de": "Chip kann nicht gelesen/geschrieben werden. Bitte prüfen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Chip cannot be read/written. Please check!",
+      "tr": "Çip okunamıyor/yazılamıyor. Lütfen kontrol edin!"
     },
     {
       "id": "s0016",
       "de": "Erstelle Schlüssel, bitte warten......",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Making key, please wait......",
+      "tr": "Anahtar oluşturuluyor, lütfen bekleyin......"
     },
     {
       "id": "s0017",
       "de": "Schlüssel erstellt & gesperrt. Benutzen Sie ihn zum starten des Fahrzeugs.\r\nFalls der Motor nicht startet nutzen Sie die\"\"Schlüssel hinzufügen\"\" Funktion, um den Schlüssel zum CAS hinzuzufügen.\nFalls der Motor startet, aber die Keyless-Funktion nicht geht, nutzen Sie die \"\"Repariere Keyless-Schlüssel\"\" Funktion.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key created & locked. Use it to start the vehicle.\r\nIf the engine does not start, use the \"\"Add key\"\" function to add the key to the CAS.\nIf the engine starts but Keyless does not work, use the \"\"Repair Keyless key\"\" function.",
+      "tr": "Anahtar oluşturuldu ve kilitlendi. Aracı çalıştırmak için kullanın.\r\nMotor çalışmazsa, anahtarı CAS'e eklemek için \"\"Anahtar ekle\"\" işlevini kullanın.\nMotor çalışır ama Keyless çalışmazsa, \"\"Keyless anahtarı onar\"\" işlevini kullanın."
     },
     {
       "id": "s0018",
       "de": "Schlüssel erfolgreich hinzugefügt",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key added successfully",
+      "tr": "Anahtar başarıyla eklendi"
     },
     {
       "id": "s0019",
       "de": "Schlüssel hinzufügen fehlgeschlagen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Adding key failed!",
+      "tr": "Anahtar ekleme başarısız!"
     },
     {
       "id": "s0020",
       "de": "Modul wird nicht unterstützt",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Module is not supported",
+      "tr": "Modül desteklenmiyor"
     },
     {
       "id": "s0021",
       "de": "Daten gelesen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Data read.",
+      "tr": "Veri okundu."
     },
     {
       "id": "s0022",
       "de": "Daten konnten nicht gelesen werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Data could not be read!",
+      "tr": "Veri okunamadı!"
     },
     {
       "id": "s0023",
       "de": "Schreibe Daten, bitte warten......",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Writing data, please wait......",
+      "tr": "Veri yazılıyor, lütfen bekleyin......"
     },
     {
       "id": "s0024",
       "de": "Daten geschrieben.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Data written.",
+      "tr": "Veri yazıldı."
     },
     {
       "id": "s0025",
       "de": "Daten konnten nicht geschrieben werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Data could not be written!",
+      "tr": "Veri yazılamadı!"
     },
     {
       "id": "s0026",
       "de": "Datei gespeichert.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "File saved.",
+      "tr": "Dosya kaydedildi."
     },
     {
       "id": "s0027",
       "de": "Datei konnten nicht gespeichert werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "File could not be saved!",
+      "tr": "Dosya kaydedilemedi!"
     },
     {
       "id": "s0028",
       "de": "Datei geladen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "File loaded.",
+      "tr": "Dosya yüklendi."
     },
     {
       "id": "s0029",
       "de": "Datei konnten nicht geladen werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "File could not be loaded!",
+      "tr": "Dosya yüklenemedi!"
     },
     {
       "id": "s0030",
       "de": "Verschlüsseltes CAS gefunden! Bitte erstellen Sie den Schlüssel via OBD!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Encrypted CAS found! Please make the key via OBD!",
+      "tr": "Şifreli CAS bulundu! Lütfen anahtarı OBD üzerinden oluşturun!"
     },
     {
       "id": "s0031",
       "de": "CAS Eeprom Daten beschädigt. Der erstellte Schlüssel kann nicht zum Starten verwendet werden.\nWollen Sie fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS EEPROM data corrupted. The created key cannot be used to start.\nDo you want to continue?",
+      "tr": "CAS EEPROM verisi bozuk. Oluşturulan anahtar çalıştırmak için kullanılamaz.\nDevam etmek istiyor musunuz?"
     },
     {
       "id": "s0032",
       "de": "EEPROM dump - Händlerschlüssel erstellen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "EEPROM dump - make dealer key",
+      "tr": "EEPROM dump - bayi anahtarı oluştur"
     },
     {
       "id": "s0033",
       "de": "Falsche Dateigröße!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Wrong file size!",
+      "tr": "Yanlış dosya boyutu!"
     },
     {
       "id": "s0034",
       "de": "Der Schlüssel ist dem Fahrzeug bereits zugeordnet!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The key is already assigned to the vehicle!",
+      "tr": "Anahtar zaten araca atanmış!"
     },
     {
       "id": "s0035",
       "de": "Schlüssel-Typ",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key type",
+      "tr": "Anahtar tipi"
     },
     {
       "id": "s0036",
       "de": "Bitte laden Sie den EEPROM dump. \"\"OK\"\" drücken zum fortfahren.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please load the EEPROM dump. Press \"\"OK\"\" to continue.",
+      "tr": "Lütfen EEPROM dump'ı yükleyin. Devam etmek için \"\"OK\"\" tuşuna basın."
     },
     {
       "id": "s0037",
       "de": "Bitte speichern Sie den neuen EEPROM dump. \"\"OK\"\" drücken zum fortfahren.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please save the new EEPROM dump. Press \"\"OK\"\" to continue.",
+      "tr": "Lütfen yeni EEPROM dump'ı kaydedin. Devam etmek için \"\"OK\"\" tuşuna basın."
     },
     {
       "id": "s0038",
       "de": "Vollständig.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Complete.",
+      "tr": "Tamamlandı."
     },
     {
       "id": "s0039",
       "de": "Händlerschlüssel erstellt. Bitte nutzen Sie den neuen Schüssel zum starten. \nSpielen Sie den neuen EEprom-Dump in das CAS, falls nicht erfolgreich",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Dealer key created. Please use the new key to start.\nWrite the new EEPROM dump into the CAS if it does not succeed",
+      "tr": "Bayi anahtarı oluşturuldu. Çalıştırmak için yeni anahtarı kullanın.\nBaşarılı olmazsa yeni EEPROM dump'ı CAS'e yazın"
     },
     {
       "id": "s0040",
       "de": "Händlerschlüssels erfolgreich erstellt.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Dealer key created successfully.",
+      "tr": "Bayi anahtarı başarıyla oluşturuldu."
     },
     {
       "id": "s0041",
       "de": "Entfernen Sie den Händlerschlüssel aus dem Zündschloss\r\nBei Keyless aus dem Fahrzeug entfernen\r\nWenn es keinen Schlüssel in der Zündung, weiter sowieso\r\n\r\n \"\"OK\"\" drücken zum fortfahren.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Remove the dealer key from the ignition lock\r\nFor Keyless, remove it from the vehicle\r\nIf there is no key in the ignition, continue anyway\r\n\r\nPress \"\"OK\"\" to continue.",
+      "tr": "Bayi anahtarını kontak kilidinden çıkarın\r\nKeyless ise araçtan çıkarın\r\nKontakta anahtar yoksa yine de devam edin\r\n\r\nDevam etmek için \"\"OK\"\" tuşuna basın."
     },
     {
       "id": "s0042",
       "de": "Händlerschlüssel kann auf dieser Position nicht erstellt werden! Andere Position auswählen und nochmal probieren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Dealer key cannot be created at this position! Select another position and try again",
+      "tr": "Bu konumda bayi anahtarı oluşturulamıyor! Başka bir konum seçip tekrar deneyin"
     },
     {
       "id": "s0043",
       "de": "Rufe Geräte-Info ab, bitte warten...",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Getting device info, please wait...",
+      "tr": "Cihaz bilgisi alınıyor, lütfen bekleyin..."
     },
     {
       "id": "s0044",
       "de": "Geräte-Info abrufen fehlgeschlagen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Getting device info failed!",
+      "tr": "Cihaz bilgisi alma başarısız!"
     },
     {
       "id": "s0045",
       "de": "Geräte SN     :",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device SN     :",
+      "tr": "Cihaz SN     :"
     },
     {
       "id": "s0046",
       "de": "Geräte Version:",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device version:",
+      "tr": "Cihaz sürümü:"
     },
     {
       "id": "s0047",
       "de": "Geräte-Info erfolgreich abgerufen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device info retrieved successfully",
+      "tr": "Cihaz bilgisi başarıyla alındı"
     },
     {
       "id": "s0048",
       "de": "Rufe Informationen vom Gerät ab, bitte warten...",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Getting information from the device, please wait...",
+      "tr": "Cihazdan bilgi alınıyor, lütfen bekleyin..."
     },
     {
       "id": "s0049",
       "de": "Geräteupdate erfolgreich. Bitte verbinden Sie die HW neu.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device update successful. Please reconnect the hardware.",
+      "tr": "Cihaz güncellemesi başarılı. Lütfen donanımı yeniden bağlayın."
     },
     {
       "id": "s0050",
       "de": "Geräteupdate fehlgeschlagen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device update failed!",
+      "tr": "Cihaz güncellemesi başarısız!"
     },
     {
       "id": "s0051",
       "de": "Wählen Sie Method",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select method",
+      "tr": "Yöntem seçin"
     },
     {
       "id": "s0052",
       "de": "Schlüssel hinzufügen: Sie sollten einen funktionierenden Schlüssel in das Zünd einzufügen und Gerät mit dem Auto bisher.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Add key: You should insert a working key into the ignition and connect the device to the car first.",
+      "tr": "Anahtar ekle: Devam etmeden önce çalışan bir anahtarı kontağa takıp cihazı araca bağlamalısınız."
     },
     {
       "id": "s0053",
       "de": "Händlerschlüssel kann nicht erstellt werden. Wenden Sie sich an den Support!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Dealer key cannot be created. Please contact support!",
+      "tr": "Bayi anahtarı oluşturulamıyor. Lütfen destek ile iletişime geçin!"
     },
     {
       "id": "s0054",
       "de": "Protokoll wird nicht unterstützt. CAS direkt via OBD verbinden und nochmal probieren.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Protocol is not supported. Connect the CAS directly via OBD and try again.",
+      "tr": "Protokol desteklenmiyor. CAS'i doğrudan OBD üzerinden bağlayıp tekrar deneyin."
     },
     {
       "id": "s0055",
       "de": "Kann das Fahrzeug gestartet werden? Nutzen Sie diese Option nicht, falls Sie alle Schlüssel verloren haben.\nNutzen Sie die Funktion nicht, wenn es startet.\nJa für weiter. Nein für Abbruch.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Can the vehicle be started? Do not use this option if you have lost all keys.\nDo not use the function if it starts.\nYes to continue. No to cancel.",
+      "tr": "Araç çalıştırılabiliyor mu? Tüm anahtarları kaybettiyseniz bu seçeneği kullanmayın.\nÇalışıyorsa işlevi kullanmayın.\nDevam için Evet. İptal için Hayır."
     },
     {
       "id": "s0056",
       "de": "Hat der neue Schlüssel Keyless. Falls ja Ja, ansonsten Nein.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Does the new key have Keyless? If yes Yes, otherwise No.",
+      "tr": "Yeni anahtarda Keyless var mı? Varsa Evet, yoksa Hayır."
     },
     {
       "id": "s0057",
       "de": "Schlüssel entsperren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Unlock key",
+      "tr": "Anahtar kilidini aç"
     },
     {
       "id": "s0058",
       "de": "Entsperren mit Schlüssel-EEprom",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Unlock with key EEPROM",
+      "tr": "Anahtar EEPROM'u ile kilit aç"
     },
     {
       "id": "s0059",
       "de": "Schlüssel-Position",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key position",
+      "tr": "Anahtar konumu"
     },
     {
       "id": "s0060",
       "de": "KM ändern",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Change mileage",
+      "tr": "KM değiştir"
     },
     {
       "id": "s0061",
       "de": "Wollen Sie das Program beenden?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Do you want to exit the program?",
+      "tr": "Programdan çıkmak istiyor musunuz?"
     },
     {
       "id": "s0062",
       "de": "Schlüssel lernen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Learn key",
+      "tr": "Anahtar öğret"
     },
     {
       "id": "s0063",
       "de": "BMW Protokoll kann nicht initialisiert werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "BMW protocol cannot be initialized!",
+      "tr": "BMW protokolü başlatılamıyor!"
     },
     {
       "id": "s0064",
       "de": "Wähle auto detect BMW Protokoll",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select auto detect BMW protocol",
+      "tr": "Otomatik algılama BMW protokolünü seç"
     },
     {
       "id": "s0065",
       "de": "Wähle Protokoll OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select protocol OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89",
+      "tr": "Protokol seç OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89"
     },
     {
       "id": "s0066",
       "de": "Wähle Protokoll KWP-CAN bus 100",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select protocol KWP-CAN bus 100",
+      "tr": "Protokol seç KWP-CAN bus 100"
     },
     {
       "id": "s0067",
       "de": "Wähle Protokoll KWP-CAN bus 500",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select protocol KWP-CAN bus 500",
+      "tr": "Protokol seç KWP-CAN bus 500"
     },
     {
       "id": "s0068",
       "de": "Wähle Protokoll OBDII DS2-E3x, E5x, E83, E85, E86",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select protocol OBDII DS2-E3x, E5x, E83, E85, E86",
+      "tr": "Protokol seç OBDII DS2-E3x, E5x, E83, E85, E86"
     },
     {
       "id": "s0069",
       "de": "Verarbeite Daten, wollen Sie wirklich abbrechen?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Processing data, do you really want to cancel?",
+      "tr": "Veri işleniyor, gerçekten iptal etmek istiyor musunuz?"
     },
     {
       "id": "s0070",
       "de": "Leses Schlüssel-Info",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Read key info",
+      "tr": "Anahtar bilgisini oku"
     },
     {
       "id": "s0071",
       "de": "Schlüsselposition für die Aufgabe auswählen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select the key position for the task.",
+      "tr": "Görev için anahtar konumunu seçin."
     },
     {
       "id": "s0072",
       "de": "Erst Schlüssel-Info abrufen, Dann Händlerschlüssel erstellen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "First get key info, then make dealer key.",
+      "tr": "Önce anahtar bilgisini alın, sonra bayi anahtarı oluşturun."
     },
     {
       "id": "s0073",
       "de": "Schlüssel-Info speichern",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Save key info",
+      "tr": "Anahtar bilgisini kaydet"
     },
     {
       "id": "s0074",
       "de": "Schlüssel-Info laden",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Load key info",
+      "tr": "Anahtar bilgisini yükle"
     },
     {
       "id": "s0075",
       "de": "Schreibe Schlüssel-Info",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Write key info",
+      "tr": "Anahtar bilgisini yaz"
     },
     {
       "id": "s0076",
       "de": "Benutzen Sie \"\"Schlüssel-Info speichern\"\" um die original Daten zu speichern.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Use \"\"Save key info\"\" to save the original data.",
+      "tr": "Orijinal veriyi kaydetmek için \"\"Anahtar bilgisini kaydet\"\"i kullanın."
     },
     {
       "id": "s0077",
       "de": "Aktuelles Modul unterstützt diese Datei nicht, Bitte prüfen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current module does not support this file. Please check!",
+      "tr": "Mevcut modül bu dosyayı desteklemiyor. Lütfen kontrol edin!"
     },
     {
       "id": "s0078",
       "de": "Benutzen Sie \"\"Schlüssel-Info laden\"\" um die Schlüssel-Infos zu laden.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Use \"\"Load key info\"\" to load the key info.",
+      "tr": "Anahtar bilgisini yüklemek için \"\"Anahtar bilgisini yükle\"\"yi kullanın."
     },
     {
       "id": "s0079",
       "de": "Bitte starten Sie die SW neu zur Übernahme der Änderungen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please restart the software to apply the changes.",
+      "tr": "Değişikliklerin uygulanması için lütfen yazılımı yeniden başlatın."
     },
     {
       "id": "s0080",
       "de": "Fehler bei Ändern der Sprache! Führen Software mit Administrator!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Error changing the language! Run the software as administrator!",
+      "tr": "Dil değiştirilirken hata! Yazılımı yönetici olarak çalıştırın!"
     },
     {
       "id": "s0081",
       "de": "Warnung: Firmware für diese CAS-Version aktualisieren, kann CAS-Stop-Arbeit verursachen!\r\n\r\nAbbrechen Update Firmware drücken \"JA\"\r\nFortsetzen Update Firmware drücken \"NEIN\"",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Warning: Updating firmware for this CAS version may cause the CAS to stop working!\r\n\r\nPress \"YES\" to cancel the firmware update\r\nPress \"NO\" to continue the firmware update",
+      "tr": "Uyarı: Bu CAS sürümü için firmware güncellemesi CAS'in çalışmayı durdurmasına neden olabilir!\r\n\r\nFirmware güncellemesini iptal için \"EVET\"\r\nFirmware güncellemesine devam için \"HAYIR\""
     },
     {
       "id": "s0082",
       "de": "Die aktuellsten Updates und Informationen finden Sie hier : <a>web site</a>.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "You can find the latest updates and information here: <a>web site</a>.",
+      "tr": "En güncel güncelleme ve bilgileri burada bulabilirsiniz: <a>web site</a>."
     },
     {
       "id": "s0083",
       "de": "Geräte-Info und Dongle Update",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device info and dongle update",
+      "tr": "Cihaz bilgisi ve dongle güncellemesi"
     },
     {
       "id": "s0084",
       "de": "Fehler beim abrufen der Versionsliste",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Error retrieving the version list",
+      "tr": "Sürüm listesi alınırken hata"
     },
     {
       "id": "s0085",
       "de": "Dongle-Version kann nicht abgerufen werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Dongle version cannot be retrieved!",
+      "tr": "Dongle sürümü alınamıyor!"
     },
     {
       "id": "s0086",
       "de": "Geräte-Info",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device info",
+      "tr": "Cihaz bilgisi"
     },
     {
       "id": "s0087",
       "de": "Lese Schlüssel-Infos......",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Reading key info......",
+      "tr": "Anahtar bilgisi okunuyor......"
     },
     {
       "id": "s0088",
       "de": "Geräte Update",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device update",
+      "tr": "Cihaz güncellemesi"
     },
     {
       "id": "s0089",
       "de": "EGS Codelänge Fehler!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "EGS code length error!",
+      "tr": "EGS kod uzunluğu hatası!"
     },
     {
       "id": "s0090",
       "de": "DME Codelänge Fehler!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "DME code length error!",
+      "tr": "DME kod uzunluğu hatası!"
     },
     {
       "id": "s0091",
       "de": "CAS und DME werden abgeglichen. Fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS and DME are being synchronized. Continue?",
+      "tr": "CAS ve DME senkronize ediliyor. Devam edilsin mi?"
     },
     {
       "id": "s0092",
       "de": "Synchronisation nicht möglich!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Synchronization not possible!",
+      "tr": "Senkronizasyon mümkün değil!"
     },
     {
       "id": "s0093",
       "de": "Synchronisation vollständig.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Synchronization complete.",
+      "tr": "Senkronizasyon tamamlandı."
     },
     {
       "id": "s0094",
       "de": "Neuer Schlüssel in das CAS geschrieben.\nSie können den Motor jetzt damit starten. Nutzen Sie den original Schlüssel zuerst, wenn es nicht funktioniert.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "New key written into the CAS.\nYou can now start the engine with it. Use the original key first if it does not work.",
+      "tr": "Yeni anahtar CAS'e yazıldı.\nArtık onunla motoru çalıştırabilirsiniz. Çalışmazsa önce orijinal anahtarı kullanın."
     },
     {
       "id": "s0095",
       "de": "Gerätetakt nagative Antwort!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device clock negative response!",
+      "tr": "Cihaz saat olumsuz yanıt!"
     },
     {
       "id": "s0096",
       "de": "CAS-Daten sind verschlüssel, Händlerschlüssel erstellen. Kontaktieren Sie den Support, falls es fehlschlägt!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS data is encrypted, make a dealer key. Contact support if it fails!",
+      "tr": "CAS verisi şifreli, bir bayi anahtarı oluşturun. Başarısız olursa destek ile iletişime geçin!"
     },
     {
       "id": "s0097",
       "de": "Neuen Schlüssel in das Programmiergerät legen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Place the new key into the programmer.",
+      "tr": "Yeni anahtarı programlayıcıya yerleştirin."
     },
     {
       "id": "s0098",
       "de": "Füge Schlüssel hinzu......",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Adding key......",
+      "tr": "Anahtar ekleniyor......"
     },
     {
       "id": "s0099",
       "de": "Der eingelegte Schlüssel ist kein Händlerschlüssel, oder kein Zugriff auf den Schlüssel. Bitte prüfen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The inserted key is not a dealer key, or there is no access to the key. Please check!",
+      "tr": "Takılan anahtar bir bayi anahtarı değil veya anahtara erişim yok. Lütfen kontrol edin!"
     },
     {
       "id": "s0100",
       "de": "Aktuelles EEProm ist nicht komplett. Bitte auslese und speicher und dann fortfahren.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current EEPROM is not complete. Please read it out and save, then continue.",
+      "tr": "Mevcut EEPROM tam değil. Lütfen okuyup kaydedin, sonra devam edin."
     },
     {
       "id": "s0101",
       "de": "Schlüssel \"\"%d\"\" wird deaktiviert.Fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key \"\"%d\"\" will be deactivated. Continue?",
+      "tr": "\"\"%d\"\" anahtarı devre dışı bırakılacak. Devam edilsin mi?"
     },
     {
       "id": "s0102",
       "de": "Schlüssel \"\"%d\"\" wird aktiviert. Fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key \"\"%d\"\" will be activated. Continue?",
+      "tr": "\"\"%d\"\" anahtarı etkinleştirilecek. Devam edilsin mi?"
     },
     {
       "id": "s0103",
       "de": "Schlüssel deaktiviert.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key deactivated.",
+      "tr": "Anahtar devre dışı bırakıldı."
     },
     {
       "id": "s0104",
       "de": "Schlüssel nicht deaktiviert!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key not deactivated!",
+      "tr": "Anahtar devre dışı bırakılamadı!"
     },
     {
       "id": "s0105",
       "de": "Schlüssel aktiviert.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key activated.",
+      "tr": "Anahtar etkinleştirildi."
     },
     {
       "id": "s0106",
       "de": "Schlüssel nicht aktiviert!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key not activated!",
+      "tr": "Anahtar etkinleştirilemedi!"
     },
     {
       "id": "s0107",
       "de": "Schlüssel deaktivieren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Deactivate key",
+      "tr": "Anahtarı devre dışı bırak"
     },
     {
       "id": "s0108",
       "de": "Schlüssel aktivieren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Activate key",
+      "tr": "Anahtarı etkinleştir"
     },
     {
       "id": "s0109",
       "de": "Fehlercodes nicht gelöscht!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Fault codes not cleared!",
+      "tr": "Arıza kodları silinemedi!"
     },
     {
       "id": "s0110",
       "de": "Shadow-Speicher nicht gelöscht!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Shadow memory not cleared!",
+      "tr": "Shadow bellek silinemedi!"
     },
     {
       "id": "s0111",
       "de": "Aktueller Schlüssel im Schloß:",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Current key in the lock:",
+      "tr": "Kilitteki mevcut anahtar:"
     },
     {
       "id": "s0112",
       "de": "Kein Schlüssel",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "No key",
+      "tr": "Anahtar yok"
     },
     {
       "id": "s0113",
       "de": "Schlüssel %d",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key %d",
+      "tr": "Anahtar %d"
     },
     {
       "id": "s0114",
       "de": "Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie \"JA\", sonst \"NO\". \nWenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel vor Presse \"NO\". \nIst der Motor jetzt starten?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please use the current key to start the engine; if it starts press \"YES\", otherwise \"NO\". \nIf the engine cannot be started, please remove the key before pressing \"NO\". \nIs the engine starting now?",
+      "tr": "Motoru çalıştırmak için mevcut anahtarı kullanın; çalışırsa \"EVET\", aksi halde \"HAYIR\". \nMotor çalışmazsa, \"HAYIR\"a basmadan önce anahtarı çıkarın. \nMotor şimdi çalışıyor mu?"
     },
     {
       "id": "s0115",
       "de": "1.Kombiinstrument ausbauen, KM manuell ändern.\n2.Die Funktion ausführen zum KM-Stand im CAS ändern. \n3.Kombiinstrument einbauen.\nFortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "1. Remove the instrument cluster, change the mileage manually.\n2. Run the function to change the mileage in the CAS. \n3. Install the instrument cluster.\nContinue?",
+      "tr": "1. Gösterge panelini sökün, KM'yi elle değiştirin.\n2. CAS'teki KM'yi değiştirme işlevini çalıştırın. \n3. Gösterge panelini takın.\nDevam edilsin mi?"
     },
     {
       "id": "s0116",
       "de": "Verloren alle wichtigen Arbeiten, werden Sie 16 atemps haben.\nEs ist vielleicht brauchen die CAS EEPROM support, solltest du besser eine Sicherungskopie der eeprom mit anderen bdm Programmierer.\nFortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "If all working keys are lost, you will have 16 attempts.\nYou may need CAS EEPROM support; you had better back up the EEPROM with another BDM programmer.\nContinue?",
+      "tr": "Tüm çalışan anahtarlar kaybolduysa 16 denemeniz olacak.\nCAS EEPROM desteği gerekebilir; EEPROM'u başka bir BDM programlayıcı ile yedeklemeniz iyi olur.\nDevam edilsin mi?"
     },
     {
       "id": "s0117",
       "de": "Verschlüsseltes CAS, benötige funktionierenden Schlüssel zum Händlerschlüssel erstellen.\nFortfahren? Falls Sie fortfahren funktionierenden Schlüssel einlegen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Encrypted CAS, a working key is needed to make a dealer key.\nContinue? If you continue, insert a working key.",
+      "tr": "Şifreli CAS, bayi anahtarı oluşturmak için çalışan bir anahtar gerekli.\nDevam edilsin mi? Devam ederseniz çalışan bir anahtar takın."
     },
     {
       "id": "s0118",
       "de": "Der eingelegte Schlüssel gehört nicht zu diesem CAS!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The inserted key does not belong to this CAS!",
+      "tr": "Takılan anahtar bu CAS'e ait değil!"
     },
     {
       "id": "s0119",
       "de": "Gerät nicht gefunden. Verbindung prüfen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device not found. Check the connection",
+      "tr": "Cihaz bulunamadı. Bağlantıyı kontrol edin"
     },
     {
       "id": "s0120",
       "de": "Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.\r\nWenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Write the new CAS dump and use the new key to start.\r\nIf the CAS belongs to version ISTAP4*, do not write back to the new CAS dump.",
+      "tr": "Yeni CAS dump'ı yazın ve çalıştırmak için yeni anahtarı kullanın.\r\nCAS, ISTAP4* sürümüne aitse yeni CAS dump'a geri yazmayın."
     },
     {
       "id": "s0121",
       "de": "CAS-EEprom Dump beschädigt. Trotzdem probieren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS EEPROM dump corrupted. Try anyway?",
+      "tr": "CAS EEPROM dump bozuk. Yine de denensin mi?"
     },
     {
       "id": "s0122",
       "de": "Schlüssel entsperrt",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key unlocked",
+      "tr": "Anahtar kilidi açıldı"
     },
     {
       "id": "s0123",
       "de": "Schlüssel kann nicht entsperrt werden. Datei prüfen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key cannot be unlocked. Check the file",
+      "tr": "Anahtar kilidi açılamıyor. Dosyayı kontrol edin"
     },
     {
       "id": "s0124",
       "de": "Gesperrten Schlüssel einlegen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Insert the locked key",
+      "tr": "Kilitli anahtarı takın"
     },
     {
       "id": "s0125",
       "de": "Schlüssel wird entsperrt, bitte warten......",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Unlocking key, please wait......",
+      "tr": "Anahtar kilidi açılıyor, lütfen bekleyin......"
     },
     {
       "id": "s0126",
       "de": "CAS Syn Code nicht gefunden. Abbruch!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS sync code not found. Aborting!",
+      "tr": "CAS senkronizasyon kodu bulunamadı. İptal ediliyor!"
     },
     {
       "id": "s0127",
       "de": "Datei KM ändern",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Change mileage in file",
+      "tr": "Dosyada KM değiştir"
     },
     {
       "id": "s0128",
       "de": "EEPROM KM ändern",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Change mileage in EEPROM",
+      "tr": "EEPROM'da KM değiştir"
     },
     {
       "id": "s0129",
       "de": "KM ind Immo erfolgreich geändert, neue Datei in das Steuergerät schreiben. \nKM-Stand im Tacho manuell vor einbau ändern",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Mileage in the immo changed successfully, write the new file into the control unit. \nChange the mileage in the cluster manually before installation",
+      "tr": "İmmobilizerdeki KM başarıyla değişti, yeni dosyayı kontrol ünitesine yazın. \nMontajdan önce gösterge panelindeki KM'yi elle değiştirin"
     },
     {
       "id": "s0130",
       "de": "KM-Stand geändert. Neue Datei in den M35080 schreiben.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Mileage changed. Write the new file into the M35080.",
+      "tr": "KM değiştirildi. Yeni dosyayı M35080'e yazın."
     },
     {
       "id": "s0131",
       "de": "CAS mit CAS-Stecker verbinden und dann nochmal probieren.\nZum Schlüssel anlernen \"Schlüssel anlernen\" verwenden. CAS-Stecker wird dann nicht benötigt",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Connect the CAS with the CAS plug and try again.\nTo learn a key, use \"Learn key\". The CAS plug is then not needed",
+      "tr": "CAS'i CAS fişi ile bağlayıp tekrar deneyin.\nAnahtar öğretmek için \"Anahtar öğret\"i kullanın. O zaman CAS fişi gerekmez"
     },
     {
       "id": "s0132",
       "de": "CAS SW Update nicht nötig,Fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS SW update not needed. Continue?",
+      "tr": "CAS yazılım güncellemesi gerekmiyor. Devam edilsin mi?"
     },
     {
       "id": "s0133",
       "de": "Authentifikation nicht erfolgreich!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Authentication not successful!",
+      "tr": "Kimlik doğrulama başarısız!"
     },
     {
       "id": "s0134",
       "de": "Warte auf Steuergerät...",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Waiting for control unit...",
+      "tr": "Kontrol ünitesi bekleniyor..."
     },
     {
       "id": "s0135",
       "de": "Prüfe Signatur...nicht OK!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Checking signature... not OK!",
+      "tr": "İmza kontrol ediliyor... OK değil!"
     },
     {
       "id": "s0136",
       "de": "Schlüssel einlegen und dann entfernen. Der Schlüssel wird erst nach Abschluss der Prozedur funktionieren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Insert the key and then remove it. The key will only work after the procedure is complete",
+      "tr": "Anahtarı takıp sonra çıkarın. Anahtar ancak işlem tamamlandıktan sonra çalışacak"
     },
     {
       "id": "s0137",
       "de": "Upload ist völlig Erfolg. \nWenn gearbeitet haben Schlüssel, um die Zündung einsetzen und versuchen, wenn es zu finden. \nUnd zurück und versuchen Sie es erneut diese Funktion funktioniert.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Upload fully successful. \nIf you have a working key, insert it into the ignition and try whether it is detected. \nThen go back and try this function again.",
+      "tr": "Yükleme tamamen başarılı. \nÇalışan bir anahtarınız varsa kontağa takıp algılanıp algılanmadığını deneyin. \nSonra geri dönüp bu işlevi tekrar deneyin."
     },
     {
       "id": "s0138",
       "de": "Fehler beim Flash löschen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Error erasing the flash!",
+      "tr": "Flash silinirken hata!"
     },
     {
       "id": "s0139",
       "de": "Aktuelle CAS-Version wird nicht über OBD unterstützt. Nutzen Sie ein BDM Programmiergerät.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current CAS version is not supported via OBD. Use a BDM programmer.",
+      "tr": "Mevcut CAS sürümü OBD üzerinden desteklenmiyor. Bir BDM programlayıcı kullanın."
     },
     {
       "id": "s0140",
       "de": "CAS EEProm benötigt. Vorher im Hauptfenster über CAS EEprom lesen. \nAlternativ mit BDM Programmiergerät. \nFortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS EEPROM required. Read the CAS EEPROM in the main window first. \nAlternatively with a BDM programmer. \nContinue?",
+      "tr": "CAS EEPROM gerekli. Önce ana pencerede CAS EEPROM'u okuyun. \nAlternatif olarak BDM programlayıcı ile. \nDevam edilsin mi?"
     },
     {
       "id": "s0141",
       "de": "Aktuelles CAS unterstütz die Funktion nicht, Zum Schlüssel anlernen \"\"Schlüssel lernen\"\" Funktion nutzen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current CAS does not support the function; to learn a key, use the \"\"Learn key\"\" function.",
+      "tr": "Mevcut CAS bu işlevi desteklemiyor; anahtar öğretmek için \"\"Anahtar öğret\"\" işlevini kullanın."
     },
     {
       "id": "s0142",
       "de": "Diese Software benötigt Firmware 1.0.6 oder höher. Einige Funktionen sind sonst eingeschränkt d.\nZum Update :  \"\"Hilfe->Geräte-Update\"\" zum Updaten\nNächstes mal erinnern?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "This software requires firmware 1.0.6 or higher. Otherwise some functions are limited.\nTo update: \"\"Help->Device update\"\".\nRemind next time?",
+      "tr": "Bu yazılım firmware 1.0.6 veya üstünü gerektirir. Aksi halde bazı işlevler kısıtlıdır.\nGüncellemek için: \"\"Yardım->Cihaz güncellemesi\"\".\nBir dahaki sefere hatırlatılsın mı?"
     },
     {
       "id": "s0143",
       "de": "Achtung: Zum Schlüssel anlernen brauchen Sie das CAS-EEprom nicht.\n \"\"Schlüssel Lernen\"\" Funktion direkt benutzen.\nMit Eeprom lesen fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Note: To learn a key you do not need the CAS EEPROM.\nUse the \"\"Learn key\"\" function directly.\nContinue with reading the EEPROM?",
+      "tr": "Not: Anahtar öğretmek için CAS EEPROM'a ihtiyacınız yok.\nDoğrudan \"\"Anahtar öğret\"\" işlevini kullanın.\nEEPROM okuma ile devam edilsin mi?"
     },
     {
       "id": "s0144",
       "de": "Aktuelle CAS ISTAP-45 version nicht unterstützt, Support kontaktieren.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current CAS ISTAP-45 version is not supported, contact support.",
+      "tr": "Mevcut CAS ISTAP-45 sürümü desteklenmiyor, destek ile iletişime geçin."
     },
     {
       "id": "s0145",
       "de": "Reparatur nicht erfolgreich, nochmal probieren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Repair not successful, try again",
+      "tr": "Onarım başarısız, tekrar deneyin"
     },
     {
       "id": "s0146",
       "de": "Programmiere Schlüssel-Info",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Programming key info",
+      "tr": "Anahtar bilgisi programlanıyor"
     },
     {
       "id": "s0147",
       "de": "Aktueller Schlüssel ist %. Type %s.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current key is %. Type %s.",
+      "tr": "Mevcut anahtar %. Tip %s."
     },
     {
       "id": "s0148",
       "de": "Keyless Schlüssel",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Keyless key",
+      "tr": "Keyless anahtar"
     },
     {
       "id": "s0149",
       "de": "Schlüssel-Info laden oder zuerst über OBD auslesen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Load key info or read it out via OBD first",
+      "tr": "Anahtar bilgisini yükleyin veya önce OBD üzerinden okuyun"
     },
     {
       "id": "s0150",
       "de": "Kein benutzter Schlüssel",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "No key used",
+      "tr": "Kullanılan anahtar yok"
     },
     {
       "id": "s0151",
       "de": "Fehler bei der Eingabe! Erneut prüfen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Input error! Check again.",
+      "tr": "Giriş hatası! Tekrar kontrol edin."
     },
     {
       "id": "s0152",
       "de": "Bekannte CAS ID zur Reparatur nutzen.Sie erhalten Sie mit \"Verbinden\"",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Use the known CAS ID for the repair. You get it with \"Connect\"",
+      "tr": "Onarım için bilinen CAS ID'sini kullanın. Bunu \"Bağlan\" ile alırsınız"
     },
     {
       "id": "s0153",
       "de": "Das aktuelle Arbeitsschlüssel wird nicht mit der Taste Info!\r\n\r\nErster Start-Motor mit dieser Taste->Zündung ausschalten->Zündung einschalten, dann lesen neuesten keyinfo.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current working key is not read with Key Info!\r\n\r\nFirst start the engine with this key -> turn off ignition -> turn on ignition, then read the latest key info.",
+      "tr": "Mevcut çalışan anahtar Anahtar Bilgisi ile okunmuyor!\r\n\r\nÖnce bu anahtarla motoru çalıştırın -> kontağı kapatın -> kontağı açın, sonra en güncel anahtar bilgisini okuyun."
     },
     {
       "id": "s0154",
       "de": "Achtung: Bevor weiter, sollten Sie das Gerät mit car.Before update flash verbinden, müssen Sie CAS FLASH und EEPROM mit BDM programmer.The Update-Prozess lesen müssen CAS in CAR. Aktualisieren CAS mit CAS PLUS vielleicht sperren ELV.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Note: Before continuing, connect the device to the car. Before the flash update you must read CAS FLASH and EEPROM with a BDM programmer. The update process requires the CAS to be in the car. Updating the CAS with CAS PLUS may lock the ELV.",
+      "tr": "Not: Devam etmeden önce cihazı araca bağlayın. Flash güncellemesinden önce CAS FLASH ve EEPROM'u bir BDM programlayıcı ile okumalısınız. Güncelleme işlemi CAS'in araçta olmasını gerektirir. CAS'i CAS PLUS ile güncellemek ELV'yi kilitleyebilir."
     },
     {
       "id": "s0155",
       "de": "Keyless Schlüssel reparieren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Repair Keyless key",
+      "tr": "Keyless anahtarı onar"
     },
     {
       "id": "s0156",
       "de": "Legen erste schlüssellose Schlüssel in Programmiergerät. Drücken Sie OK, um fortzufahren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Insert the first keyless key into the programmer. Press OK to continue",
+      "tr": "İlk keyless anahtarı programlayıcıya takın. Devam etmek için OK'e basın"
     },
     {
       "id": "s0157",
       "de": "Wenn Sie zweite schlüssellose Schlüssel. Legen Sie es zu Programmierer\r\n\r\nHaben Sie zweite schlüssellose Schlüssel?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "If you have a second keyless key, insert it into the programmer\r\n\r\nDo you have a second keyless key?",
+      "tr": "İkinci bir keyless anahtarınız varsa programlayıcıya takın\r\n\r\nİkinci keyless anahtarınız var mı?"
     },
     {
       "id": "s0158",
       "de": "Warnung: Keyless Schlüssel zu dieser Position hinzufügen, werden Sie intelligente Funktion nicht. Du solltest besser wählen andere leere Position.\r\n\r\nWollen Sie immer noch hinzufügen Keyless Schlüssel hier?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Warning: If you add a Keyless key to this position, the smart function will not work. You had better choose another empty position.\r\n\r\nDo you still want to add the Keyless key here?",
+      "tr": "Uyarı: Bu konuma Keyless anahtar eklerseniz akıllı işlev çalışmaz. Başka boş bir konum seçmeniz daha iyi olur.\r\n\r\nYine de buraya Keyless anahtar eklemek istiyor musunuz?"
     },
     {
       "id": "s0159",
       "de": "Schlüssel ausgetastet. Bitte stellen Sie erneut.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key knocked out. Please set it again.",
+      "tr": "Anahtar çıkarıldı. Lütfen tekrar yerleştirin."
     },
     {
       "id": "s0160",
       "de": "Kann nicht auf Auto verbinden, überprüfen Sie bitte OBD-Anschluss!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot connect to the car, please check the OBD connection!",
+      "tr": "Araca bağlanılamıyor, lütfen OBD bağlantısını kontrol edin!"
     },
     {
       "id": "s0161",
       "de": "Verlorene Alle Key:. Sollten Sie einen neuen Schlüssel in das Zünd einzufügen und Gerät mit dem Auto, bevor weiter (Sie müssen Backup CAS EEPROM für CAS3 encrypt Version und ISTA P4 * verison Bitte trennen Sie Gerät mit Auto, wenn kein Backup noch nicht.)",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "All keys lost: You should insert a new key into the ignition and connect the device to the car before continuing (you must back up the CAS EEPROM for the CAS3 encrypted version and ISTA P4* version; please disconnect the device from the car if there is no backup yet).",
+      "tr": "Tüm anahtarlar kayıp: Devam etmeden önce yeni bir anahtarı kontağa takıp cihazı araca bağlamalısınız (CAS3 şifreli sürüm ve ISTA P4* sürümü için CAS EEPROM'u yedeklemelisiniz; henüz yedek yoksa lütfen cihazı araçtan ayırın)."
     },
     {
       "id": "s0162",
       "de": "Nicht finden Arbeitsschlüssel info, Plese die Zündung einschalten und laufen \"Get Key Info\" erneut.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot find working key info; please turn on the ignition and run \"Get Key Info\" again.",
+      "tr": "Çalışan anahtar bilgisi bulunamıyor; lütfen kontağı açıp \"Anahtar Bilgisini Al\"ı tekrar çalıştırın."
     },
     {
       "id": "s0163",
       "de": "Wählen Sie protocol BMW EWS KLine",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select protocol BMW EWS KLine",
+      "tr": "Protokol seç BMW EWS KLine"
     },
     {
       "id": "s0164",
       "de": "Lesen EWS EEPROM erfolgreich. \r\nSpeichern die Datei zuerst, dann können Sie Fachhändler Taste mit der gespeicherten Datei Verwendung Funktion \"Datei Make Key\" vorzubereiten.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Reading EWS EEPROM successful. \r\nSave the file first, then you can prepare the dealer key with the saved file using the \"File Make Key\" function.",
+      "tr": "EWS EEPROM okuma başarılı. \r\nÖnce dosyayı kaydedin, sonra kaydedilen dosya ile \"Dosyadan Anahtar Oluştur\" işlevini kullanarak bayi anahtarını hazırlayabilirsiniz."
     },
     {
       "id": "s0165",
       "de": "Bitte laden Sie richtig EWS Daten zuerst.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please load the correct EWS data first.",
+      "tr": "Lütfen önce doğru EWS verisini yükleyin."
     },
     {
       "id": "s0166",
       "de": "Bitte verbinden CAS PLUG mit Gerät und verbinden CAS PLUG mit EWS, Unterstützung +12 v CAS PLUG \r\nDie connect-Methode kann in der Bedienungsanleitung werden zu finden. \r\nKlicken Ordnung nach verbunden.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please connect the CAS plug to the device and connect the CAS plug to the EWS, supply +12V to the CAS plug. \r\nThe connection method can be found in the manual. \r\nClick OK after connecting.",
+      "tr": "Lütfen CAS fişini cihaza ve CAS fişini EWS'ye bağlayın, CAS fişine +12V verin. \r\nBağlantı yöntemi kullanım kılavuzunda bulunabilir. \r\nBağladıktan sonra OK'e tıklayın."
     },
     {
       "id": "s0167",
       "de": "Legen Sie einen Schlüssel in das Zündschloss, brechen die Bremse zwei Mal, öffnen Sie die Autoscheinwerfer.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Insert a key into the ignition lock, press the brake twice, turn on the headlights.",
+      "tr": "Kontak kilidine bir anahtar takın, frene iki kez basın, araç farlarını açın."
     },
     {
       "id": "s0168",
       "de": "Bereiten Händler Schlüssel Programmierer",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Prepare dealer key (programmer)",
+      "tr": "Bayi anahtarını hazırla (programlayıcı)"
     },
     {
       "id": "s0169",
       "de": "Bereiten Händler Schlüssel mit Zündschalter",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Prepare dealer key with ignition switch",
+      "tr": "Bayi anahtarını kontak anahtarı ile hazırla"
     },
     {
       "id": "s0170",
       "de": "Kann nicht die Sync-Code!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot find the sync code!",
+      "tr": "Senkronizasyon kodu bulunamıyor!"
     },
     {
       "id": "s0171",
       "de": "Unerwartete EPROM Layout. Sie können fortfahren, aber es gibt keine Garantie, dass das Verfahren erfolgreich sein wird.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Unexpected EEPROM layout. You can continue, but there is no guarantee that the procedure will succeed.",
+      "tr": "Beklenmeyen EEPROM düzeni. Devam edebilirsiniz ama işlemin başarılı olacağının garantisi yok."
     },
     {
       "id": "s0172",
       "de": "Bitte geben Sie einen neuen Schlüssel in den Programmer.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please insert a new key into the programmer.",
+      "tr": "Lütfen programlayıcıya yeni bir anahtar takın."
     },
     {
       "id": "s0173",
       "de": "Pre-Prozess Schlüssel zum Erfolg. Bitte geben Sie den Schlüssel in Zündschloss.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Pre-process key successful. Please insert the key into the ignition lock.",
+      "tr": "Anahtar ön işleme başarılı. Lütfen anahtarı kontak kilidine takın."
     },
     {
       "id": "s0174",
       "de": "Pre-Prozess Schlüssel fehlgeschlagen! Bitte versuchen Sie es erneut.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Pre-process key failed! Please try again.",
+      "tr": "Anahtar ön işleme başarısız! Lütfen tekrar deneyin."
     },
     {
       "id": "s0175",
       "de": "Der Schlüssel Programmierer ist nicht 7936 Transponder.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The key in the programmer is not a 7936 transponder.",
+      "tr": "Programlayıcıdaki anahtar 7936 transponder değil."
     },
     {
       "id": "s0176",
       "de": "Schritt 2: Legen Sie neue Schlüssel zum Programmierer. Key benötigen Pre-Prozess.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Step 2: Insert the new key into the programmer. The key needs pre-processing.",
+      "tr": "Adım 2: Yeni anahtarı programlayıcıya takın. Anahtar ön işleme gerektiriyor."
     },
     {
       "id": "s0177",
       "de": "Schritt 3: Legen Sie einen neuen Schlüssel (Schritt 2 vorverarbeitet) in Zündschloss.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Step 3: Insert a new key (pre-processed in step 2) into the ignition lock.",
+      "tr": "Adım 3: (Adım 2'de ön işlenen) yeni bir anahtarı kontak kilidine takın."
     },
     {
       "id": "s0178",
       "de": "Schritt 4: Drücken Sie WEITER, um fortzufahren",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Step 4: Press NEXT to continue",
+      "tr": "Adım 4: Devam etmek için İLERİ'ye basın"
     },
     {
       "id": "s0179",
       "de": "Pre-Prozess neuen Schlüssel",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Pre-process new key",
+      "tr": "Yeni anahtarı ön işle"
     },
     {
       "id": "s0180",
       "de": "Nächste",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Next",
+      "tr": "İleri"
     },
     {
       "id": "s0181",
       "de": "Es ist der Schlüssel auf dieser Position, die überschrieben werden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "It is the key at this position that will be overwritten!",
+      "tr": "Üzerine yazılacak olan bu konumdaki anahtardır!"
     },
     {
       "id": "s0182",
       "de": "Fernbedienungs-Setup:\r\n1.Remove der Schlüssel von der Zündung \r\n2.Put der Schlüssel in der Zündung\r\n3.Press der Start/Stopp-Taste.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Remote setup:\r\n1. Remove the key from the ignition \r\n2. Put the key in the ignition\r\n3. Press the Start/Stop button.",
+      "tr": "Uzaktan kumanda kurulumu:\r\n1. Anahtarı kontaktan çıkarın \r\n2. Anahtarı kontağa takın\r\n3. Start/Stop düğmesine basın."
     },
     {
       "id": "s0183",
       "de": "Update drücken info failed!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Update press info failed!",
+      "tr": "Güncelleme bilgisi alma başarısız!"
     },
     {
       "id": "s0184",
       "de": "DME nicht reagiert. Drücken Sie die Taste, drücken Sie die Start/Stopp-Taste \nWarnung:. Versuchen Sie nicht, den Motor zu starten.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "DME not responding. Press the button, press the Start/Stop button.\nWarning: Do not try to start the engine.",
+      "tr": "DME yanıt vermiyor. Düğmeye basın, Start/Stop düğmesine basın.\nUyarı: Motoru çalıştırmaya çalışmayın."
     },
     {
       "id": "s0185",
       "de": "Der Versuch den Schlüssel Test, bitte warten ...... bitte nicht den Prozess beenden.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Testing the key, please wait...... please do not end the process.",
+      "tr": "Anahtar test ediliyor, lütfen bekleyin...... lütfen işlemi sonlandırmayın."
     },
     {
       "id": "s0186",
       "de": "Der Schlüssel Programmierer ist 7936 Transponder.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The key in the programmer is a 7936 transponder.",
+      "tr": "Programlayıcıdaki anahtar 7936 transponder."
     },
     {
       "id": "s0187",
       "de": "Ändern KM Erfolg. Bitte Flash neue Datei in das Instrument EEPROM.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Mileage change successful. Please flash the new file into the instrument EEPROM.",
+      "tr": "KM değiştirme başarılı. Lütfen yeni dosyayı gösterge EEPROM'una flash edin."
     },
     {
       "id": "s0188",
       "de": "Key schriftliche erfolgreich.\r\nGO Fahrzeug mit dem Schlüssel. Nicht brauchen write back EERPOM.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key written successfully.\r\nStart the vehicle with the key. No need to write back the EEPROM.",
+      "tr": "Anahtar başarıyla yazıldı.\r\nAracı anahtarla çalıştırın. EEPROM'u geri yazmaya gerek yok."
     },
     {
       "id": "s0189",
       "de": "Kann nicht schreiben Schlüssel!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot write the key!",
+      "tr": "Anahtar yazılamıyor!"
     },
     {
       "id": "s0190",
       "de": "Der Schlüssel wird in anderen Auto verwendet oder gesperrt!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The key is used in another car or is locked!",
+      "tr": "Anahtar başka bir araçta kullanılıyor veya kilitli!"
     },
     {
       "id": "s0191",
       "de": "Ungültiger Schlüssel Inhalt! Wahrscheinlich Schlüssel ist nicht für BMW!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Invalid key content! The key is probably not for BMW!",
+      "tr": "Geçersiz anahtar içeriği! Anahtar muhtemelen BMW için değil!"
     },
     {
       "id": "s0192",
       "de": "Kann nicht finden CAS4 Antenne plugin, bitte schließen Sie es wieder!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot find the CAS4 antenna plugin, please reconnect it!",
+      "tr": "CAS4 anten eklentisi bulunamıyor, lütfen yeniden bağlayın!"
     },
     {
       "id": "s0193",
       "de": "Setzen Sie neue Antenne fehlgeschlagen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Setting the new antenna failed!",
+      "tr": "Yeni anten ayarlama başarısız!"
     },
     {
       "id": "s0194",
       "de": "Verbinden Sie Gerät ...",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Connecting device ...",
+      "tr": "Cihaz bağlanıyor ..."
     },
     {
       "id": "s0195",
       "de": "Daten konnten nicht mit CAS4 Antenne übertragen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Data could not be transferred with the CAS4 antenna!",
+      "tr": "CAS4 anteni ile veri aktarılamadı!"
     },
     {
       "id": "s0196",
       "de": "Bereiten Händler Taste Notwendigkeit ca. 30 Sekunden, das Fenster vielleicht falschen Toten.\r\nBitte für das Ende zu warten. Geben Sie den neuen Schlüssel zu Programmierer dann weiter.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Preparing the dealer key takes about 30 seconds; the window may appear frozen.\r\nPlease wait for it to finish. Then insert the new key into the programmer and continue.",
+      "tr": "Bayi anahtarını hazırlamak yaklaşık 30 saniye sürer; pencere donmuş görünebilir.\r\nLütfen bitmesini bekleyin. Sonra yeni anahtarı programlayıcıya takıp devam edin."
     },
     {
       "id": "s0197",
       "de": "Wählen Sie Schlüsseltyp im Schlüssel wählen Sie Fenster",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select the key type in the key select window",
+      "tr": "Anahtar seçme penceresinde anahtar tipini seçin"
     },
     {
       "id": "s0198",
       "de": "Verloren alle wichtigen Arbeiten, werden Sie 64 atemps haben.\nFortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "If all working keys are lost, you will have 64 attempts.\nContinue?",
+      "tr": "Tüm çalışan anahtarlar kaybolduysa 64 denemeniz olacak.\nDevam edilsin mi?"
     },
     {
       "id": "s0199",
       "de": "Starten Sie dem Nützlichen verbinden data ...",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Starting to connect the useful data ...",
+      "tr": "Faydalı verinin bağlanmasına başlanıyor ..."
     },
     {
       "id": "s0200",
       "de": "Kann nicht auf Dongle anschließen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot connect to the dongle!",
+      "tr": "Dongle'a bağlanılamıyor!"
     },
     {
       "id": "s0201",
       "de": "Nicht finden können nützliche Daten zu kombinieren, überprüfen Sie bitte die EEPROM-Datei.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot find useful data to combine, please check the EEPROM file.",
+      "tr": "Birleştirilecek faydalı veri bulunamıyor, lütfen EEPROM dosyasını kontrol edin."
     },
     {
       "id": "s0202",
       "de": "Unknown CAS4 Version, senden Sie bitte EEPROM Dump zum Händler!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Unknown CAS4 version, please send the EEPROM dump to the dealer!",
+      "tr": "Bilinmeyen CAS4 sürümü, lütfen EEPROM dump'ı bayiye gönderin!"
     },
     {
       "id": "s0203",
       "de": "Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu Programmierer und weiter",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "If you have a working key, insert the working key into the programmer and continue",
+      "tr": "Çalışan bir anahtarınız varsa çalışan anahtarı programlayıcıya takıp devam edin"
     },
     {
       "id": "s0204",
       "de": "Haben ECU-Dump-Datei. Weiter wird ECU-Dump-Datei laden",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "If you have an ECU dump file, continue to load the ECU dump file",
+      "tr": "ECU dump dosyanız varsa ECU dump dosyasını yüklemeye devam edin"
     },
     {
       "id": "s0205",
       "de": "Der Eingang ist ISN Fehler. Bitte geben Sie korrekt ISN!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The input ISN is wrong. Please enter the correct ISN!",
+      "tr": "Girilen ISN yanlış. Lütfen doğru ISN'i girin!"
     },
     {
       "id": "s0206",
       "de": "ISN-Formatfehler, geben Sie bitte 16 Byte hexadezimale Daten!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "ISN format error, please enter 16 bytes of hexadecimal data!",
+      "tr": "ISN format hatası, lütfen 16 bayt onaltılık veri girin!"
     },
     {
       "id": "s0207",
       "de": "Kann nicht finden, ISN-Dump von ECU. Bestätigen Last die richtige dump!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot find the ISN dump from the ECU. Confirm you loaded the correct dump!",
+      "tr": "ECU'dan ISN dump bulunamıyor. Doğru dump'ı yüklediğinizi onaylayın!"
     },
     {
       "id": "s0208",
       "de": "Warnung: CAS4 + verschlüsseln erkannt Weiter Händlerschlüssel vorbereiten können nur Fern kann der Motor nicht gestartet\r\nSoll ..?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Warning: CAS4+ encryption detected. Continuing to prepare the dealer key, only the remote will work; the engine cannot be started.\r\nProceed?",
+      "tr": "Uyarı: CAS4+ şifreleme algılandı. Bayi anahtarını hazırlamaya devam edilirse yalnızca kumanda çalışır; motor çalıştırılamaz.\r\nDevam edilsin mi?"
     },
     {
       "id": "s0209",
       "de": "Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu CAS4 Programmierer und weiter",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "If you have a working key, insert the working key into the CAS4 programmer and continue",
+      "tr": "Çalışan bir anahtarınız varsa çalışan anahtarı CAS4 programlayıcısına takıp devam edin"
     },
     {
       "id": "s0210",
       "de": "Erkennen verschlüsseln CAS-Version. Aber CAS ISN Wert verloren. Weiter vorbereiten Schlüssel kann nicht Motor zu starten. \r\n Weiter?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Encrypted CAS version detected, but the CAS ISN value is lost. Continuing to prepare the key, it cannot start the engine. \r\nContinue?",
+      "tr": "Şifreli CAS sürümü algılandı ama CAS ISN değeri kayıp. Anahtarı hazırlamaya devam edilirse motoru çalıştıramaz. \r\nDevam edilsin mi?"
     },
     {
       "id": "s0211",
       "de": "Kann nicht finden ISN von der Arbeit drücken. Stellen Sie sicher, Arbeitsschlüssel Gleiches mit CAS-Dump-Datei!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot find the ISN from the working key. Make sure the working key matches the CAS dump file!",
+      "tr": "Çalışan anahtardan ISN bulunamıyor. Çalışan anahtarın CAS dump dosyasıyla aynı olduğundan emin olun!"
     },
     {
       "id": "s0212",
       "de": "Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie \"JA\", sonst \"NO\". \nWenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel Und legen Sie die Programmierer vor Presse \"NO\". \nIst der Motor jetzt starten?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please use the current key to start the engine; if it starts press \"YES\", otherwise \"NO\". \nIf the engine cannot be started, please remove the key and insert it into the programmer before pressing \"NO\". \nIs the engine starting now?",
+      "tr": "Motoru çalıştırmak için mevcut anahtarı kullanın; çalışırsa \"EVET\", aksi halde \"HAYIR\". \nMotor çalışmazsa, \"HAYIR\"a basmadan önce anahtarı çıkarıp programlayıcıya takın. \nMotor şimdi çalışıyor mu?"
     },
     {
       "id": "s0213",
       "de": "Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.\r\nWenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.\r\nWenn das Auto die Zündung einzuschalten SELBST kann es nicht Motor zu starten. Schreiben Sie nicht zurück zur neuen Deponie CAS\r\nGeben Sie versuchen Verfahren zu starten klicken Sie auf Ja, schreiben Sie eeprom Dump klicken NO",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Write the new CAS dump and use the new key to start.\r\nIf the CAS belongs to version ISTAP4*, do not write back to the new CAS dump.\r\nIf the car can turn on the ignition itself but cannot start the engine, do not write back to the new CAS dump.\r\nTo try the start procedure click Yes; to write the EEPROM dump click No",
+      "tr": "Yeni CAS dump'ı yazın ve çalıştırmak için yeni anahtarı kullanın.\r\nCAS, ISTAP4* sürümüne aitse yeni CAS dump'a geri yazmayın.\r\nAraç kontağı kendisi açabiliyor ama motoru çalıştıramıyorsa yeni CAS dump'a geri yazmayın.\r\nÇalıştırma yöntemini denemek için Evet'e tıklayın; EEPROM dump'ı yazmak için Hayır'a tıklayın"
     },
     {
       "id": "s0214",
       "de": "Verwenden Sie versuchen zu starten Methode, um Motor zu starten, arbeiten keine Notwendigkeit Taste oder Motor-Dump-Datei",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Use the try-to-start method to start the engine; it needs no working key or motor dump file",
+      "tr": "Motoru çalıştırmak için dene-ve-çalıştır yöntemini kullanın; çalışan anahtar veya motor dump dosyası gerekmez"
     },
     {
       "id": "s0215",
       "de": "Kann Transponder nicht erkennt, geben Sie bitte die Taste zu Programmierer.\r\n\r\nMöchten Sie erkennen agian wollen?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot detect the transponder, please insert the key into the programmer.\r\n\r\nDo you want to detect again?",
+      "tr": "Transponder algılanamıyor, lütfen anahtarı programlayıcıya takın.\r\n\r\nTekrar algılamak ister misiniz?"
     },
     {
       "id": "s0216",
       "de": "CAS4 verschlüsseln Version festgestellt. Diese Funktion braucht \"Condor Automatic Key Cutting Machine\" genehmigen und neueste Firmware zu aktualisieren.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "CAS4 encrypted version detected. This function needs the \"Condor Automatic Key Cutting Machine\" to approve and the latest firmware to update.",
+      "tr": "CAS4 şifreli sürümü algılandı. Bu işlev onay için \"Condor Automatic Key Cutting Machine\" ve güncelleme için en güncel firmware gerektirir."
     },
     {
       "id": "s0217",
       "de": "Fehler: BMW Multi Tool gerät bereits gebundenen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Error: BMW Multi Tool device already bound!",
+      "tr": "Hata: BMW Multi Tool cihazı zaten bağlı!"
     },
     {
       "id": "s0218",
       "de": "Erfolg. Bitte aktualisieren Sie Ihre Geräte-Firmware auf die neueste Funktion Unterstützung zu bekommen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Success. Please update your device firmware to the latest to get function support.",
+      "tr": "Başarılı. İşlev desteği almak için lütfen cihaz firmware'inizi en güncele güncelleyin."
     },
     {
       "id": "s0219",
       "de": "Fehler: Fehler beim binden! Unbekannter Fehler  %.1X !",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Error: Binding failed! Unknown error %.1X !",
+      "tr": "Hata: Bağlama başarısız! Bilinmeyen hata %.1X !"
     },
     {
       "id": "s0220",
       "de": "Schließen Sie auf  \"Condor Automatic Key Cutting Machine\"...",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Connecting to \"Condor Automatic Key Cutting Machine\"...",
+      "tr": "\"Condor Automatic Key Cutting Machine\"a bağlanılıyor..."
     },
     {
       "id": "s0221",
       "de": "ISN lesen vielleicht von Arbeitsschlüssel Fehler! Sie müssen ISN Schlüssel von der Arbeit zu lesen.\r\n\r\nMöchten Sie fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Reading the ISN from the working key may have failed! You need to read the ISN key from the working key.\r\n\r\nDo you want to continue?",
+      "tr": "Çalışan anahtardan ISN okuma başarısız olmuş olabilir! ISN anahtarını çalışan anahtardan okumalısınız.\r\n\r\nDevam etmek istiyor musunuz?"
     },
     {
       "id": "s0222",
       "de": "Wähle Protokoll BMW F-Serie",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select protocol BMW F-series",
+      "tr": "Protokol seç BMW F serisi"
     },
     {
       "id": "s0223",
       "de": "Bitte legen Sie eine Arbeitsschlüssel in der Nähe von Auto Zündspule. \r\n\r\nFortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please place a working key near the car's ignition coil. \r\n\r\nContinue?",
+      "tr": "Lütfen çalışan bir anahtarı aracın kontak bobininin yakınına koyun. \r\n\r\nDevam edilsin mi?"
     },
     {
       "id": "s0224",
       "de": "Können den Vorgang nicht ausführen mit aktuellen Schlüsselposition. Bitte wählen Sie andere Schlüsselposition!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot perform the operation with the current key position. Please select another key position!",
+      "tr": "İşlem mevcut anahtar konumuyla gerçekleştirilemiyor. Lütfen başka bir anahtar konumu seçin!"
     },
     {
       "id": "s0225",
       "de": "Warnung:\r\n1. Ein Auto können 2 keys höchstens \r\n2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel\r\n3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste\r\n4. Keyless Schlüssel kann nicht nach erfolgreich zu entsperren machen\r\n\r\nFortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Warning:\r\n1. A car can have 2 keys at most \r\n2. You should deactivate or delete the lost Keyless key before adding a new Keyless key\r\n3. Make sure there is no Keyless key or only one Keyless key in the CAS system before adding a new Keyless key\r\n4. A Keyless key cannot be unlocked after success\r\n\r\nContinue?",
+      "tr": "Uyarı:\r\n1. Bir araçta en fazla 2 anahtar olabilir \r\n2. Yeni Keyless anahtar eklemeden önce kayıp Keyless anahtarı devre dışı bırakmalı veya silmelisiniz\r\n3. Yeni Keyless anahtar eklemeden önce CAS sisteminde hiç Keyless anahtar olmadığından veya yalnızca bir tane olduğundan emin olun\r\n4. Keyless anahtarın kilidi başarıdan sonra açılamaz\r\n\r\nDevam edilsin mi?"
     },
     {
       "id": "s0226",
       "de": "Warnung:\r\n1. Ein Auto können 2 keys höchstens \r\n2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel\r\n3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste\r\n\r\nFortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Warning:\r\n1. A car can have 2 keys at most \r\n2. You should deactivate or delete the lost Keyless key before adding a new Keyless key\r\n3. Make sure there is no Keyless key or only one Keyless key in the CAS system before adding a new Keyless key\r\n\r\nContinue?",
+      "tr": "Uyarı:\r\n1. Bir araçta en fazla 2 anahtar olabilir \r\n2. Yeni Keyless anahtar eklemeden önce kayıp Keyless anahtarı devre dışı bırakmalı veya silmelisiniz\r\n3. Yeni Keyless anahtar eklemeden önce CAS sisteminde hiç Keyless anahtar olmadığından veya yalnızca bir tane olduğundan emin olun\r\n\r\nDevam edilsin mi?"
     },
     {
       "id": "s0227",
       "de": "Einige Tasten sind gesperrt. Es wird empfohlen, um Änderungen in den immo.Make Änderungen vornehmen?\r\n\r\nNach Änderungen vornehmen, müssen Sie schreiben neue Datei EWS und legen Sie es erneut",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Some keys are locked. It is recommended to make changes in the immo. Make changes?\r\n\r\nAfter making changes, you must write the new EWS file and insert it again",
+      "tr": "Bazı anahtarlar kilitli. İmmobilizerde değişiklik yapmanız önerilir. Değişiklik yapılsın mı?\r\n\r\nDeğişiklik yaptıktan sonra yeni EWS dosyasını yazıp tekrar takmalısınız"
     },
     {
       "id": "s0228",
       "de": "Kann nicht automatisch erkennen CAS Typ, wählen Sie bitte geben Sie manuell!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Cannot automatically detect the CAS type, please enter it manually!",
+      "tr": "CAS tipi otomatik algılanamıyor, lütfen elle girin!"
     },
     {
       "id": "s0229",
       "de": "Diese Software benötigen höhere Firmware-Unterstützung. Bitte aktualisieren Sie Ihr Gerät auf neueste Firmware.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "This software requires higher firmware support. Please update your device to the latest firmware.",
+      "tr": "Bu yazılım daha yüksek firmware desteği gerektirir. Lütfen cihazınızı en güncel firmware'e güncelleyin."
     },
     {
       "id": "s0230",
       "de": "Legen Sie Schlüssel zur Zündung und einschalten.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Insert the key into the ignition and turn it on.",
+      "tr": "Anahtarı kontağa takıp açın."
     },
     {
       "id": "s0231",
       "de": "Warnung: Dieser Schlüssel ist alte Art, remote und Keyless nicht mit CAS4 verschlüsseln Version\r\n\r\nVorschlagen ändern andere neue Art Schlüssel\r\n\r\nTrotzdem fortfahren?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Warning: This key is an old type; remote and Keyless do not work with the CAS4 encrypted version.\r\n\r\nSuggest changing to another new type of key.\r\n\r\nContinue anyway?",
+      "tr": "Uyarı: Bu anahtar eski tip; kumanda ve Keyless, CAS4 şifreli sürümle çalışmaz.\r\n\r\nBaşka yeni tip bir anahtara geçmeniz önerilir.\r\n\r\nYine de devam edilsin mi?"
     },
     {
       "id": "s0232",
       "de": "Das Gerät Batterie niedriger ist, wenden Sie sich bitte an Ihren Fachhändler für Batterie ersetzen.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The device battery is low, please contact your dealer to replace the battery.",
+      "tr": "Cihaz pili düşük, pili değiştirmek için lütfen bayinizle iletişime geçin."
     },
     {
       "id": "s0233",
       "de": "Verbinden mit Gerät, bitte warten ...",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Connecting to the device, please wait ...",
+      "tr": "Cihaza bağlanılıyor, lütfen bekleyin ..."
     },
     {
       "id": "s0234",
       "de": "Achtung: %s Freigabe der neuesten Version: %s, Bitte aktualisieren Sie Ihre Software mit BMW TOOL-Update-Tool.",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Note: %s released the latest version: %s. Please update your software with the BMW TOOL update tool.",
+      "tr": "Not: %s en güncel sürümü yayınladı: %s. Lütfen yazılımınızı BMW TOOL güncelleme aracı ile güncelleyin."
     },
     {
       "id": "s0235",
       "de": "Schreibe neue EEPROM CAS Ihren Betrieb anzuwenden\r\n\r\nVerwenden Sie die neuen EEPROM-Dump neuen Schlüssel machen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Write the new EEPROM CAS to apply your operation\r\n\r\nUse the new EEPROM dump to make a new key",
+      "tr": "İşleminizi uygulamak için yeni EEPROM CAS'i yazın\r\n\r\nYeni anahtar oluşturmak için yeni EEPROM dump'ı kullanın"
     },
     {
       "id": "s0236",
       "de": "Haben Sie bereits neue Schlüssel an der Taste %.1d zu machen?\r\n\r\nWenn schon neue Schlüssel gemacht (gespeichert bereits neue EEPROM-Dump) drücken Sie YES, sonst NEIN",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Have you already made a new key for key %.1d?\r\n\r\nIf a new key has already been made (new EEPROM dump already saved) press YES, otherwise NO",
+      "tr": "%.1d anahtarı için zaten yeni anahtar oluşturdunuz mu?\r\n\r\nYeni anahtar zaten yapıldıysa (yeni EEPROM dump zaten kaydedildiyse) EVET, aksi halde HAYIR"
     },
     {
       "id": "s0237",
       "de": "Aktuelle CAS kann nicht Firmware über OBD aktualisieren! Wenn Sie Firmware aktualisieren möchten, verbinden CAS CAS PLUG!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current CAS cannot update firmware via OBD! If you want to update the firmware, connect the CAS with the CAS plug!",
+      "tr": "Mevcut CAS firmware'i OBD üzerinden güncelleyemez! Firmware'i güncellemek isterseniz CAS'i CAS fişi ile bağlayın!"
     },
     {
       "id": "s0238",
       "de": "Verlorene Datenbank! Bitte installieren Sie Software-Datenbank zu reparieren!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Database lost! Please install the software database to repair it!",
+      "tr": "Veritabanı kayıp! Onarmak için lütfen yazılım veritabanını kurun!"
     },
     {
       "id": "s0239",
       "de": "Zielgerät nicht reagiert, oder Antwortfehler Befehl!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Target device not responding, or response error command!",
+      "tr": "Hedef cihaz yanıt vermiyor veya yanıt hatası komutu!"
     },
     {
       "id": "s0240",
       "de": "Schreiben verschlüsselung",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Write encryption",
+      "tr": "Şifreleme yaz"
     },
     {
       "id": "s0241",
       "de": "Wählen Karosserie",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select body",
+      "tr": "Karoser seç"
     },
     {
       "id": "s0242",
       "de": "Wählen Sie die Einheit",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Select the unit",
+      "tr": "Birimi seçin"
     },
     {
       "id": "s0243",
       "de": "Konnte nicht Gerät Codierung Index finden",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Could not find the device coding index",
+      "tr": "Cihaz kodlama indeksi bulunamadı"
     },
     {
       "id": "s0244",
       "de": "Konnte nicht Gerätenamen finden",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Could not find the device name",
+      "tr": "Cihaz adı bulunamadı"
     },
     {
       "id": "s0245",
       "de": "Gerätedatenbankfehler: %s.C%.2X. Bitte stellen Sie sicher, richtige Karosserie wählen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Device database error: %s.C%.2X. Please make sure to select the correct body!",
+      "tr": "Cihaz veritabanı hatası: %s.C%.2X. Lütfen doğru karoseri seçtiğinizden emin olun!"
     },
     {
       "id": "s0246",
       "de": "Achtung: Diese Codierung Datei kommen aus %.2X Einheit. Aktuelle Auswahleinheit ist %.2X.\r\n\r\nWollen Sie ändern Dateieinheit zu Codierung?",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Note: This coding file comes from unit %.2X. The current selected unit is %.2X.\r\n\r\nDo you want to change the file unit for coding?",
+      "tr": "Not: Bu kodlama dosyası %.2X biriminden geliyor. Mevcut seçili birim %.2X.\r\n\r\nKodlama için dosya birimini değiştirmek istiyor musunuz?"
     },
     {
       "id": "s0247",
       "de": "Bitte laden EEPROM-Dump-Datei zuerst!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please load the EEPROM dump file first!",
+      "tr": "Lütfen önce EEPROM dump dosyasını yükleyin!"
     },
     {
       "id": "s0248",
       "de": "Laden EEPROM-Dump-Datei",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Load EEPROM dump file",
+      "tr": "EEPROM dump dosyasını yükle"
     },
     {
       "id": "s0249",
       "de": "Schlüssel %.1d",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key %.1d",
+      "tr": "Anahtar %.1d"
     },
     {
       "id": "s0250",
       "de": "Sehen Sie alle Schlüssel die dünne",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "View all keys that are thin",
+      "tr": "İnce olan tüm anahtarları görüntüle"
     },
     {
       "id": "s0251",
       "de": "Schlüssel Informationen",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key information",
+      "tr": "Anahtar bilgisi"
     },
     {
       "id": "s0252",
       "de": "Schlüssel %.2d",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Key %.2d",
+      "tr": "Anahtar %.2d"
     },
     {
       "id": "s0253",
       "de": "Fehler: Keine neuesten Update-Informationen zu finden!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Error: No latest update information found!",
+      "tr": "Hata: En güncel güncelleme bilgisi bulunamadı!"
     },
     {
       "id": "s0254",
       "de": "Aktuelle CAS unterstützt nicht über OBD lesen! Bitte verwenden Sie Schlüssel via Dump!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "The current CAS does not support reading via OBD! Please use Key via Dump!",
+      "tr": "Mevcut CAS OBD üzerinden okumayı desteklemiyor! Lütfen Dump ile Anahtar'ı kullanın!"
     },
     {
       "id": "s0255",
       "de": "Achtung: Vor der Synchronisation müssen Sie Ihr Gerät auf die neueste Firmware aktualisieren !!!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Note: Before synchronization you must update your device to the latest firmware!!!",
+      "tr": "Not: Senkronizasyondan önce cihazınızı en güncel firmware'e güncellemelisiniz!!!"
     },
     {
       "id": "s0256",
       "de": "Bitte zuerst EEPROM-Datei lesen und dann File Make Key für diesen Typ ausführen!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Please read the EEPROM file first, then run File Make Key for this type!",
+      "tr": "Lütfen önce EEPROM dosyasını okuyun, sonra bu tip için Dosyadan Anahtar Oluştur'u çalıştırın!"
     },
     {
       "id": "s0257",
       "de": "Fehler beim Lesen der Geräteinformationen, bitte versuchen Sie es erneut!",
       "target": "",
-      "context": ""
+      "context": "",
+      "en": "Error reading the device information, please try again!",
+      "tr": "Cihaz bilgisi okunurken hata, lütfen tekrar deneyin!"
     }
   ]
 }

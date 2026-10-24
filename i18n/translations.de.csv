@@ -1,344 +1,516 @@
-﻿id,de,target
-s0001,Schlüssel via Dump,
-s0002,VIN ändern,
-s0003,Händlerschlüssel erstellen,
-s0004,Schlüssel hinzufügen,
+﻿id,de,en,tr
+s0001,Schlüssel via Dump,Key via Dump,Dump ile anahtar
+s0002,VIN ändern,Change VIN,VIN değiştir
+s0003,Händlerschlüssel erstellen,Make dealer key,Bayi anahtarı oluştur
+s0004,Schlüssel hinzufügen,Add key,Anahtar ekle
 s0005,"Haben Sie das Eeprom gesichert? 
-Weiter wenn gesichert, ansonsten erst eine Sicherung erstellen!",
-s0006,Dieser Typ wird in einer spätere Version unterstützt!,
-s0007,KM erfolgreich gelesen.,
-s0008,KM konnten nicht gelesen werden!,
-s0009,Init-Daten Fehler!,
-s0010,EWS-Daten gelesen.,
-s0011,EWS-Daten konnten nicht gelesen werden!,
-s0012,Suche Programmiergerät......,
-s0013,Programmiergerät gefunden.,
-s0014,Programmiergerät nicht gefunden!,
-s0015,Chip kann nicht gelesen/geschrieben werden. Bitte prüfen!,
-s0016,"Erstelle Schlüssel, bitte warten......",
+Weiter wenn gesichert, ansonsten erst eine Sicherung erstellen!","Did you back up the EEPROM? 
+Continue if backed up, otherwise make a backup first!","EEPROM'u yedeklediniz mi? 
+Yedeklediyseniz devam edin, aksi halde önce yedek alın!"
+s0006,Dieser Typ wird in einer spätere Version unterstützt!,This type will be supported in a later version!,Bu tip ileriki bir sürümde desteklenecek!
+s0007,KM erfolgreich gelesen.,Mileage read successfully.,KM başarıyla okundu.
+s0008,KM konnten nicht gelesen werden!,Mileage could not be read!,KM okunamadı!
+s0009,Init-Daten Fehler!,Init data error!,Başlatma verisi hatası!
+s0010,EWS-Daten gelesen.,EWS data read.,EWS verisi okundu.
+s0011,EWS-Daten konnten nicht gelesen werden!,EWS data could not be read!,EWS verisi okunamadı!
+s0012,Suche Programmiergerät......,Searching for programmer......,Programlayıcı aranıyor......
+s0013,Programmiergerät gefunden.,Programmer found.,Programlayıcı bulundu.
+s0014,Programmiergerät nicht gefunden!,Programmer not found!,Programlayıcı bulunamadı!
+s0015,Chip kann nicht gelesen/geschrieben werden. Bitte prüfen!,Chip cannot be read/written. Please check!,Çip okunamıyor/yazılamıyor. Lütfen kontrol edin!
+s0016,"Erstelle Schlüssel, bitte warten......","Making key, please wait......","Anahtar oluşturuluyor, lütfen bekleyin......"
 s0017,"Schlüssel erstellt & gesperrt. Benutzen Sie ihn zum starten des Fahrzeugs.
 Falls der Motor nicht startet nutzen Sie die""""Schlüssel hinzufügen"""" Funktion, um den Schlüssel zum CAS hinzuzufügen.
-Falls der Motor startet, aber die Keyless-Funktion nicht geht, nutzen Sie die """"Repariere Keyless-Schlüssel"""" Funktion.",
-s0018,Schlüssel erfolgreich hinzugefügt,
-s0019,Schlüssel hinzufügen fehlgeschlagen!,
-s0020,Modul wird nicht unterstützt,
-s0021,Daten gelesen.,
-s0022,Daten konnten nicht gelesen werden!,
-s0023,"Schreibe Daten, bitte warten......",
-s0024,Daten geschrieben.,
-s0025,Daten konnten nicht geschrieben werden!,
-s0026,Datei gespeichert.,
-s0027,Datei konnten nicht gespeichert werden!,
-s0028,Datei geladen.,
-s0029,Datei konnten nicht geladen werden!,
-s0030,Verschlüsseltes CAS gefunden! Bitte erstellen Sie den Schlüssel via OBD!,
+Falls der Motor startet, aber die Keyless-Funktion nicht geht, nutzen Sie die """"Repariere Keyless-Schlüssel"""" Funktion.","Key created & locked. Use it to start the vehicle.
+If the engine does not start, use the """"Add key"""" function to add the key to the CAS.
+If the engine starts but Keyless does not work, use the """"Repair Keyless key"""" function.","Anahtar oluşturuldu ve kilitlendi. Aracı çalıştırmak için kullanın.
+Motor çalışmazsa, anahtarı CAS'e eklemek için """"Anahtar ekle"""" işlevini kullanın.
+Motor çalışır ama Keyless çalışmazsa, """"Keyless anahtarı onar"""" işlevini kullanın."
+s0018,Schlüssel erfolgreich hinzugefügt,Key added successfully,Anahtar başarıyla eklendi
+s0019,Schlüssel hinzufügen fehlgeschlagen!,Adding key failed!,Anahtar ekleme başarısız!
+s0020,Modul wird nicht unterstützt,Module is not supported,Modül desteklenmiyor
+s0021,Daten gelesen.,Data read.,Veri okundu.
+s0022,Daten konnten nicht gelesen werden!,Data could not be read!,Veri okunamadı!
+s0023,"Schreibe Daten, bitte warten......","Writing data, please wait......","Veri yazılıyor, lütfen bekleyin......"
+s0024,Daten geschrieben.,Data written.,Veri yazıldı.
+s0025,Daten konnten nicht geschrieben werden!,Data could not be written!,Veri yazılamadı!
+s0026,Datei gespeichert.,File saved.,Dosya kaydedildi.
+s0027,Datei konnten nicht gespeichert werden!,File could not be saved!,Dosya kaydedilemedi!
+s0028,Datei geladen.,File loaded.,Dosya yüklendi.
+s0029,Datei konnten nicht geladen werden!,File could not be loaded!,Dosya yüklenemedi!
+s0030,Verschlüsseltes CAS gefunden! Bitte erstellen Sie den Schlüssel via OBD!,Encrypted CAS found! Please make the key via OBD!,Şifreli CAS bulundu! Lütfen anahtarı OBD üzerinden oluşturun!
 s0031,"CAS Eeprom Daten beschädigt. Der erstellte Schlüssel kann nicht zum Starten verwendet werden.
-Wollen Sie fortfahren?",
-s0032,EEPROM dump - Händlerschlüssel erstellen,
-s0033,Falsche Dateigröße!,
-s0034,Der Schlüssel ist dem Fahrzeug bereits zugeordnet!,
-s0035,Schlüssel-Typ,
-s0036,"Bitte laden Sie den EEPROM dump. """"OK"""" drücken zum fortfahren.",
-s0037,"Bitte speichern Sie den neuen EEPROM dump. """"OK"""" drücken zum fortfahren.",
-s0038,Vollständig.,
+Wollen Sie fortfahren?","CAS EEPROM data corrupted. The created key cannot be used to start.
+Do you want to continue?","CAS EEPROM verisi bozuk. Oluşturulan anahtar çalıştırmak için kullanılamaz.
+Devam etmek istiyor musunuz?"
+s0032,EEPROM dump - Händlerschlüssel erstellen,EEPROM dump - make dealer key,EEPROM dump - bayi anahtarı oluştur
+s0033,Falsche Dateigröße!,Wrong file size!,Yanlış dosya boyutu!
+s0034,Der Schlüssel ist dem Fahrzeug bereits zugeordnet!,The key is already assigned to the vehicle!,Anahtar zaten araca atanmış!
+s0035,Schlüssel-Typ,Key type,Anahtar tipi
+s0036,"Bitte laden Sie den EEPROM dump. """"OK"""" drücken zum fortfahren.","Please load the EEPROM dump. Press """"OK"""" to continue.","Lütfen EEPROM dump'ı yükleyin. Devam etmek için """"OK"""" tuşuna basın."
+s0037,"Bitte speichern Sie den neuen EEPROM dump. """"OK"""" drücken zum fortfahren.","Please save the new EEPROM dump. Press """"OK"""" to continue.","Lütfen yeni EEPROM dump'ı kaydedin. Devam etmek için """"OK"""" tuşuna basın."
+s0038,Vollständig.,Complete.,Tamamlandı.
 s0039,"Händlerschlüssel erstellt. Bitte nutzen Sie den neuen Schüssel zum starten. 
-Spielen Sie den neuen EEprom-Dump in das CAS, falls nicht erfolgreich",
-s0040,Händlerschlüssels erfolgreich erstellt.,
+Spielen Sie den neuen EEprom-Dump in das CAS, falls nicht erfolgreich","Dealer key created. Please use the new key to start.
+Write the new EEPROM dump into the CAS if it does not succeed","Bayi anahtarı oluşturuldu. Çalıştırmak için yeni anahtarı kullanın.
+Başarılı olmazsa yeni EEPROM dump'ı CAS'e yazın"
+s0040,Händlerschlüssels erfolgreich erstellt.,Dealer key created successfully.,Bayi anahtarı başarıyla oluşturuldu.
 s0041,"Entfernen Sie den Händlerschlüssel aus dem Zündschloss
 Bei Keyless aus dem Fahrzeug entfernen
 Wenn es keinen Schlüssel in der Zündung, weiter sowieso
 
- """"OK"""" drücken zum fortfahren.",
-s0042,Händlerschlüssel kann auf dieser Position nicht erstellt werden! Andere Position auswählen und nochmal probieren,
-s0043,"Rufe Geräte-Info ab, bitte warten...",
-s0044,Geräte-Info abrufen fehlgeschlagen!,
-s0045,Geräte SN     :,
-s0046,Geräte Version:,
-s0047,Geräte-Info erfolgreich abgerufen,
-s0048,"Rufe Informationen vom Gerät ab, bitte warten...",
-s0049,Geräteupdate erfolgreich. Bitte verbinden Sie die HW neu.,
-s0050,Geräteupdate fehlgeschlagen!,
-s0051,Wählen Sie Method,
-s0052,Schlüssel hinzufügen: Sie sollten einen funktionierenden Schlüssel in das Zünd einzufügen und Gerät mit dem Auto bisher.,
-s0053,Händlerschlüssel kann nicht erstellt werden. Wenden Sie sich an den Support!,
-s0054,Protokoll wird nicht unterstützt. CAS direkt via OBD verbinden und nochmal probieren.,
+ """"OK"""" drücken zum fortfahren.","Remove the dealer key from the ignition lock
+For Keyless, remove it from the vehicle
+If there is no key in the ignition, continue anyway
+
+Press """"OK"""" to continue.","Bayi anahtarını kontak kilidinden çıkarın
+Keyless ise araçtan çıkarın
+Kontakta anahtar yoksa yine de devam edin
+
+Devam etmek için """"OK"""" tuşuna basın."
+s0042,Händlerschlüssel kann auf dieser Position nicht erstellt werden! Andere Position auswählen und nochmal probieren,Dealer key cannot be created at this position! Select another position and try again,Bu konumda bayi anahtarı oluşturulamıyor! Başka bir konum seçip tekrar deneyin
+s0043,"Rufe Geräte-Info ab, bitte warten...","Getting device info, please wait...","Cihaz bilgisi alınıyor, lütfen bekleyin..."
+s0044,Geräte-Info abrufen fehlgeschlagen!,Getting device info failed!,Cihaz bilgisi alma başarısız!
+s0045,Geräte SN     :,Device SN     :,Cihaz SN     :
+s0046,Geräte Version:,Device version:,Cihaz sürümü:
+s0047,Geräte-Info erfolgreich abgerufen,Device info retrieved successfully,Cihaz bilgisi başarıyla alındı
+s0048,"Rufe Informationen vom Gerät ab, bitte warten...","Getting information from the device, please wait...","Cihazdan bilgi alınıyor, lütfen bekleyin..."
+s0049,Geräteupdate erfolgreich. Bitte verbinden Sie die HW neu.,Device update successful. Please reconnect the hardware.,Cihaz güncellemesi başarılı. Lütfen donanımı yeniden bağlayın.
+s0050,Geräteupdate fehlgeschlagen!,Device update failed!,Cihaz güncellemesi başarısız!
+s0051,Wählen Sie Method,Select method,Yöntem seçin
+s0052,Schlüssel hinzufügen: Sie sollten einen funktionierenden Schlüssel in das Zünd einzufügen und Gerät mit dem Auto bisher.,Add key: You should insert a working key into the ignition and connect the device to the car first.,Anahtar ekle: Devam etmeden önce çalışan bir anahtarı kontağa takıp cihazı araca bağlamalısınız.
+s0053,Händlerschlüssel kann nicht erstellt werden. Wenden Sie sich an den Support!,Dealer key cannot be created. Please contact support!,Bayi anahtarı oluşturulamıyor. Lütfen destek ile iletişime geçin!
+s0054,Protokoll wird nicht unterstützt. CAS direkt via OBD verbinden und nochmal probieren.,Protocol is not supported. Connect the CAS directly via OBD and try again.,Protokol desteklenmiyor. CAS'i doğrudan OBD üzerinden bağlayıp tekrar deneyin.
 s0055,"Kann das Fahrzeug gestartet werden? Nutzen Sie diese Option nicht, falls Sie alle Schlüssel verloren haben.
 Nutzen Sie die Funktion nicht, wenn es startet.
-Ja für weiter. Nein für Abbruch.",
-s0056,"Hat der neue Schlüssel Keyless. Falls ja Ja, ansonsten Nein.",
-s0057,Schlüssel entsperren,
-s0058,Entsperren mit Schlüssel-EEprom,
-s0059,Schlüssel-Position,
-s0060,KM ändern,
-s0061,Wollen Sie das Program beenden?,
-s0062,Schlüssel lernen,
-s0063,BMW Protokoll kann nicht initialisiert werden!,
-s0064,Wähle auto detect BMW Protokoll,
-s0065,"Wähle Protokoll OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89",
-s0066,Wähle Protokoll KWP-CAN bus 100,
-s0067,Wähle Protokoll KWP-CAN bus 500,
-s0068,"Wähle Protokoll OBDII DS2-E3x, E5x, E83, E85, E86",
-s0069,"Verarbeite Daten, wollen Sie wirklich abbrechen?",
-s0070,Leses Schlüssel-Info,
-s0071,Schlüsselposition für die Aufgabe auswählen.,
-s0072,"Erst Schlüssel-Info abrufen, Dann Händlerschlüssel erstellen.",
-s0073,Schlüssel-Info speichern,
-s0074,Schlüssel-Info laden,
-s0075,Schreibe Schlüssel-Info,
-s0076,"Benutzen Sie """"Schlüssel-Info speichern"""" um die original Daten zu speichern.",
-s0077,"Aktuelles Modul unterstützt diese Datei nicht, Bitte prüfen!",
-s0078,"Benutzen Sie """"Schlüssel-Info laden"""" um die Schlüssel-Infos zu laden.",
-s0079,Bitte starten Sie die SW neu zur Übernahme der Änderungen.,
-s0080,Fehler bei Ändern der Sprache! Führen Software mit Administrator!,
+Ja für weiter. Nein für Abbruch.","Can the vehicle be started? Do not use this option if you have lost all keys.
+Do not use the function if it starts.
+Yes to continue. No to cancel.","Araç çalıştırılabiliyor mu? Tüm anahtarları kaybettiyseniz bu seçeneği kullanmayın.
+Çalışıyorsa işlevi kullanmayın.
+Devam için Evet. İptal için Hayır."
+s0056,"Hat der neue Schlüssel Keyless. Falls ja Ja, ansonsten Nein.","Does the new key have Keyless? If yes Yes, otherwise No.","Yeni anahtarda Keyless var mı? Varsa Evet, yoksa Hayır."
+s0057,Schlüssel entsperren,Unlock key,Anahtar kilidini aç
+s0058,Entsperren mit Schlüssel-EEprom,Unlock with key EEPROM,Anahtar EEPROM'u ile kilit aç
+s0059,Schlüssel-Position,Key position,Anahtar konumu
+s0060,KM ändern,Change mileage,KM değiştir
+s0061,Wollen Sie das Program beenden?,Do you want to exit the program?,Programdan çıkmak istiyor musunuz?
+s0062,Schlüssel lernen,Learn key,Anahtar öğret
+s0063,BMW Protokoll kann nicht initialisiert werden!,BMW protocol cannot be initialized!,BMW protokolü başlatılamıyor!
+s0064,Wähle auto detect BMW Protokoll,Select auto detect BMW protocol,Otomatik algılama BMW protokolünü seç
+s0065,"Wähle Protokoll OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89","Select protocol OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89","Protokol seç OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89"
+s0066,Wähle Protokoll KWP-CAN bus 100,Select protocol KWP-CAN bus 100,Protokol seç KWP-CAN bus 100
+s0067,Wähle Protokoll KWP-CAN bus 500,Select protocol KWP-CAN bus 500,Protokol seç KWP-CAN bus 500
+s0068,"Wähle Protokoll OBDII DS2-E3x, E5x, E83, E85, E86","Select protocol OBDII DS2-E3x, E5x, E83, E85, E86","Protokol seç OBDII DS2-E3x, E5x, E83, E85, E86"
+s0069,"Verarbeite Daten, wollen Sie wirklich abbrechen?","Processing data, do you really want to cancel?","Veri işleniyor, gerçekten iptal etmek istiyor musunuz?"
+s0070,Leses Schlüssel-Info,Read key info,Anahtar bilgisini oku
+s0071,Schlüsselposition für die Aufgabe auswählen.,Select the key position for the task.,Görev için anahtar konumunu seçin.
+s0072,"Erst Schlüssel-Info abrufen, Dann Händlerschlüssel erstellen.","First get key info, then make dealer key.","Önce anahtar bilgisini alın, sonra bayi anahtarı oluşturun."
+s0073,Schlüssel-Info speichern,Save key info,Anahtar bilgisini kaydet
+s0074,Schlüssel-Info laden,Load key info,Anahtar bilgisini yükle
+s0075,Schreibe Schlüssel-Info,Write key info,Anahtar bilgisini yaz
+s0076,"Benutzen Sie """"Schlüssel-Info speichern"""" um die original Daten zu speichern.","Use """"Save key info"""" to save the original data.","Orijinal veriyi kaydetmek için """"Anahtar bilgisini kaydet""""i kullanın."
+s0077,"Aktuelles Modul unterstützt diese Datei nicht, Bitte prüfen!",The current module does not support this file. Please check!,Mevcut modül bu dosyayı desteklemiyor. Lütfen kontrol edin!
+s0078,"Benutzen Sie """"Schlüssel-Info laden"""" um die Schlüssel-Infos zu laden.","Use """"Load key info"""" to load the key info.","Anahtar bilgisini yüklemek için """"Anahtar bilgisini yükle""""yi kullanın."
+s0079,Bitte starten Sie die SW neu zur Übernahme der Änderungen.,Please restart the software to apply the changes.,Değişikliklerin uygulanması için lütfen yazılımı yeniden başlatın.
+s0080,Fehler bei Ändern der Sprache! Führen Software mit Administrator!,Error changing the language! Run the software as administrator!,Dil değiştirilirken hata! Yazılımı yönetici olarak çalıştırın!
 s0081,"Warnung: Firmware für diese CAS-Version aktualisieren, kann CAS-Stop-Arbeit verursachen!
 
 Abbrechen Update Firmware drücken ""JA""
-Fortsetzen Update Firmware drücken ""NEIN""",
-s0082,Die aktuellsten Updates und Informationen finden Sie hier : <a>web site</a>.,
-s0083,Geräte-Info und Dongle Update,
-s0084,Fehler beim abrufen der Versionsliste,
-s0085,Dongle-Version kann nicht abgerufen werden!,
-s0086,Geräte-Info,
-s0087,Lese Schlüssel-Infos......,
-s0088,Geräte Update,
-s0089,EGS Codelänge Fehler!,
-s0090,DME Codelänge Fehler!,
-s0091,CAS und DME werden abgeglichen. Fortfahren?,
-s0092,Synchronisation nicht möglich!,
-s0093,Synchronisation vollständig.,
+Fortsetzen Update Firmware drücken ""NEIN""","Warning: Updating firmware for this CAS version may cause the CAS to stop working!
+
+Press ""YES"" to cancel the firmware update
+Press ""NO"" to continue the firmware update","Uyarı: Bu CAS sürümü için firmware güncellemesi CAS'in çalışmayı durdurmasına neden olabilir!
+
+Firmware güncellemesini iptal için ""EVET""
+Firmware güncellemesine devam için ""HAYIR"""
+s0082,Die aktuellsten Updates und Informationen finden Sie hier : <a>web site</a>.,You can find the latest updates and information here: <a>web site</a>.,En güncel güncelleme ve bilgileri burada bulabilirsiniz: <a>web site</a>.
+s0083,Geräte-Info und Dongle Update,Device info and dongle update,Cihaz bilgisi ve dongle güncellemesi
+s0084,Fehler beim abrufen der Versionsliste,Error retrieving the version list,Sürüm listesi alınırken hata
+s0085,Dongle-Version kann nicht abgerufen werden!,Dongle version cannot be retrieved!,Dongle sürümü alınamıyor!
+s0086,Geräte-Info,Device info,Cihaz bilgisi
+s0087,Lese Schlüssel-Infos......,Reading key info......,Anahtar bilgisi okunuyor......
+s0088,Geräte Update,Device update,Cihaz güncellemesi
+s0089,EGS Codelänge Fehler!,EGS code length error!,EGS kod uzunluğu hatası!
+s0090,DME Codelänge Fehler!,DME code length error!,DME kod uzunluğu hatası!
+s0091,CAS und DME werden abgeglichen. Fortfahren?,CAS and DME are being synchronized. Continue?,CAS ve DME senkronize ediliyor. Devam edilsin mi?
+s0092,Synchronisation nicht möglich!,Synchronization not possible!,Senkronizasyon mümkün değil!
+s0093,Synchronisation vollständig.,Synchronization complete.,Senkronizasyon tamamlandı.
 s0094,"Neuer Schlüssel in das CAS geschrieben.
-Sie können den Motor jetzt damit starten. Nutzen Sie den original Schlüssel zuerst, wenn es nicht funktioniert.",
-s0095,Gerätetakt nagative Antwort!,
-s0096,"CAS-Daten sind verschlüssel, Händlerschlüssel erstellen. Kontaktieren Sie den Support, falls es fehlschlägt!",
-s0097,Neuen Schlüssel in das Programmiergerät legen.,
-s0098,Füge Schlüssel hinzu......,
-s0099,"Der eingelegte Schlüssel ist kein Händlerschlüssel, oder kein Zugriff auf den Schlüssel. Bitte prüfen!",
-s0100,Aktuelles EEProm ist nicht komplett. Bitte auslese und speicher und dann fortfahren.,
-s0101,"Schlüssel """"%d"""" wird deaktiviert.Fortfahren?",
-s0102,"Schlüssel """"%d"""" wird aktiviert. Fortfahren?",
-s0103,Schlüssel deaktiviert.,
-s0104,Schlüssel nicht deaktiviert!,
-s0105,Schlüssel aktiviert.,
-s0106,Schlüssel nicht aktiviert!,
-s0107,Schlüssel deaktivieren,
-s0108,Schlüssel aktivieren,
-s0109,Fehlercodes nicht gelöscht!,
-s0110,Shadow-Speicher nicht gelöscht!,
-s0111,Aktueller Schlüssel im Schloß:,
-s0112,Kein Schlüssel,
-s0113,Schlüssel %d,
+Sie können den Motor jetzt damit starten. Nutzen Sie den original Schlüssel zuerst, wenn es nicht funktioniert.","New key written into the CAS.
+You can now start the engine with it. Use the original key first if it does not work.","Yeni anahtar CAS'e yazıldı.
+Artık onunla motoru çalıştırabilirsiniz. Çalışmazsa önce orijinal anahtarı kullanın."
+s0095,Gerätetakt nagative Antwort!,Device clock negative response!,Cihaz saat olumsuz yanıt!
+s0096,"CAS-Daten sind verschlüssel, Händlerschlüssel erstellen. Kontaktieren Sie den Support, falls es fehlschlägt!","CAS data is encrypted, make a dealer key. Contact support if it fails!","CAS verisi şifreli, bir bayi anahtarı oluşturun. Başarısız olursa destek ile iletişime geçin!"
+s0097,Neuen Schlüssel in das Programmiergerät legen.,Place the new key into the programmer.,Yeni anahtarı programlayıcıya yerleştirin.
+s0098,Füge Schlüssel hinzu......,Adding key......,Anahtar ekleniyor......
+s0099,"Der eingelegte Schlüssel ist kein Händlerschlüssel, oder kein Zugriff auf den Schlüssel. Bitte prüfen!","The inserted key is not a dealer key, or there is no access to the key. Please check!",Takılan anahtar bir bayi anahtarı değil veya anahtara erişim yok. Lütfen kontrol edin!
+s0100,Aktuelles EEProm ist nicht komplett. Bitte auslese und speicher und dann fortfahren.,"The current EEPROM is not complete. Please read it out and save, then continue.","Mevcut EEPROM tam değil. Lütfen okuyup kaydedin, sonra devam edin."
+s0101,"Schlüssel """"%d"""" wird deaktiviert.Fortfahren?","Key """"%d"""" will be deactivated. Continue?","""""%d"""" anahtarı devre dışı bırakılacak. Devam edilsin mi?"
+s0102,"Schlüssel """"%d"""" wird aktiviert. Fortfahren?","Key """"%d"""" will be activated. Continue?","""""%d"""" anahtarı etkinleştirilecek. Devam edilsin mi?"
+s0103,Schlüssel deaktiviert.,Key deactivated.,Anahtar devre dışı bırakıldı.
+s0104,Schlüssel nicht deaktiviert!,Key not deactivated!,Anahtar devre dışı bırakılamadı!
+s0105,Schlüssel aktiviert.,Key activated.,Anahtar etkinleştirildi.
+s0106,Schlüssel nicht aktiviert!,Key not activated!,Anahtar etkinleştirilemedi!
+s0107,Schlüssel deaktivieren,Deactivate key,Anahtarı devre dışı bırak
+s0108,Schlüssel aktivieren,Activate key,Anahtarı etkinleştir
+s0109,Fehlercodes nicht gelöscht!,Fault codes not cleared!,Arıza kodları silinemedi!
+s0110,Shadow-Speicher nicht gelöscht!,Shadow memory not cleared!,Shadow bellek silinemedi!
+s0111,Aktueller Schlüssel im Schloß:,Current key in the lock:,Kilitteki mevcut anahtar:
+s0112,Kein Schlüssel,No key,Anahtar yok
+s0113,Schlüssel %d,Key %d,Anahtar %d
 s0114,"Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie ""JA"", sonst ""NO"". 
 Wenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel vor Presse ""NO"". 
-Ist der Motor jetzt starten?",
+Ist der Motor jetzt starten?","Please use the current key to start the engine; if it starts press ""YES"", otherwise ""NO"". 
+If the engine cannot be started, please remove the key before pressing ""NO"". 
+Is the engine starting now?","Motoru çalıştırmak için mevcut anahtarı kullanın; çalışırsa ""EVET"", aksi halde ""HAYIR"". 
+Motor çalışmazsa, ""HAYIR""a basmadan önce anahtarı çıkarın. 
+Motor şimdi çalışıyor mu?"
 s0115,"1.Kombiinstrument ausbauen, KM manuell ändern.
 2.Die Funktion ausführen zum KM-Stand im CAS ändern. 
 3.Kombiinstrument einbauen.
-Fortfahren?",
+Fortfahren?","1. Remove the instrument cluster, change the mileage manually.
+2. Run the function to change the mileage in the CAS. 
+3. Install the instrument cluster.
+Continue?","1. Gösterge panelini sökün, KM'yi elle değiştirin.
+2. CAS'teki KM'yi değiştirme işlevini çalıştırın. 
+3. Gösterge panelini takın.
+Devam edilsin mi?"
 s0116,"Verloren alle wichtigen Arbeiten, werden Sie 16 atemps haben.
 Es ist vielleicht brauchen die CAS EEPROM support, solltest du besser eine Sicherungskopie der eeprom mit anderen bdm Programmierer.
-Fortfahren?",
+Fortfahren?","If all working keys are lost, you will have 16 attempts.
+You may need CAS EEPROM support; you had better back up the EEPROM with another BDM programmer.
+Continue?","Tüm çalışan anahtarlar kaybolduysa 16 denemeniz olacak.
+CAS EEPROM desteği gerekebilir; EEPROM'u başka bir BDM programlayıcı ile yedeklemeniz iyi olur.
+Devam edilsin mi?"
 s0117,"Verschlüsseltes CAS, benötige funktionierenden Schlüssel zum Händlerschlüssel erstellen.
-Fortfahren? Falls Sie fortfahren funktionierenden Schlüssel einlegen.",
-s0118,Der eingelegte Schlüssel gehört nicht zu diesem CAS!,
-s0119,Gerät nicht gefunden. Verbindung prüfen,
+Fortfahren? Falls Sie fortfahren funktionierenden Schlüssel einlegen.","Encrypted CAS, a working key is needed to make a dealer key.
+Continue? If you continue, insert a working key.","Şifreli CAS, bayi anahtarı oluşturmak için çalışan bir anahtar gerekli.
+Devam edilsin mi? Devam ederseniz çalışan bir anahtar takın."
+s0118,Der eingelegte Schlüssel gehört nicht zu diesem CAS!,The inserted key does not belong to this CAS!,Takılan anahtar bu CAS'e ait değil!
+s0119,Gerät nicht gefunden. Verbindung prüfen,Device not found. Check the connection,Cihaz bulunamadı. Bağlantıyı kontrol edin
 s0120,"Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.
-Wenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.",
-s0121,CAS-EEprom Dump beschädigt. Trotzdem probieren?,
-s0122,Schlüssel entsperrt,
-s0123,Schlüssel kann nicht entsperrt werden. Datei prüfen,
-s0124,Gesperrten Schlüssel einlegen,
-s0125,"Schlüssel wird entsperrt, bitte warten......",
-s0126,CAS Syn Code nicht gefunden. Abbruch!,
-s0127,Datei KM ändern,
-s0128,EEPROM KM ändern,
+Wenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.","Write the new CAS dump and use the new key to start.
+If the CAS belongs to version ISTAP4*, do not write back to the new CAS dump.","Yeni CAS dump'ı yazın ve çalıştırmak için yeni anahtarı kullanın.
+CAS, ISTAP4* sürümüne aitse yeni CAS dump'a geri yazmayın."
+s0121,CAS-EEprom Dump beschädigt. Trotzdem probieren?,CAS EEPROM dump corrupted. Try anyway?,CAS EEPROM dump bozuk. Yine de denensin mi?
+s0122,Schlüssel entsperrt,Key unlocked,Anahtar kilidi açıldı
+s0123,Schlüssel kann nicht entsperrt werden. Datei prüfen,Key cannot be unlocked. Check the file,Anahtar kilidi açılamıyor. Dosyayı kontrol edin
+s0124,Gesperrten Schlüssel einlegen,Insert the locked key,Kilitli anahtarı takın
+s0125,"Schlüssel wird entsperrt, bitte warten......","Unlocking key, please wait......","Anahtar kilidi açılıyor, lütfen bekleyin......"
+s0126,CAS Syn Code nicht gefunden. Abbruch!,CAS sync code not found. Aborting!,CAS senkronizasyon kodu bulunamadı. İptal ediliyor!
+s0127,Datei KM ändern,Change mileage in file,Dosyada KM değiştir
+s0128,EEPROM KM ändern,Change mileage in EEPROM,EEPROM'da KM değiştir
 s0129,"KM ind Immo erfolgreich geändert, neue Datei in das Steuergerät schreiben. 
-KM-Stand im Tacho manuell vor einbau ändern",
-s0130,KM-Stand geändert. Neue Datei in den M35080 schreiben.,
+KM-Stand im Tacho manuell vor einbau ändern","Mileage in the immo changed successfully, write the new file into the control unit. 
+Change the mileage in the cluster manually before installation","İmmobilizerdeki KM başarıyla değişti, yeni dosyayı kontrol ünitesine yazın. 
+Montajdan önce gösterge panelindeki KM'yi elle değiştirin"
+s0130,KM-Stand geändert. Neue Datei in den M35080 schreiben.,Mileage changed. Write the new file into the M35080.,KM değiştirildi. Yeni dosyayı M35080'e yazın.
 s0131,"CAS mit CAS-Stecker verbinden und dann nochmal probieren.
-Zum Schlüssel anlernen ""Schlüssel anlernen"" verwenden. CAS-Stecker wird dann nicht benötigt",
-s0132,"CAS SW Update nicht nötig,Fortfahren?",
-s0133,Authentifikation nicht erfolgreich!,
-s0134,Warte auf Steuergerät...,
-s0135,Prüfe Signatur...nicht OK!,
-s0136,Schlüssel einlegen und dann entfernen. Der Schlüssel wird erst nach Abschluss der Prozedur funktionieren,
+Zum Schlüssel anlernen ""Schlüssel anlernen"" verwenden. CAS-Stecker wird dann nicht benötigt","Connect the CAS with the CAS plug and try again.
+To learn a key, use ""Learn key"". The CAS plug is then not needed","CAS'i CAS fişi ile bağlayıp tekrar deneyin.
+Anahtar öğretmek için ""Anahtar öğret""i kullanın. O zaman CAS fişi gerekmez"
+s0132,"CAS SW Update nicht nötig,Fortfahren?",CAS SW update not needed. Continue?,CAS yazılım güncellemesi gerekmiyor. Devam edilsin mi?
+s0133,Authentifikation nicht erfolgreich!,Authentication not successful!,Kimlik doğrulama başarısız!
+s0134,Warte auf Steuergerät...,Waiting for control unit...,Kontrol ünitesi bekleniyor...
+s0135,Prüfe Signatur...nicht OK!,Checking signature... not OK!,İmza kontrol ediliyor... OK değil!
+s0136,Schlüssel einlegen und dann entfernen. Der Schlüssel wird erst nach Abschluss der Prozedur funktionieren,Insert the key and then remove it. The key will only work after the procedure is complete,Anahtarı takıp sonra çıkarın. Anahtar ancak işlem tamamlandıktan sonra çalışacak
 s0137,"Upload ist völlig Erfolg. 
 Wenn gearbeitet haben Schlüssel, um die Zündung einsetzen und versuchen, wenn es zu finden. 
-Und zurück und versuchen Sie es erneut diese Funktion funktioniert.",
-s0138,Fehler beim Flash löschen!,
-s0139,Aktuelle CAS-Version wird nicht über OBD unterstützt. Nutzen Sie ein BDM Programmiergerät.,
+Und zurück und versuchen Sie es erneut diese Funktion funktioniert.","Upload fully successful. 
+If you have a working key, insert it into the ignition and try whether it is detected. 
+Then go back and try this function again.","Yükleme tamamen başarılı. 
+Çalışan bir anahtarınız varsa kontağa takıp algılanıp algılanmadığını deneyin. 
+Sonra geri dönüp bu işlevi tekrar deneyin."
+s0138,Fehler beim Flash löschen!,Error erasing the flash!,Flash silinirken hata!
+s0139,Aktuelle CAS-Version wird nicht über OBD unterstützt. Nutzen Sie ein BDM Programmiergerät.,The current CAS version is not supported via OBD. Use a BDM programmer.,Mevcut CAS sürümü OBD üzerinden desteklenmiyor. Bir BDM programlayıcı kullanın.
 s0140,"CAS EEProm benötigt. Vorher im Hauptfenster über CAS EEprom lesen. 
 Alternativ mit BDM Programmiergerät. 
-Fortfahren?",
-s0141,"Aktuelles CAS unterstütz die Funktion nicht, Zum Schlüssel anlernen """"Schlüssel lernen"""" Funktion nutzen.",
+Fortfahren?","CAS EEPROM required. Read the CAS EEPROM in the main window first. 
+Alternatively with a BDM programmer. 
+Continue?","CAS EEPROM gerekli. Önce ana pencerede CAS EEPROM'u okuyun. 
+Alternatif olarak BDM programlayıcı ile. 
+Devam edilsin mi?"
+s0141,"Aktuelles CAS unterstütz die Funktion nicht, Zum Schlüssel anlernen """"Schlüssel lernen"""" Funktion nutzen.","The current CAS does not support the function; to learn a key, use the """"Learn key"""" function.","Mevcut CAS bu işlevi desteklemiyor; anahtar öğretmek için """"Anahtar öğret"""" işlevini kullanın."
 s0142,"Diese Software benötigt Firmware 1.0.6 oder höher. Einige Funktionen sind sonst eingeschränkt d.
 Zum Update :  """"Hilfe->Geräte-Update"""" zum Updaten
-Nächstes mal erinnern?",
+Nächstes mal erinnern?","This software requires firmware 1.0.6 or higher. Otherwise some functions are limited.
+To update: """"Help->Device update"""".
+Remind next time?","Bu yazılım firmware 1.0.6 veya üstünü gerektirir. Aksi halde bazı işlevler kısıtlıdır.
+Güncellemek için: """"Yardım->Cihaz güncellemesi"""".
+Bir dahaki sefere hatırlatılsın mı?"
 s0143,"Achtung: Zum Schlüssel anlernen brauchen Sie das CAS-EEprom nicht.
  """"Schlüssel Lernen"""" Funktion direkt benutzen.
-Mit Eeprom lesen fortfahren?",
-s0144,"Aktuelle CAS ISTAP-45 version nicht unterstützt, Support kontaktieren.",
-s0145,"Reparatur nicht erfolgreich, nochmal probieren",
-s0146,Programmiere Schlüssel-Info,
-s0147,Aktueller Schlüssel ist %. Type %s.,
-s0148,Keyless Schlüssel,
-s0149,Schlüssel-Info laden oder zuerst über OBD auslesen,
-s0150,Kein benutzter Schlüssel,
-s0151,Fehler bei der Eingabe! Erneut prüfen.,
-s0152,"Bekannte CAS ID zur Reparatur nutzen.Sie erhalten Sie mit ""Verbinden""",
+Mit Eeprom lesen fortfahren?","Note: To learn a key you do not need the CAS EEPROM.
+Use the """"Learn key"""" function directly.
+Continue with reading the EEPROM?","Not: Anahtar öğretmek için CAS EEPROM'a ihtiyacınız yok.
+Doğrudan """"Anahtar öğret"""" işlevini kullanın.
+EEPROM okuma ile devam edilsin mi?"
+s0144,"Aktuelle CAS ISTAP-45 version nicht unterstützt, Support kontaktieren.","The current CAS ISTAP-45 version is not supported, contact support.","Mevcut CAS ISTAP-45 sürümü desteklenmiyor, destek ile iletişime geçin."
+s0145,"Reparatur nicht erfolgreich, nochmal probieren","Repair not successful, try again","Onarım başarısız, tekrar deneyin"
+s0146,Programmiere Schlüssel-Info,Programming key info,Anahtar bilgisi programlanıyor
+s0147,Aktueller Schlüssel ist %. Type %s.,The current key is %. Type %s.,Mevcut anahtar %. Tip %s.
+s0148,Keyless Schlüssel,Keyless key,Keyless anahtar
+s0149,Schlüssel-Info laden oder zuerst über OBD auslesen,Load key info or read it out via OBD first,Anahtar bilgisini yükleyin veya önce OBD üzerinden okuyun
+s0150,Kein benutzter Schlüssel,No key used,Kullanılan anahtar yok
+s0151,Fehler bei der Eingabe! Erneut prüfen.,Input error! Check again.,Giriş hatası! Tekrar kontrol edin.
+s0152,"Bekannte CAS ID zur Reparatur nutzen.Sie erhalten Sie mit ""Verbinden""","Use the known CAS ID for the repair. You get it with ""Connect""","Onarım için bilinen CAS ID'sini kullanın. Bunu ""Bağlan"" ile alırsınız"
 s0153,"Das aktuelle Arbeitsschlüssel wird nicht mit der Taste Info!
 
-Erster Start-Motor mit dieser Taste->Zündung ausschalten->Zündung einschalten, dann lesen neuesten keyinfo.",
-s0154,"Achtung: Bevor weiter, sollten Sie das Gerät mit car.Before update flash verbinden, müssen Sie CAS FLASH und EEPROM mit BDM programmer.The Update-Prozess lesen müssen CAS in CAR. Aktualisieren CAS mit CAS PLUS vielleicht sperren ELV.",
-s0155,Keyless Schlüssel reparieren,
-s0156,"Legen erste schlüssellose Schlüssel in Programmiergerät. Drücken Sie OK, um fortzufahren",
+Erster Start-Motor mit dieser Taste->Zündung ausschalten->Zündung einschalten, dann lesen neuesten keyinfo.","The current working key is not read with Key Info!
+
+First start the engine with this key -> turn off ignition -> turn on ignition, then read the latest key info.","Mevcut çalışan anahtar Anahtar Bilgisi ile okunmuyor!
+
+Önce bu anahtarla motoru çalıştırın -> kontağı kapatın -> kontağı açın, sonra en güncel anahtar bilgisini okuyun."
+s0154,"Achtung: Bevor weiter, sollten Sie das Gerät mit car.Before update flash verbinden, müssen Sie CAS FLASH und EEPROM mit BDM programmer.The Update-Prozess lesen müssen CAS in CAR. Aktualisieren CAS mit CAS PLUS vielleicht sperren ELV.","Note: Before continuing, connect the device to the car. Before the flash update you must read CAS FLASH and EEPROM with a BDM programmer. The update process requires the CAS to be in the car. Updating the CAS with CAS PLUS may lock the ELV.",Not: Devam etmeden önce cihazı araca bağlayın. Flash güncellemesinden önce CAS FLASH ve EEPROM'u bir BDM programlayıcı ile okumalısınız. Güncelleme işlemi CAS'in araçta olmasını gerektirir. CAS'i CAS PLUS ile güncellemek ELV'yi kilitleyebilir.
+s0155,Keyless Schlüssel reparieren,Repair Keyless key,Keyless anahtarı onar
+s0156,"Legen erste schlüssellose Schlüssel in Programmiergerät. Drücken Sie OK, um fortzufahren",Insert the first keyless key into the programmer. Press OK to continue,İlk keyless anahtarı programlayıcıya takın. Devam etmek için OK'e basın
 s0157,"Wenn Sie zweite schlüssellose Schlüssel. Legen Sie es zu Programmierer
 
-Haben Sie zweite schlüssellose Schlüssel?",
+Haben Sie zweite schlüssellose Schlüssel?","If you have a second keyless key, insert it into the programmer
+
+Do you have a second keyless key?","İkinci bir keyless anahtarınız varsa programlayıcıya takın
+
+İkinci keyless anahtarınız var mı?"
 s0158,"Warnung: Keyless Schlüssel zu dieser Position hinzufügen, werden Sie intelligente Funktion nicht. Du solltest besser wählen andere leere Position.
 
-Wollen Sie immer noch hinzufügen Keyless Schlüssel hier?",
-s0159,Schlüssel ausgetastet. Bitte stellen Sie erneut.,
-s0160,"Kann nicht auf Auto verbinden, überprüfen Sie bitte OBD-Anschluss!",
-s0161,"Verlorene Alle Key:. Sollten Sie einen neuen Schlüssel in das Zünd einzufügen und Gerät mit dem Auto, bevor weiter (Sie müssen Backup CAS EEPROM für CAS3 encrypt Version und ISTA P4 * verison Bitte trennen Sie Gerät mit Auto, wenn kein Backup noch nicht.)",
-s0162,"Nicht finden Arbeitsschlüssel info, Plese die Zündung einschalten und laufen ""Get Key Info"" erneut.",
-s0163,Wählen Sie protocol BMW EWS KLine,
+Wollen Sie immer noch hinzufügen Keyless Schlüssel hier?","Warning: If you add a Keyless key to this position, the smart function will not work. You had better choose another empty position.
+
+Do you still want to add the Keyless key here?","Uyarı: Bu konuma Keyless anahtar eklerseniz akıllı işlev çalışmaz. Başka boş bir konum seçmeniz daha iyi olur.
+
+Yine de buraya Keyless anahtar eklemek istiyor musunuz?"
+s0159,Schlüssel ausgetastet. Bitte stellen Sie erneut.,Key knocked out. Please set it again.,Anahtar çıkarıldı. Lütfen tekrar yerleştirin.
+s0160,"Kann nicht auf Auto verbinden, überprüfen Sie bitte OBD-Anschluss!","Cannot connect to the car, please check the OBD connection!","Araca bağlanılamıyor, lütfen OBD bağlantısını kontrol edin!"
+s0161,"Verlorene Alle Key:. Sollten Sie einen neuen Schlüssel in das Zünd einzufügen und Gerät mit dem Auto, bevor weiter (Sie müssen Backup CAS EEPROM für CAS3 encrypt Version und ISTA P4 * verison Bitte trennen Sie Gerät mit Auto, wenn kein Backup noch nicht.)",All keys lost: You should insert a new key into the ignition and connect the device to the car before continuing (you must back up the CAS EEPROM for the CAS3 encrypted version and ISTA P4* version; please disconnect the device from the car if there is no backup yet).,Tüm anahtarlar kayıp: Devam etmeden önce yeni bir anahtarı kontağa takıp cihazı araca bağlamalısınız (CAS3 şifreli sürüm ve ISTA P4* sürümü için CAS EEPROM'u yedeklemelisiniz; henüz yedek yoksa lütfen cihazı araçtan ayırın).
+s0162,"Nicht finden Arbeitsschlüssel info, Plese die Zündung einschalten und laufen ""Get Key Info"" erneut.","Cannot find working key info; please turn on the ignition and run ""Get Key Info"" again.","Çalışan anahtar bilgisi bulunamıyor; lütfen kontağı açıp ""Anahtar Bilgisini Al""ı tekrar çalıştırın."
+s0163,Wählen Sie protocol BMW EWS KLine,Select protocol BMW EWS KLine,Protokol seç BMW EWS KLine
 s0164,"Lesen EWS EEPROM erfolgreich. 
-Speichern die Datei zuerst, dann können Sie Fachhändler Taste mit der gespeicherten Datei Verwendung Funktion ""Datei Make Key"" vorzubereiten.",
-s0165,Bitte laden Sie richtig EWS Daten zuerst.,
+Speichern die Datei zuerst, dann können Sie Fachhändler Taste mit der gespeicherten Datei Verwendung Funktion ""Datei Make Key"" vorzubereiten.","Reading EWS EEPROM successful. 
+Save the file first, then you can prepare the dealer key with the saved file using the ""File Make Key"" function.","EWS EEPROM okuma başarılı. 
+Önce dosyayı kaydedin, sonra kaydedilen dosya ile ""Dosyadan Anahtar Oluştur"" işlevini kullanarak bayi anahtarını hazırlayabilirsiniz."
+s0165,Bitte laden Sie richtig EWS Daten zuerst.,Please load the correct EWS data first.,Lütfen önce doğru EWS verisini yükleyin.
 s0166,"Bitte verbinden CAS PLUG mit Gerät und verbinden CAS PLUG mit EWS, Unterstützung +12 v CAS PLUG 
 Die connect-Methode kann in der Bedienungsanleitung werden zu finden. 
-Klicken Ordnung nach verbunden.",
-s0167,"Legen Sie einen Schlüssel in das Zündschloss, brechen die Bremse zwei Mal, öffnen Sie die Autoscheinwerfer.",
-s0168,Bereiten Händler Schlüssel Programmierer,
-s0169,Bereiten Händler Schlüssel mit Zündschalter,
-s0170,Kann nicht die Sync-Code!,
-s0171,"Unerwartete EPROM Layout. Sie können fortfahren, aber es gibt keine Garantie, dass das Verfahren erfolgreich sein wird.",
-s0172,Bitte geben Sie einen neuen Schlüssel in den Programmer.,
-s0173,Pre-Prozess Schlüssel zum Erfolg. Bitte geben Sie den Schlüssel in Zündschloss.,
-s0174,Pre-Prozess Schlüssel fehlgeschlagen! Bitte versuchen Sie es erneut.,
-s0175,Der Schlüssel Programmierer ist nicht 7936 Transponder.,
-s0176,Schritt 2: Legen Sie neue Schlüssel zum Programmierer. Key benötigen Pre-Prozess.,
-s0177,Schritt 3: Legen Sie einen neuen Schlüssel (Schritt 2 vorverarbeitet) in Zündschloss.,
-s0178,"Schritt 4: Drücken Sie WEITER, um fortzufahren",
-s0179,Pre-Prozess neuen Schlüssel,
-s0180,Nächste,
-s0181,"Es ist der Schlüssel auf dieser Position, die überschrieben werden!",
+Klicken Ordnung nach verbunden.","Please connect the CAS plug to the device and connect the CAS plug to the EWS, supply +12V to the CAS plug. 
+The connection method can be found in the manual. 
+Click OK after connecting.","Lütfen CAS fişini cihaza ve CAS fişini EWS'ye bağlayın, CAS fişine +12V verin. 
+Bağlantı yöntemi kullanım kılavuzunda bulunabilir. 
+Bağladıktan sonra OK'e tıklayın."
+s0167,"Legen Sie einen Schlüssel in das Zündschloss, brechen die Bremse zwei Mal, öffnen Sie die Autoscheinwerfer.","Insert a key into the ignition lock, press the brake twice, turn on the headlights.","Kontak kilidine bir anahtar takın, frene iki kez basın, araç farlarını açın."
+s0168,Bereiten Händler Schlüssel Programmierer,Prepare dealer key (programmer),Bayi anahtarını hazırla (programlayıcı)
+s0169,Bereiten Händler Schlüssel mit Zündschalter,Prepare dealer key with ignition switch,Bayi anahtarını kontak anahtarı ile hazırla
+s0170,Kann nicht die Sync-Code!,Cannot find the sync code!,Senkronizasyon kodu bulunamıyor!
+s0171,"Unerwartete EPROM Layout. Sie können fortfahren, aber es gibt keine Garantie, dass das Verfahren erfolgreich sein wird.","Unexpected EEPROM layout. You can continue, but there is no guarantee that the procedure will succeed.",Beklenmeyen EEPROM düzeni. Devam edebilirsiniz ama işlemin başarılı olacağının garantisi yok.
+s0172,Bitte geben Sie einen neuen Schlüssel in den Programmer.,Please insert a new key into the programmer.,Lütfen programlayıcıya yeni bir anahtar takın.
+s0173,Pre-Prozess Schlüssel zum Erfolg. Bitte geben Sie den Schlüssel in Zündschloss.,Pre-process key successful. Please insert the key into the ignition lock.,Anahtar ön işleme başarılı. Lütfen anahtarı kontak kilidine takın.
+s0174,Pre-Prozess Schlüssel fehlgeschlagen! Bitte versuchen Sie es erneut.,Pre-process key failed! Please try again.,Anahtar ön işleme başarısız! Lütfen tekrar deneyin.
+s0175,Der Schlüssel Programmierer ist nicht 7936 Transponder.,The key in the programmer is not a 7936 transponder.,Programlayıcıdaki anahtar 7936 transponder değil.
+s0176,Schritt 2: Legen Sie neue Schlüssel zum Programmierer. Key benötigen Pre-Prozess.,Step 2: Insert the new key into the programmer. The key needs pre-processing.,Adım 2: Yeni anahtarı programlayıcıya takın. Anahtar ön işleme gerektiriyor.
+s0177,Schritt 3: Legen Sie einen neuen Schlüssel (Schritt 2 vorverarbeitet) in Zündschloss.,Step 3: Insert a new key (pre-processed in step 2) into the ignition lock.,Adım 3: (Adım 2'de ön işlenen) yeni bir anahtarı kontak kilidine takın.
+s0178,"Schritt 4: Drücken Sie WEITER, um fortzufahren",Step 4: Press NEXT to continue,Adım 4: Devam etmek için İLERİ'ye basın
+s0179,Pre-Prozess neuen Schlüssel,Pre-process new key,Yeni anahtarı ön işle
+s0180,Nächste,Next,İleri
+s0181,"Es ist der Schlüssel auf dieser Position, die überschrieben werden!",It is the key at this position that will be overwritten!,Üzerine yazılacak olan bu konumdaki anahtardır!
 s0182,"Fernbedienungs-Setup:
 1.Remove der Schlüssel von der Zündung 
 2.Put der Schlüssel in der Zündung
-3.Press der Start/Stopp-Taste.",
-s0183,Update drücken info failed!,
+3.Press der Start/Stopp-Taste.","Remote setup:
+1. Remove the key from the ignition 
+2. Put the key in the ignition
+3. Press the Start/Stop button.","Uzaktan kumanda kurulumu:
+1. Anahtarı kontaktan çıkarın 
+2. Anahtarı kontağa takın
+3. Start/Stop düğmesine basın."
+s0183,Update drücken info failed!,Update press info failed!,Güncelleme bilgisi alma başarısız!
 s0184,"DME nicht reagiert. Drücken Sie die Taste, drücken Sie die Start/Stopp-Taste 
-Warnung:. Versuchen Sie nicht, den Motor zu starten.",
-s0185,"Der Versuch den Schlüssel Test, bitte warten ...... bitte nicht den Prozess beenden.",
-s0186,Der Schlüssel Programmierer ist 7936 Transponder.,
-s0187,Ändern KM Erfolg. Bitte Flash neue Datei in das Instrument EEPROM.,
+Warnung:. Versuchen Sie nicht, den Motor zu starten.","DME not responding. Press the button, press the Start/Stop button.
+Warning: Do not try to start the engine.","DME yanıt vermiyor. Düğmeye basın, Start/Stop düğmesine basın.
+Uyarı: Motoru çalıştırmaya çalışmayın."
+s0185,"Der Versuch den Schlüssel Test, bitte warten ...... bitte nicht den Prozess beenden.","Testing the key, please wait...... please do not end the process.","Anahtar test ediliyor, lütfen bekleyin...... lütfen işlemi sonlandırmayın."
+s0186,Der Schlüssel Programmierer ist 7936 Transponder.,The key in the programmer is a 7936 transponder.,Programlayıcıdaki anahtar 7936 transponder.
+s0187,Ändern KM Erfolg. Bitte Flash neue Datei in das Instrument EEPROM.,Mileage change successful. Please flash the new file into the instrument EEPROM.,KM değiştirme başarılı. Lütfen yeni dosyayı gösterge EEPROM'una flash edin.
 s0188,"Key schriftliche erfolgreich.
-GO Fahrzeug mit dem Schlüssel. Nicht brauchen write back EERPOM.",
-s0189,Kann nicht schreiben Schlüssel!,
-s0190,Der Schlüssel wird in anderen Auto verwendet oder gesperrt!,
-s0191,Ungültiger Schlüssel Inhalt! Wahrscheinlich Schlüssel ist nicht für BMW!,
-s0192,"Kann nicht finden CAS4 Antenne plugin, bitte schließen Sie es wieder!",
-s0193,Setzen Sie neue Antenne fehlgeschlagen!,
-s0194,Verbinden Sie Gerät ...,
-s0195,Daten konnten nicht mit CAS4 Antenne übertragen!,
+GO Fahrzeug mit dem Schlüssel. Nicht brauchen write back EERPOM.","Key written successfully.
+Start the vehicle with the key. No need to write back the EEPROM.","Anahtar başarıyla yazıldı.
+Aracı anahtarla çalıştırın. EEPROM'u geri yazmaya gerek yok."
+s0189,Kann nicht schreiben Schlüssel!,Cannot write the key!,Anahtar yazılamıyor!
+s0190,Der Schlüssel wird in anderen Auto verwendet oder gesperrt!,The key is used in another car or is locked!,Anahtar başka bir araçta kullanılıyor veya kilitli!
+s0191,Ungültiger Schlüssel Inhalt! Wahrscheinlich Schlüssel ist nicht für BMW!,Invalid key content! The key is probably not for BMW!,Geçersiz anahtar içeriği! Anahtar muhtemelen BMW için değil!
+s0192,"Kann nicht finden CAS4 Antenne plugin, bitte schließen Sie es wieder!","Cannot find the CAS4 antenna plugin, please reconnect it!","CAS4 anten eklentisi bulunamıyor, lütfen yeniden bağlayın!"
+s0193,Setzen Sie neue Antenne fehlgeschlagen!,Setting the new antenna failed!,Yeni anten ayarlama başarısız!
+s0194,Verbinden Sie Gerät ...,Connecting device ...,Cihaz bağlanıyor ...
+s0195,Daten konnten nicht mit CAS4 Antenne übertragen!,Data could not be transferred with the CAS4 antenna!,CAS4 anteni ile veri aktarılamadı!
 s0196,"Bereiten Händler Taste Notwendigkeit ca. 30 Sekunden, das Fenster vielleicht falschen Toten.
-Bitte für das Ende zu warten. Geben Sie den neuen Schlüssel zu Programmierer dann weiter.",
-s0197,Wählen Sie Schlüsseltyp im Schlüssel wählen Sie Fenster,
+Bitte für das Ende zu warten. Geben Sie den neuen Schlüssel zu Programmierer dann weiter.","Preparing the dealer key takes about 30 seconds; the window may appear frozen.
+Please wait for it to finish. Then insert the new key into the programmer and continue.","Bayi anahtarını hazırlamak yaklaşık 30 saniye sürer; pencere donmuş görünebilir.
+Lütfen bitmesini bekleyin. Sonra yeni anahtarı programlayıcıya takıp devam edin."
+s0197,Wählen Sie Schlüsseltyp im Schlüssel wählen Sie Fenster,Select the key type in the key select window,Anahtar seçme penceresinde anahtar tipini seçin
 s0198,"Verloren alle wichtigen Arbeiten, werden Sie 64 atemps haben.
-Fortfahren?",
-s0199,Starten Sie dem Nützlichen verbinden data ...,
-s0200,Kann nicht auf Dongle anschließen!,
-s0201,"Nicht finden können nützliche Daten zu kombinieren, überprüfen Sie bitte die EEPROM-Datei.",
-s0202,"Unknown CAS4 Version, senden Sie bitte EEPROM Dump zum Händler!",
-s0203,Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu Programmierer und weiter,
-s0204,Haben ECU-Dump-Datei. Weiter wird ECU-Dump-Datei laden,
-s0205,Der Eingang ist ISN Fehler. Bitte geben Sie korrekt ISN!,
-s0206,"ISN-Formatfehler, geben Sie bitte 16 Byte hexadezimale Daten!",
-s0207,"Kann nicht finden, ISN-Dump von ECU. Bestätigen Last die richtige dump!",
+Fortfahren?","If all working keys are lost, you will have 64 attempts.
+Continue?","Tüm çalışan anahtarlar kaybolduysa 64 denemeniz olacak.
+Devam edilsin mi?"
+s0199,Starten Sie dem Nützlichen verbinden data ...,Starting to connect the useful data ...,Faydalı verinin bağlanmasına başlanıyor ...
+s0200,Kann nicht auf Dongle anschließen!,Cannot connect to the dongle!,Dongle'a bağlanılamıyor!
+s0201,"Nicht finden können nützliche Daten zu kombinieren, überprüfen Sie bitte die EEPROM-Datei.","Cannot find useful data to combine, please check the EEPROM file.","Birleştirilecek faydalı veri bulunamıyor, lütfen EEPROM dosyasını kontrol edin."
+s0202,"Unknown CAS4 Version, senden Sie bitte EEPROM Dump zum Händler!","Unknown CAS4 version, please send the EEPROM dump to the dealer!","Bilinmeyen CAS4 sürümü, lütfen EEPROM dump'ı bayiye gönderin!"
+s0203,Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu Programmierer und weiter,"If you have a working key, insert the working key into the programmer and continue",Çalışan bir anahtarınız varsa çalışan anahtarı programlayıcıya takıp devam edin
+s0204,Haben ECU-Dump-Datei. Weiter wird ECU-Dump-Datei laden,"If you have an ECU dump file, continue to load the ECU dump file",ECU dump dosyanız varsa ECU dump dosyasını yüklemeye devam edin
+s0205,Der Eingang ist ISN Fehler. Bitte geben Sie korrekt ISN!,The input ISN is wrong. Please enter the correct ISN!,Girilen ISN yanlış. Lütfen doğru ISN'i girin!
+s0206,"ISN-Formatfehler, geben Sie bitte 16 Byte hexadezimale Daten!","ISN format error, please enter 16 bytes of hexadecimal data!","ISN format hatası, lütfen 16 bayt onaltılık veri girin!"
+s0207,"Kann nicht finden, ISN-Dump von ECU. Bestätigen Last die richtige dump!",Cannot find the ISN dump from the ECU. Confirm you loaded the correct dump!,ECU'dan ISN dump bulunamıyor. Doğru dump'ı yüklediğinizi onaylayın!
 s0208,"Warnung: CAS4 + verschlüsseln erkannt Weiter Händlerschlüssel vorbereiten können nur Fern kann der Motor nicht gestartet
-Soll ..?",
-s0209,Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu CAS4 Programmierer und weiter,
+Soll ..?","Warning: CAS4+ encryption detected. Continuing to prepare the dealer key, only the remote will work; the engine cannot be started.
+Proceed?","Uyarı: CAS4+ şifreleme algılandı. Bayi anahtarını hazırlamaya devam edilirse yalnızca kumanda çalışır; motor çalıştırılamaz.
+Devam edilsin mi?"
+s0209,Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu CAS4 Programmierer und weiter,"If you have a working key, insert the working key into the CAS4 programmer and continue",Çalışan bir anahtarınız varsa çalışan anahtarı CAS4 programlayıcısına takıp devam edin
 s0210,"Erkennen verschlüsseln CAS-Version. Aber CAS ISN Wert verloren. Weiter vorbereiten Schlüssel kann nicht Motor zu starten. 
- Weiter?",
-s0211,"Kann nicht finden ISN von der Arbeit drücken. Stellen Sie sicher, Arbeitsschlüssel Gleiches mit CAS-Dump-Datei!",
+ Weiter?","Encrypted CAS version detected, but the CAS ISN value is lost. Continuing to prepare the key, it cannot start the engine. 
+Continue?","Şifreli CAS sürümü algılandı ama CAS ISN değeri kayıp. Anahtarı hazırlamaya devam edilirse motoru çalıştıramaz. 
+Devam edilsin mi?"
+s0211,"Kann nicht finden ISN von der Arbeit drücken. Stellen Sie sicher, Arbeitsschlüssel Gleiches mit CAS-Dump-Datei!",Cannot find the ISN from the working key. Make sure the working key matches the CAS dump file!,Çalışan anahtardan ISN bulunamıyor. Çalışan anahtarın CAS dump dosyasıyla aynı olduğundan emin olun!
 s0212,"Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie ""JA"", sonst ""NO"". 
 Wenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel Und legen Sie die Programmierer vor Presse ""NO"". 
-Ist der Motor jetzt starten?",
+Ist der Motor jetzt starten?","Please use the current key to start the engine; if it starts press ""YES"", otherwise ""NO"". 
+If the engine cannot be started, please remove the key and insert it into the programmer before pressing ""NO"". 
+Is the engine starting now?","Motoru çalıştırmak için mevcut anahtarı kullanın; çalışırsa ""EVET"", aksi halde ""HAYIR"". 
+Motor çalışmazsa, ""HAYIR""a basmadan önce anahtarı çıkarıp programlayıcıya takın. 
+Motor şimdi çalışıyor mu?"
 s0213,"Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.
 Wenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.
 Wenn das Auto die Zündung einzuschalten SELBST kann es nicht Motor zu starten. Schreiben Sie nicht zurück zur neuen Deponie CAS
-Geben Sie versuchen Verfahren zu starten klicken Sie auf Ja, schreiben Sie eeprom Dump klicken NO",
-s0214,"Verwenden Sie versuchen zu starten Methode, um Motor zu starten, arbeiten keine Notwendigkeit Taste oder Motor-Dump-Datei",
+Geben Sie versuchen Verfahren zu starten klicken Sie auf Ja, schreiben Sie eeprom Dump klicken NO","Write the new CAS dump and use the new key to start.
+If the CAS belongs to version ISTAP4*, do not write back to the new CAS dump.
+If the car can turn on the ignition itself but cannot start the engine, do not write back to the new CAS dump.
+To try the start procedure click Yes; to write the EEPROM dump click No","Yeni CAS dump'ı yazın ve çalıştırmak için yeni anahtarı kullanın.
+CAS, ISTAP4* sürümüne aitse yeni CAS dump'a geri yazmayın.
+Araç kontağı kendisi açabiliyor ama motoru çalıştıramıyorsa yeni CAS dump'a geri yazmayın.
+Çalıştırma yöntemini denemek için Evet'e tıklayın; EEPROM dump'ı yazmak için Hayır'a tıklayın"
+s0214,"Verwenden Sie versuchen zu starten Methode, um Motor zu starten, arbeiten keine Notwendigkeit Taste oder Motor-Dump-Datei",Use the try-to-start method to start the engine; it needs no working key or motor dump file,Motoru çalıştırmak için dene-ve-çalıştır yöntemini kullanın; çalışan anahtar veya motor dump dosyası gerekmez
 s0215,"Kann Transponder nicht erkennt, geben Sie bitte die Taste zu Programmierer.
 
-Möchten Sie erkennen agian wollen?",
-s0216,"CAS4 verschlüsseln Version festgestellt. Diese Funktion braucht ""Condor Automatic Key Cutting Machine"" genehmigen und neueste Firmware zu aktualisieren.",
-s0217,Fehler: BMW Multi Tool gerät bereits gebundenen!,
-s0218,Erfolg. Bitte aktualisieren Sie Ihre Geräte-Firmware auf die neueste Funktion Unterstützung zu bekommen.,
-s0219,Fehler: Fehler beim binden! Unbekannter Fehler  %.1X !,
-s0220,"Schließen Sie auf  ""Condor Automatic Key Cutting Machine""...",
+Möchten Sie erkennen agian wollen?","Cannot detect the transponder, please insert the key into the programmer.
+
+Do you want to detect again?","Transponder algılanamıyor, lütfen anahtarı programlayıcıya takın.
+
+Tekrar algılamak ister misiniz?"
+s0216,"CAS4 verschlüsseln Version festgestellt. Diese Funktion braucht ""Condor Automatic Key Cutting Machine"" genehmigen und neueste Firmware zu aktualisieren.","CAS4 encrypted version detected. This function needs the ""Condor Automatic Key Cutting Machine"" to approve and the latest firmware to update.","CAS4 şifreli sürümü algılandı. Bu işlev onay için ""Condor Automatic Key Cutting Machine"" ve güncelleme için en güncel firmware gerektirir."
+s0217,Fehler: BMW Multi Tool gerät bereits gebundenen!,Error: BMW Multi Tool device already bound!,Hata: BMW Multi Tool cihazı zaten bağlı!
+s0218,Erfolg. Bitte aktualisieren Sie Ihre Geräte-Firmware auf die neueste Funktion Unterstützung zu bekommen.,Success. Please update your device firmware to the latest to get function support.,Başarılı. İşlev desteği almak için lütfen cihaz firmware'inizi en güncele güncelleyin.
+s0219,Fehler: Fehler beim binden! Unbekannter Fehler  %.1X !,Error: Binding failed! Unknown error %.1X !,Hata: Bağlama başarısız! Bilinmeyen hata %.1X !
+s0220,"Schließen Sie auf  ""Condor Automatic Key Cutting Machine""...","Connecting to ""Condor Automatic Key Cutting Machine""...","""Condor Automatic Key Cutting Machine""a bağlanılıyor..."
 s0221,"ISN lesen vielleicht von Arbeitsschlüssel Fehler! Sie müssen ISN Schlüssel von der Arbeit zu lesen.
 
-Möchten Sie fortfahren?",
-s0222,Wähle Protokoll BMW F-Serie,
+Möchten Sie fortfahren?","Reading the ISN from the working key may have failed! You need to read the ISN key from the working key.
+
+Do you want to continue?","Çalışan anahtardan ISN okuma başarısız olmuş olabilir! ISN anahtarını çalışan anahtardan okumalısınız.
+
+Devam etmek istiyor musunuz?"
+s0222,Wähle Protokoll BMW F-Serie,Select protocol BMW F-series,Protokol seç BMW F serisi
 s0223,"Bitte legen Sie eine Arbeitsschlüssel in der Nähe von Auto Zündspule. 
 
-Fortfahren?",
-s0224,Können den Vorgang nicht ausführen mit aktuellen Schlüsselposition. Bitte wählen Sie andere Schlüsselposition!,
+Fortfahren?","Please place a working key near the car's ignition coil. 
+
+Continue?","Lütfen çalışan bir anahtarı aracın kontak bobininin yakınına koyun. 
+
+Devam edilsin mi?"
+s0224,Können den Vorgang nicht ausführen mit aktuellen Schlüsselposition. Bitte wählen Sie andere Schlüsselposition!,Cannot perform the operation with the current key position. Please select another key position!,İşlem mevcut anahtar konumuyla gerçekleştirilemiyor. Lütfen başka bir anahtar konumu seçin!
 s0225,"Warnung:
 1. Ein Auto können 2 keys höchstens 
 2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel
 3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste
 4. Keyless Schlüssel kann nicht nach erfolgreich zu entsperren machen
 
-Fortfahren?",
+Fortfahren?","Warning:
+1. A car can have 2 keys at most 
+2. You should deactivate or delete the lost Keyless key before adding a new Keyless key
+3. Make sure there is no Keyless key or only one Keyless key in the CAS system before adding a new Keyless key
+4. A Keyless key cannot be unlocked after success
+
+Continue?","Uyarı:
+1. Bir araçta en fazla 2 anahtar olabilir 
+2. Yeni Keyless anahtar eklemeden önce kayıp Keyless anahtarı devre dışı bırakmalı veya silmelisiniz
+3. Yeni Keyless anahtar eklemeden önce CAS sisteminde hiç Keyless anahtar olmadığından veya yalnızca bir tane olduğundan emin olun
+4. Keyless anahtarın kilidi başarıdan sonra açılamaz
+
+Devam edilsin mi?"
 s0226,"Warnung:
 1. Ein Auto können 2 keys höchstens 
 2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel
 3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste
 
-Fortfahren?",
+Fortfahren?","Warning:
+1. A car can have 2 keys at most 
+2. You should deactivate or delete the lost Keyless key before adding a new Keyless key
+3. Make sure there is no Keyless key or only one Keyless key in the CAS system before adding a new Keyless key
+
+Continue?","Uyarı:
+1. Bir araçta en fazla 2 anahtar olabilir 
+2. Yeni Keyless anahtar eklemeden önce kayıp Keyless anahtarı devre dışı bırakmalı veya silmelisiniz
+3. Yeni Keyless anahtar eklemeden önce CAS sisteminde hiç Keyless anahtar olmadığından veya yalnızca bir tane olduğundan emin olun
+
+Devam edilsin mi?"
 s0227,"Einige Tasten sind gesperrt. Es wird empfohlen, um Änderungen in den immo.Make Änderungen vornehmen?
 
-Nach Änderungen vornehmen, müssen Sie schreiben neue Datei EWS und legen Sie es erneut",
-s0228,"Kann nicht automatisch erkennen CAS Typ, wählen Sie bitte geben Sie manuell!",
-s0229,Diese Software benötigen höhere Firmware-Unterstützung. Bitte aktualisieren Sie Ihr Gerät auf neueste Firmware.,
-s0230,Legen Sie Schlüssel zur Zündung und einschalten.,
+Nach Änderungen vornehmen, müssen Sie schreiben neue Datei EWS und legen Sie es erneut","Some keys are locked. It is recommended to make changes in the immo. Make changes?
+
+After making changes, you must write the new EWS file and insert it again","Bazı anahtarlar kilitli. İmmobilizerde değişiklik yapmanız önerilir. Değişiklik yapılsın mı?
+
+Değişiklik yaptıktan sonra yeni EWS dosyasını yazıp tekrar takmalısınız"
+s0228,"Kann nicht automatisch erkennen CAS Typ, wählen Sie bitte geben Sie manuell!","Cannot automatically detect the CAS type, please enter it manually!","CAS tipi otomatik algılanamıyor, lütfen elle girin!"
+s0229,Diese Software benötigen höhere Firmware-Unterstützung. Bitte aktualisieren Sie Ihr Gerät auf neueste Firmware.,This software requires higher firmware support. Please update your device to the latest firmware.,Bu yazılım daha yüksek firmware desteği gerektirir. Lütfen cihazınızı en güncel firmware'e güncelleyin.
+s0230,Legen Sie Schlüssel zur Zündung und einschalten.,Insert the key into the ignition and turn it on.,Anahtarı kontağa takıp açın.
 s0231,"Warnung: Dieser Schlüssel ist alte Art, remote und Keyless nicht mit CAS4 verschlüsseln Version
 
 Vorschlagen ändern andere neue Art Schlüssel
 
-Trotzdem fortfahren?",
-s0232,"Das Gerät Batterie niedriger ist, wenden Sie sich bitte an Ihren Fachhändler für Batterie ersetzen.",
-s0233,"Verbinden mit Gerät, bitte warten ...",
-s0234,"Achtung: %s Freigabe der neuesten Version: %s, Bitte aktualisieren Sie Ihre Software mit BMW TOOL-Update-Tool.",
+Trotzdem fortfahren?","Warning: This key is an old type; remote and Keyless do not work with the CAS4 encrypted version.
+
+Suggest changing to another new type of key.
+
+Continue anyway?","Uyarı: Bu anahtar eski tip; kumanda ve Keyless, CAS4 şifreli sürümle çalışmaz.
+
+Başka yeni tip bir anahtara geçmeniz önerilir.
+
+Yine de devam edilsin mi?"
+s0232,"Das Gerät Batterie niedriger ist, wenden Sie sich bitte an Ihren Fachhändler für Batterie ersetzen.","The device battery is low, please contact your dealer to replace the battery.","Cihaz pili düşük, pili değiştirmek için lütfen bayinizle iletişime geçin."
+s0233,"Verbinden mit Gerät, bitte warten ...","Connecting to the device, please wait ...","Cihaza bağlanılıyor, lütfen bekleyin ..."
+s0234,"Achtung: %s Freigabe der neuesten Version: %s, Bitte aktualisieren Sie Ihre Software mit BMW TOOL-Update-Tool.",Note: %s released the latest version: %s. Please update your software with the BMW TOOL update tool.,Not: %s en güncel sürümü yayınladı: %s. Lütfen yazılımınızı BMW TOOL güncelleme aracı ile güncelleyin.
 s0235,"Schreibe neue EEPROM CAS Ihren Betrieb anzuwenden
 
-Verwenden Sie die neuen EEPROM-Dump neuen Schlüssel machen",
+Verwenden Sie die neuen EEPROM-Dump neuen Schlüssel machen","Write the new EEPROM CAS to apply your operation
+
+Use the new EEPROM dump to make a new key","İşleminizi uygulamak için yeni EEPROM CAS'i yazın
+
+Yeni anahtar oluşturmak için yeni EEPROM dump'ı kullanın"
 s0236,"Haben Sie bereits neue Schlüssel an der Taste %.1d zu machen?
 
-Wenn schon neue Schlüssel gemacht (gespeichert bereits neue EEPROM-Dump) drücken Sie YES, sonst NEIN",
-s0237,"Aktuelle CAS kann nicht Firmware über OBD aktualisieren! Wenn Sie Firmware aktualisieren möchten, verbinden CAS CAS PLUG!",
-s0238,Verlorene Datenbank! Bitte installieren Sie Software-Datenbank zu reparieren!,
-s0239,"Zielgerät nicht reagiert, oder Antwortfehler Befehl!",
-s0240,Schreiben verschlüsselung,
-s0241,Wählen Karosserie,
-s0242,Wählen Sie die Einheit,
-s0243,Konnte nicht Gerät Codierung Index finden,
-s0244,Konnte nicht Gerätenamen finden,
-s0245,"Gerätedatenbankfehler: %s.C%.2X. Bitte stellen Sie sicher, richtige Karosserie wählen!",
+Wenn schon neue Schlüssel gemacht (gespeichert bereits neue EEPROM-Dump) drücken Sie YES, sonst NEIN","Have you already made a new key for key %.1d?
+
+If a new key has already been made (new EEPROM dump already saved) press YES, otherwise NO","%.1d anahtarı için zaten yeni anahtar oluşturdunuz mu?
+
+Yeni anahtar zaten yapıldıysa (yeni EEPROM dump zaten kaydedildiyse) EVET, aksi halde HAYIR"
+s0237,"Aktuelle CAS kann nicht Firmware über OBD aktualisieren! Wenn Sie Firmware aktualisieren möchten, verbinden CAS CAS PLUG!","The current CAS cannot update firmware via OBD! If you want to update the firmware, connect the CAS with the CAS plug!",Mevcut CAS firmware'i OBD üzerinden güncelleyemez! Firmware'i güncellemek isterseniz CAS'i CAS fişi ile bağlayın!
+s0238,Verlorene Datenbank! Bitte installieren Sie Software-Datenbank zu reparieren!,Database lost! Please install the software database to repair it!,Veritabanı kayıp! Onarmak için lütfen yazılım veritabanını kurun!
+s0239,"Zielgerät nicht reagiert, oder Antwortfehler Befehl!","Target device not responding, or response error command!",Hedef cihaz yanıt vermiyor veya yanıt hatası komutu!
+s0240,Schreiben verschlüsselung,Write encryption,Şifreleme yaz
+s0241,Wählen Karosserie,Select body,Karoser seç
+s0242,Wählen Sie die Einheit,Select the unit,Birimi seçin
+s0243,Konnte nicht Gerät Codierung Index finden,Could not find the device coding index,Cihaz kodlama indeksi bulunamadı
+s0244,Konnte nicht Gerätenamen finden,Could not find the device name,Cihaz adı bulunamadı
+s0245,"Gerätedatenbankfehler: %s.C%.2X. Bitte stellen Sie sicher, richtige Karosserie wählen!",Device database error: %s.C%.2X. Please make sure to select the correct body!,Cihaz veritabanı hatası: %s.C%.2X. Lütfen doğru karoseri seçtiğinizden emin olun!
 s0246,"Achtung: Diese Codierung Datei kommen aus %.2X Einheit. Aktuelle Auswahleinheit ist %.2X.
 
-Wollen Sie ändern Dateieinheit zu Codierung?",
-s0247,Bitte laden EEPROM-Dump-Datei zuerst!,
-s0248,Laden EEPROM-Dump-Datei,
-s0249,Schlüssel %.1d,
-s0250,Sehen Sie alle Schlüssel die dünne,
-s0251,Schlüssel Informationen,
-s0252,Schlüssel %.2d,
-s0253,Fehler: Keine neuesten Update-Informationen zu finden!,
-s0254,Aktuelle CAS unterstützt nicht über OBD lesen! Bitte verwenden Sie Schlüssel via Dump!,
-s0255,Achtung: Vor der Synchronisation müssen Sie Ihr Gerät auf die neueste Firmware aktualisieren !!!,
-s0256,Bitte zuerst EEPROM-Datei lesen und dann File Make Key für diesen Typ ausführen!,
-s0257,"Fehler beim Lesen der Geräteinformationen, bitte versuchen Sie es erneut!",
+Wollen Sie ändern Dateieinheit zu Codierung?","Note: This coding file comes from unit %.2X. The current selected unit is %.2X.
+
+Do you want to change the file unit for coding?","Not: Bu kodlama dosyası %.2X biriminden geliyor. Mevcut seçili birim %.2X.
+
+Kodlama için dosya birimini değiştirmek istiyor musunuz?"
+s0247,Bitte laden EEPROM-Dump-Datei zuerst!,Please load the EEPROM dump file first!,Lütfen önce EEPROM dump dosyasını yükleyin!
+s0248,Laden EEPROM-Dump-Datei,Load EEPROM dump file,EEPROM dump dosyasını yükle
+s0249,Schlüssel %.1d,Key %.1d,Anahtar %.1d
+s0250,Sehen Sie alle Schlüssel die dünne,View all keys that are thin,İnce olan tüm anahtarları görüntüle
+s0251,Schlüssel Informationen,Key information,Anahtar bilgisi
+s0252,Schlüssel %.2d,Key %.2d,Anahtar %.2d
+s0253,Fehler: Keine neuesten Update-Informationen zu finden!,Error: No latest update information found!,Hata: En güncel güncelleme bilgisi bulunamadı!
+s0254,Aktuelle CAS unterstützt nicht über OBD lesen! Bitte verwenden Sie Schlüssel via Dump!,The current CAS does not support reading via OBD! Please use Key via Dump!,Mevcut CAS OBD üzerinden okumayı desteklemiyor! Lütfen Dump ile Anahtar'ı kullanın!
+s0255,Achtung: Vor der Synchronisation müssen Sie Ihr Gerät auf die neueste Firmware aktualisieren !!!,Note: Before synchronization you must update your device to the latest firmware!!!,Not: Senkronizasyondan önce cihazınızı en güncel firmware'e güncellemelisiniz!!!
+s0256,Bitte zuerst EEPROM-Datei lesen und dann File Make Key für diesen Typ ausführen!,"Please read the EEPROM file first, then run File Make Key for this type!","Lütfen önce EEPROM dosyasını okuyun, sonra bu tip için Dosyadan Anahtar Oluştur'u çalıştırın!"
+s0257,"Fehler beim Lesen der Geräteinformationen, bitte versuchen Sie es erneut!","Error reading the device information, please try again!","Cihaz bilgisi okunurken hata, lütfen tekrar deneyin!"

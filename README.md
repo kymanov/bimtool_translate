@@ -43,22 +43,23 @@ function words) while excluding Hungarian/Polish/Spanish/Italian/Danish
 
 ## Files
 
-- `i18n/translations.de.json` — **257** German UI strings, schema below.
-- `i18n/translations.de.csv` — same, as `id,de,target` (UTF-8 BOM, Excel-friendly).
-- `scripts/extract_strings.py` — re-extracts from `BMW_Language.dll`.
+- `i18n/translations.de.json` — **257** German UI strings **with English (`en`) and Turkish (`tr`) translations**, schema below.
+- `i18n/translations.de.csv` — same, as `id,de,en,tr` (UTF-8 BOM, Excel-friendly).
+- `scripts/extract_strings.py` — re-extracts German from `BMW_Language.dll`.
 
 ## Translation file schema
 
 ```json
 {
-  "meta": { "source": "BMW_Language.dll", "source_lang": "de", "target_lang": "", "count": 257 },
+  "meta": { "source": "BMW_Language.dll", "source_lang": "de", "target_lang": "en,tr", "count": 257 },
   "strings": [
-    { "id": "s0001", "de": "Schlüssel via Dump", "target": "", "context": "" }
+    { "id": "s0001", "de": "Schlüssel via Dump", "en": "Key via Dump", "tr": "Dump ile anahtar", "context": "" }
   ]
 }
 ```
 
-A translating model fills each `target`; `de` stays as the reference key.
+`de` is the reference key; `en`/`tr` hold the translations. Placeholders
+(`\n`, `\r\n`, `""..""`, `%s`/`%d`/`%.1X`, `<a>`) are preserved verbatim.
 
 ## Usage
 
