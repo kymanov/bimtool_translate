@@ -1,0 +1,344 @@
+﻿id,de,target
+s0001,Schlüssel via Dump,
+s0002,VIN ändern,
+s0003,Händlerschlüssel erstellen,
+s0004,Schlüssel hinzufügen,
+s0005,"Haben Sie das Eeprom gesichert? 
+Weiter wenn gesichert, ansonsten erst eine Sicherung erstellen!",
+s0006,Dieser Typ wird in einer spätere Version unterstützt!,
+s0007,KM erfolgreich gelesen.,
+s0008,KM konnten nicht gelesen werden!,
+s0009,Init-Daten Fehler!,
+s0010,EWS-Daten gelesen.,
+s0011,EWS-Daten konnten nicht gelesen werden!,
+s0012,Suche Programmiergerät......,
+s0013,Programmiergerät gefunden.,
+s0014,Programmiergerät nicht gefunden!,
+s0015,Chip kann nicht gelesen/geschrieben werden. Bitte prüfen!,
+s0016,"Erstelle Schlüssel, bitte warten......",
+s0017,"Schlüssel erstellt & gesperrt. Benutzen Sie ihn zum starten des Fahrzeugs.
+Falls der Motor nicht startet nutzen Sie die""""Schlüssel hinzufügen"""" Funktion, um den Schlüssel zum CAS hinzuzufügen.
+Falls der Motor startet, aber die Keyless-Funktion nicht geht, nutzen Sie die """"Repariere Keyless-Schlüssel"""" Funktion.",
+s0018,Schlüssel erfolgreich hinzugefügt,
+s0019,Schlüssel hinzufügen fehlgeschlagen!,
+s0020,Modul wird nicht unterstützt,
+s0021,Daten gelesen.,
+s0022,Daten konnten nicht gelesen werden!,
+s0023,"Schreibe Daten, bitte warten......",
+s0024,Daten geschrieben.,
+s0025,Daten konnten nicht geschrieben werden!,
+s0026,Datei gespeichert.,
+s0027,Datei konnten nicht gespeichert werden!,
+s0028,Datei geladen.,
+s0029,Datei konnten nicht geladen werden!,
+s0030,Verschlüsseltes CAS gefunden! Bitte erstellen Sie den Schlüssel via OBD!,
+s0031,"CAS Eeprom Daten beschädigt. Der erstellte Schlüssel kann nicht zum Starten verwendet werden.
+Wollen Sie fortfahren?",
+s0032,EEPROM dump - Händlerschlüssel erstellen,
+s0033,Falsche Dateigröße!,
+s0034,Der Schlüssel ist dem Fahrzeug bereits zugeordnet!,
+s0035,Schlüssel-Typ,
+s0036,"Bitte laden Sie den EEPROM dump. """"OK"""" drücken zum fortfahren.",
+s0037,"Bitte speichern Sie den neuen EEPROM dump. """"OK"""" drücken zum fortfahren.",
+s0038,Vollständig.,
+s0039,"Händlerschlüssel erstellt. Bitte nutzen Sie den neuen Schüssel zum starten. 
+Spielen Sie den neuen EEprom-Dump in das CAS, falls nicht erfolgreich",
+s0040,Händlerschlüssels erfolgreich erstellt.,
+s0041,"Entfernen Sie den Händlerschlüssel aus dem Zündschloss
+Bei Keyless aus dem Fahrzeug entfernen
+Wenn es keinen Schlüssel in der Zündung, weiter sowieso
+
+ """"OK"""" drücken zum fortfahren.",
+s0042,Händlerschlüssel kann auf dieser Position nicht erstellt werden! Andere Position auswählen und nochmal probieren,
+s0043,"Rufe Geräte-Info ab, bitte warten...",
+s0044,Geräte-Info abrufen fehlgeschlagen!,
+s0045,Geräte SN     :,
+s0046,Geräte Version:,
+s0047,Geräte-Info erfolgreich abgerufen,
+s0048,"Rufe Informationen vom Gerät ab, bitte warten...",
+s0049,Geräteupdate erfolgreich. Bitte verbinden Sie die HW neu.,
+s0050,Geräteupdate fehlgeschlagen!,
+s0051,Wählen Sie Method,
+s0052,Schlüssel hinzufügen: Sie sollten einen funktionierenden Schlüssel in das Zünd einzufügen und Gerät mit dem Auto bisher.,
+s0053,Händlerschlüssel kann nicht erstellt werden. Wenden Sie sich an den Support!,
+s0054,Protokoll wird nicht unterstützt. CAS direkt via OBD verbinden und nochmal probieren.,
+s0055,"Kann das Fahrzeug gestartet werden? Nutzen Sie diese Option nicht, falls Sie alle Schlüssel verloren haben.
+Nutzen Sie die Funktion nicht, wenn es startet.
+Ja für weiter. Nein für Abbruch.",
+s0056,"Hat der neue Schlüssel Keyless. Falls ja Ja, ansonsten Nein.",
+s0057,Schlüssel entsperren,
+s0058,Entsperren mit Schlüssel-EEprom,
+s0059,Schlüssel-Position,
+s0060,KM ändern,
+s0061,Wollen Sie das Program beenden?,
+s0062,Schlüssel lernen,
+s0063,BMW Protokoll kann nicht initialisiert werden!,
+s0064,Wähle auto detect BMW Protokoll,
+s0065,"Wähle Protokoll OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89",
+s0066,Wähle Protokoll KWP-CAN bus 100,
+s0067,Wähle Protokoll KWP-CAN bus 500,
+s0068,"Wähle Protokoll OBDII DS2-E3x, E5x, E83, E85, E86",
+s0069,"Verarbeite Daten, wollen Sie wirklich abbrechen?",
+s0070,Leses Schlüssel-Info,
+s0071,Schlüsselposition für die Aufgabe auswählen.,
+s0072,"Erst Schlüssel-Info abrufen, Dann Händlerschlüssel erstellen.",
+s0073,Schlüssel-Info speichern,
+s0074,Schlüssel-Info laden,
+s0075,Schreibe Schlüssel-Info,
+s0076,"Benutzen Sie """"Schlüssel-Info speichern"""" um die original Daten zu speichern.",
+s0077,"Aktuelles Modul unterstützt diese Datei nicht, Bitte prüfen!",
+s0078,"Benutzen Sie """"Schlüssel-Info laden"""" um die Schlüssel-Infos zu laden.",
+s0079,Bitte starten Sie die SW neu zur Übernahme der Änderungen.,
+s0080,Fehler bei Ändern der Sprache! Führen Software mit Administrator!,
+s0081,"Warnung: Firmware für diese CAS-Version aktualisieren, kann CAS-Stop-Arbeit verursachen!
+
+Abbrechen Update Firmware drücken ""JA""
+Fortsetzen Update Firmware drücken ""NEIN""",
+s0082,Die aktuellsten Updates und Informationen finden Sie hier : <a>web site</a>.,
+s0083,Geräte-Info und Dongle Update,
+s0084,Fehler beim abrufen der Versionsliste,
+s0085,Dongle-Version kann nicht abgerufen werden!,
+s0086,Geräte-Info,
+s0087,Lese Schlüssel-Infos......,
+s0088,Geräte Update,
+s0089,EGS Codelänge Fehler!,
+s0090,DME Codelänge Fehler!,
+s0091,CAS und DME werden abgeglichen. Fortfahren?,
+s0092,Synchronisation nicht möglich!,
+s0093,Synchronisation vollständig.,
+s0094,"Neuer Schlüssel in das CAS geschrieben.
+Sie können den Motor jetzt damit starten. Nutzen Sie den original Schlüssel zuerst, wenn es nicht funktioniert.",
+s0095,Gerätetakt nagative Antwort!,
+s0096,"CAS-Daten sind verschlüssel, Händlerschlüssel erstellen. Kontaktieren Sie den Support, falls es fehlschlägt!",
+s0097,Neuen Schlüssel in das Programmiergerät legen.,
+s0098,Füge Schlüssel hinzu......,
+s0099,"Der eingelegte Schlüssel ist kein Händlerschlüssel, oder kein Zugriff auf den Schlüssel. Bitte prüfen!",
+s0100,Aktuelles EEProm ist nicht komplett. Bitte auslese und speicher und dann fortfahren.,
+s0101,"Schlüssel """"%d"""" wird deaktiviert.Fortfahren?",
+s0102,"Schlüssel """"%d"""" wird aktiviert. Fortfahren?",
+s0103,Schlüssel deaktiviert.,
+s0104,Schlüssel nicht deaktiviert!,
+s0105,Schlüssel aktiviert.,
+s0106,Schlüssel nicht aktiviert!,
+s0107,Schlüssel deaktivieren,
+s0108,Schlüssel aktivieren,
+s0109,Fehlercodes nicht gelöscht!,
+s0110,Shadow-Speicher nicht gelöscht!,
+s0111,Aktueller Schlüssel im Schloß:,
+s0112,Kein Schlüssel,
+s0113,Schlüssel %d,
+s0114,"Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie ""JA"", sonst ""NO"". 
+Wenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel vor Presse ""NO"". 
+Ist der Motor jetzt starten?",
+s0115,"1.Kombiinstrument ausbauen, KM manuell ändern.
+2.Die Funktion ausführen zum KM-Stand im CAS ändern. 
+3.Kombiinstrument einbauen.
+Fortfahren?",
+s0116,"Verloren alle wichtigen Arbeiten, werden Sie 16 atemps haben.
+Es ist vielleicht brauchen die CAS EEPROM support, solltest du besser eine Sicherungskopie der eeprom mit anderen bdm Programmierer.
+Fortfahren?",
+s0117,"Verschlüsseltes CAS, benötige funktionierenden Schlüssel zum Händlerschlüssel erstellen.
+Fortfahren? Falls Sie fortfahren funktionierenden Schlüssel einlegen.",
+s0118,Der eingelegte Schlüssel gehört nicht zu diesem CAS!,
+s0119,Gerät nicht gefunden. Verbindung prüfen,
+s0120,"Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.
+Wenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.",
+s0121,CAS-EEprom Dump beschädigt. Trotzdem probieren?,
+s0122,Schlüssel entsperrt,
+s0123,Schlüssel kann nicht entsperrt werden. Datei prüfen,
+s0124,Gesperrten Schlüssel einlegen,
+s0125,"Schlüssel wird entsperrt, bitte warten......",
+s0126,CAS Syn Code nicht gefunden. Abbruch!,
+s0127,Datei KM ändern,
+s0128,EEPROM KM ändern,
+s0129,"KM ind Immo erfolgreich geändert, neue Datei in das Steuergerät schreiben. 
+KM-Stand im Tacho manuell vor einbau ändern",
+s0130,KM-Stand geändert. Neue Datei in den M35080 schreiben.,
+s0131,"CAS mit CAS-Stecker verbinden und dann nochmal probieren.
+Zum Schlüssel anlernen ""Schlüssel anlernen"" verwenden. CAS-Stecker wird dann nicht benötigt",
+s0132,"CAS SW Update nicht nötig,Fortfahren?",
+s0133,Authentifikation nicht erfolgreich!,
+s0134,Warte auf Steuergerät...,
+s0135,Prüfe Signatur...nicht OK!,
+s0136,Schlüssel einlegen und dann entfernen. Der Schlüssel wird erst nach Abschluss der Prozedur funktionieren,
+s0137,"Upload ist völlig Erfolg. 
+Wenn gearbeitet haben Schlüssel, um die Zündung einsetzen und versuchen, wenn es zu finden. 
+Und zurück und versuchen Sie es erneut diese Funktion funktioniert.",
+s0138,Fehler beim Flash löschen!,
+s0139,Aktuelle CAS-Version wird nicht über OBD unterstützt. Nutzen Sie ein BDM Programmiergerät.,
+s0140,"CAS EEProm benötigt. Vorher im Hauptfenster über CAS EEprom lesen. 
+Alternativ mit BDM Programmiergerät. 
+Fortfahren?",
+s0141,"Aktuelles CAS unterstütz die Funktion nicht, Zum Schlüssel anlernen """"Schlüssel lernen"""" Funktion nutzen.",
+s0142,"Diese Software benötigt Firmware 1.0.6 oder höher. Einige Funktionen sind sonst eingeschränkt d.
+Zum Update :  """"Hilfe->Geräte-Update"""" zum Updaten
+Nächstes mal erinnern?",
+s0143,"Achtung: Zum Schlüssel anlernen brauchen Sie das CAS-EEprom nicht.
+ """"Schlüssel Lernen"""" Funktion direkt benutzen.
+Mit Eeprom lesen fortfahren?",
+s0144,"Aktuelle CAS ISTAP-45 version nicht unterstützt, Support kontaktieren.",
+s0145,"Reparatur nicht erfolgreich, nochmal probieren",
+s0146,Programmiere Schlüssel-Info,
+s0147,Aktueller Schlüssel ist %. Type %s.,
+s0148,Keyless Schlüssel,
+s0149,Schlüssel-Info laden oder zuerst über OBD auslesen,
+s0150,Kein benutzter Schlüssel,
+s0151,Fehler bei der Eingabe! Erneut prüfen.,
+s0152,"Bekannte CAS ID zur Reparatur nutzen.Sie erhalten Sie mit ""Verbinden""",
+s0153,"Das aktuelle Arbeitsschlüssel wird nicht mit der Taste Info!
+
+Erster Start-Motor mit dieser Taste->Zündung ausschalten->Zündung einschalten, dann lesen neuesten keyinfo.",
+s0154,"Achtung: Bevor weiter, sollten Sie das Gerät mit car.Before update flash verbinden, müssen Sie CAS FLASH und EEPROM mit BDM programmer.The Update-Prozess lesen müssen CAS in CAR. Aktualisieren CAS mit CAS PLUS vielleicht sperren ELV.",
+s0155,Keyless Schlüssel reparieren,
+s0156,"Legen erste schlüssellose Schlüssel in Programmiergerät. Drücken Sie OK, um fortzufahren",
+s0157,"Wenn Sie zweite schlüssellose Schlüssel. Legen Sie es zu Programmierer
+
+Haben Sie zweite schlüssellose Schlüssel?",
+s0158,"Warnung: Keyless Schlüssel zu dieser Position hinzufügen, werden Sie intelligente Funktion nicht. Du solltest besser wählen andere leere Position.
+
+Wollen Sie immer noch hinzufügen Keyless Schlüssel hier?",
+s0159,Schlüssel ausgetastet. Bitte stellen Sie erneut.,
+s0160,"Kann nicht auf Auto verbinden, überprüfen Sie bitte OBD-Anschluss!",
+s0161,"Verlorene Alle Key:. Sollten Sie einen neuen Schlüssel in das Zünd einzufügen und Gerät mit dem Auto, bevor weiter (Sie müssen Backup CAS EEPROM für CAS3 encrypt Version und ISTA P4 * verison Bitte trennen Sie Gerät mit Auto, wenn kein Backup noch nicht.)",
+s0162,"Nicht finden Arbeitsschlüssel info, Plese die Zündung einschalten und laufen ""Get Key Info"" erneut.",
+s0163,Wählen Sie protocol BMW EWS KLine,
+s0164,"Lesen EWS EEPROM erfolgreich. 
+Speichern die Datei zuerst, dann können Sie Fachhändler Taste mit der gespeicherten Datei Verwendung Funktion ""Datei Make Key"" vorzubereiten.",
+s0165,Bitte laden Sie richtig EWS Daten zuerst.,
+s0166,"Bitte verbinden CAS PLUG mit Gerät und verbinden CAS PLUG mit EWS, Unterstützung +12 v CAS PLUG 
+Die connect-Methode kann in der Bedienungsanleitung werden zu finden. 
+Klicken Ordnung nach verbunden.",
+s0167,"Legen Sie einen Schlüssel in das Zündschloss, brechen die Bremse zwei Mal, öffnen Sie die Autoscheinwerfer.",
+s0168,Bereiten Händler Schlüssel Programmierer,
+s0169,Bereiten Händler Schlüssel mit Zündschalter,
+s0170,Kann nicht die Sync-Code!,
+s0171,"Unerwartete EPROM Layout. Sie können fortfahren, aber es gibt keine Garantie, dass das Verfahren erfolgreich sein wird.",
+s0172,Bitte geben Sie einen neuen Schlüssel in den Programmer.,
+s0173,Pre-Prozess Schlüssel zum Erfolg. Bitte geben Sie den Schlüssel in Zündschloss.,
+s0174,Pre-Prozess Schlüssel fehlgeschlagen! Bitte versuchen Sie es erneut.,
+s0175,Der Schlüssel Programmierer ist nicht 7936 Transponder.,
+s0176,Schritt 2: Legen Sie neue Schlüssel zum Programmierer. Key benötigen Pre-Prozess.,
+s0177,Schritt 3: Legen Sie einen neuen Schlüssel (Schritt 2 vorverarbeitet) in Zündschloss.,
+s0178,"Schritt 4: Drücken Sie WEITER, um fortzufahren",
+s0179,Pre-Prozess neuen Schlüssel,
+s0180,Nächste,
+s0181,"Es ist der Schlüssel auf dieser Position, die überschrieben werden!",
+s0182,"Fernbedienungs-Setup:
+1.Remove der Schlüssel von der Zündung 
+2.Put der Schlüssel in der Zündung
+3.Press der Start/Stopp-Taste.",
+s0183,Update drücken info failed!,
+s0184,"DME nicht reagiert. Drücken Sie die Taste, drücken Sie die Start/Stopp-Taste 
+Warnung:. Versuchen Sie nicht, den Motor zu starten.",
+s0185,"Der Versuch den Schlüssel Test, bitte warten ...... bitte nicht den Prozess beenden.",
+s0186,Der Schlüssel Programmierer ist 7936 Transponder.,
+s0187,Ändern KM Erfolg. Bitte Flash neue Datei in das Instrument EEPROM.,
+s0188,"Key schriftliche erfolgreich.
+GO Fahrzeug mit dem Schlüssel. Nicht brauchen write back EERPOM.",
+s0189,Kann nicht schreiben Schlüssel!,
+s0190,Der Schlüssel wird in anderen Auto verwendet oder gesperrt!,
+s0191,Ungültiger Schlüssel Inhalt! Wahrscheinlich Schlüssel ist nicht für BMW!,
+s0192,"Kann nicht finden CAS4 Antenne plugin, bitte schließen Sie es wieder!",
+s0193,Setzen Sie neue Antenne fehlgeschlagen!,
+s0194,Verbinden Sie Gerät ...,
+s0195,Daten konnten nicht mit CAS4 Antenne übertragen!,
+s0196,"Bereiten Händler Taste Notwendigkeit ca. 30 Sekunden, das Fenster vielleicht falschen Toten.
+Bitte für das Ende zu warten. Geben Sie den neuen Schlüssel zu Programmierer dann weiter.",
+s0197,Wählen Sie Schlüsseltyp im Schlüssel wählen Sie Fenster,
+s0198,"Verloren alle wichtigen Arbeiten, werden Sie 64 atemps haben.
+Fortfahren?",
+s0199,Starten Sie dem Nützlichen verbinden data ...,
+s0200,Kann nicht auf Dongle anschließen!,
+s0201,"Nicht finden können nützliche Daten zu kombinieren, überprüfen Sie bitte die EEPROM-Datei.",
+s0202,"Unknown CAS4 Version, senden Sie bitte EEPROM Dump zum Händler!",
+s0203,Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu Programmierer und weiter,
+s0204,Haben ECU-Dump-Datei. Weiter wird ECU-Dump-Datei laden,
+s0205,Der Eingang ist ISN Fehler. Bitte geben Sie korrekt ISN!,
+s0206,"ISN-Formatfehler, geben Sie bitte 16 Byte hexadezimale Daten!",
+s0207,"Kann nicht finden, ISN-Dump von ECU. Bestätigen Last die richtige dump!",
+s0208,"Warnung: CAS4 + verschlüsseln erkannt Weiter Händlerschlüssel vorbereiten können nur Fern kann der Motor nicht gestartet
+Soll ..?",
+s0209,Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu CAS4 Programmierer und weiter,
+s0210,"Erkennen verschlüsseln CAS-Version. Aber CAS ISN Wert verloren. Weiter vorbereiten Schlüssel kann nicht Motor zu starten. 
+ Weiter?",
+s0211,"Kann nicht finden ISN von der Arbeit drücken. Stellen Sie sicher, Arbeitsschlüssel Gleiches mit CAS-Dump-Datei!",
+s0212,"Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie ""JA"", sonst ""NO"". 
+Wenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel Und legen Sie die Programmierer vor Presse ""NO"". 
+Ist der Motor jetzt starten?",
+s0213,"Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.
+Wenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.
+Wenn das Auto die Zündung einzuschalten SELBST kann es nicht Motor zu starten. Schreiben Sie nicht zurück zur neuen Deponie CAS
+Geben Sie versuchen Verfahren zu starten klicken Sie auf Ja, schreiben Sie eeprom Dump klicken NO",
+s0214,"Verwenden Sie versuchen zu starten Methode, um Motor zu starten, arbeiten keine Notwendigkeit Taste oder Motor-Dump-Datei",
+s0215,"Kann Transponder nicht erkennt, geben Sie bitte die Taste zu Programmierer.
+
+Möchten Sie erkennen agian wollen?",
+s0216,"CAS4 verschlüsseln Version festgestellt. Diese Funktion braucht ""Condor Automatic Key Cutting Machine"" genehmigen und neueste Firmware zu aktualisieren.",
+s0217,Fehler: BMW Multi Tool gerät bereits gebundenen!,
+s0218,Erfolg. Bitte aktualisieren Sie Ihre Geräte-Firmware auf die neueste Funktion Unterstützung zu bekommen.,
+s0219,Fehler: Fehler beim binden! Unbekannter Fehler  %.1X !,
+s0220,"Schließen Sie auf  ""Condor Automatic Key Cutting Machine""...",
+s0221,"ISN lesen vielleicht von Arbeitsschlüssel Fehler! Sie müssen ISN Schlüssel von der Arbeit zu lesen.
+
+Möchten Sie fortfahren?",
+s0222,Wähle Protokoll BMW F-Serie,
+s0223,"Bitte legen Sie eine Arbeitsschlüssel in der Nähe von Auto Zündspule. 
+
+Fortfahren?",
+s0224,Können den Vorgang nicht ausführen mit aktuellen Schlüsselposition. Bitte wählen Sie andere Schlüsselposition!,
+s0225,"Warnung:
+1. Ein Auto können 2 keys höchstens 
+2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel
+3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste
+4. Keyless Schlüssel kann nicht nach erfolgreich zu entsperren machen
+
+Fortfahren?",
+s0226,"Warnung:
+1. Ein Auto können 2 keys höchstens 
+2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel
+3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste
+
+Fortfahren?",
+s0227,"Einige Tasten sind gesperrt. Es wird empfohlen, um Änderungen in den immo.Make Änderungen vornehmen?
+
+Nach Änderungen vornehmen, müssen Sie schreiben neue Datei EWS und legen Sie es erneut",
+s0228,"Kann nicht automatisch erkennen CAS Typ, wählen Sie bitte geben Sie manuell!",
+s0229,Diese Software benötigen höhere Firmware-Unterstützung. Bitte aktualisieren Sie Ihr Gerät auf neueste Firmware.,
+s0230,Legen Sie Schlüssel zur Zündung und einschalten.,
+s0231,"Warnung: Dieser Schlüssel ist alte Art, remote und Keyless nicht mit CAS4 verschlüsseln Version
+
+Vorschlagen ändern andere neue Art Schlüssel
+
+Trotzdem fortfahren?",
+s0232,"Das Gerät Batterie niedriger ist, wenden Sie sich bitte an Ihren Fachhändler für Batterie ersetzen.",
+s0233,"Verbinden mit Gerät, bitte warten ...",
+s0234,"Achtung: %s Freigabe der neuesten Version: %s, Bitte aktualisieren Sie Ihre Software mit BMW TOOL-Update-Tool.",
+s0235,"Schreibe neue EEPROM CAS Ihren Betrieb anzuwenden
+
+Verwenden Sie die neuen EEPROM-Dump neuen Schlüssel machen",
+s0236,"Haben Sie bereits neue Schlüssel an der Taste %.1d zu machen?
+
+Wenn schon neue Schlüssel gemacht (gespeichert bereits neue EEPROM-Dump) drücken Sie YES, sonst NEIN",
+s0237,"Aktuelle CAS kann nicht Firmware über OBD aktualisieren! Wenn Sie Firmware aktualisieren möchten, verbinden CAS CAS PLUG!",
+s0238,Verlorene Datenbank! Bitte installieren Sie Software-Datenbank zu reparieren!,
+s0239,"Zielgerät nicht reagiert, oder Antwortfehler Befehl!",
+s0240,Schreiben verschlüsselung,
+s0241,Wählen Karosserie,
+s0242,Wählen Sie die Einheit,
+s0243,Konnte nicht Gerät Codierung Index finden,
+s0244,Konnte nicht Gerätenamen finden,
+s0245,"Gerätedatenbankfehler: %s.C%.2X. Bitte stellen Sie sicher, richtige Karosserie wählen!",
+s0246,"Achtung: Diese Codierung Datei kommen aus %.2X Einheit. Aktuelle Auswahleinheit ist %.2X.
+
+Wollen Sie ändern Dateieinheit zu Codierung?",
+s0247,Bitte laden EEPROM-Dump-Datei zuerst!,
+s0248,Laden EEPROM-Dump-Datei,
+s0249,Schlüssel %.1d,
+s0250,Sehen Sie alle Schlüssel die dünne,
+s0251,Schlüssel Informationen,
+s0252,Schlüssel %.2d,
+s0253,Fehler: Keine neuesten Update-Informationen zu finden!,
+s0254,Aktuelle CAS unterstützt nicht über OBD lesen! Bitte verwenden Sie Schlüssel via Dump!,
+s0255,Achtung: Vor der Synchronisation müssen Sie Ihr Gerät auf die neueste Firmware aktualisieren !!!,
+s0256,Bitte zuerst EEPROM-Datei lesen und dann File Make Key für diesen Typ ausführen!,
+s0257,"Fehler beim Lesen der Geräteinformationen, bitte versuchen Sie es erneut!",

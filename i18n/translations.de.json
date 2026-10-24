@@ -1,616 +1,1555 @@
 {
   "meta": {
-    "source": "BMWTOOL-InstallerV188.exe",
-    "encoding": "utf-16le",
-    "note": "Partial — only strings outside the compressed payload. Full set requires installing the app or unpacking the installer compression.",
+    "source": "BMW_Language.dll",
+    "app": "VVDI2 BMW TOOL 1.8.8",
+    "encoding": "utf-16le length-prefixed string table",
     "source_lang": "de",
-    "target_lang": ""
+    "target_lang": "",
+    "count": 257,
+    "note": "VVDI2 BMW TOOL çok dilli string tablosundan çıkarılan Almanca UI metinleri. 'target' alanını başka bir çeviri modeliyle doldurup uygulamaya geri birleştir."
   },
   "strings": [
     {
       "id": "s0001",
-      "de": "&  /A \t Alle oder keine installieren.",
-      "target": ""
+      "de": "Schlüssel via Dump",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0002",
-      "de": "+  /? | /h | /help \t Zeigt diese Hilfe an.",
-      "target": ""
+      "de": "VIN ändern",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0003",
-      "de": "+Fertigstellen des Assistenten nicht m",
-      "target": ""
+      "de": "Händlerschlüssel erstellen",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0004",
-      "de": ",Xon / Xoff,Hardware,Keine",
-      "target": ""
+      "de": "Schlüssel hinzufügen",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0005",
-      "de": "/L Sprach-ID \t Versucht, die angegebene Sprache auf allen Benutzeroberfl",
-      "target": ""
+      "de": "Haben Sie das Eeprom gesichert? \nWeiter wenn gesichert, ansonsten erst eine Sicherung erstellen!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0006",
-      "de": "/LM \t Legacymodus. Akzeptiert unsignierte Treiberpakete und Pakete, in denen Dateien fehlen. Diese Pakete werden auf der neuesten Version von Windows nicht installiert.",
-      "target": ""
+      "de": "Dieser Typ wird in einer spätere Version unterstützt!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0007",
-      "de": "/SH \t Hardware doorzoeken op overeenkomstige apparaten en alleen die stuurprogramma's kopi",
-      "target": ""
+      "de": "KM erfolgreich gelesen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0008",
-      "de": "/SH \t Scanner hardware for at finde tilsvarende enheder og kopierer og installerer kun de drivere, som der findes en enhed til. Kun gyldig for Plug and Play-drivere.",
-      "target": ""
+      "de": "KM konnten nicht gelesen werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0009",
-      "de": "0: installiert und deinstalliert Treiberpakete.",
-      "target": ""
+      "de": "Init-Daten Fehler!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0010",
-      "de": "700 Endbenutzer-Lizenzvertrag (EULA)[Sie m",
-      "target": ""
+      "de": "EWS-Daten gelesen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0011",
-      "de": "Allgemeine Optionen(Minimale Anzahle der Lese-Timeouts (ms):+Minimale Anzahle der Schreib-Timeouts (ms):$Plug&Play f",
-      "target": ""
+      "de": "EWS-Daten konnten nicht gelesen werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0012",
-      "de": "B  /U INF-Datei \t Deinstallation eines Treiberpakets (INF-Datei).",
-      "target": ""
+      "de": "Suche Programmiergerät......",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0013",
-      "de": "BM EinstellungenBReduzieren Sie die Werte, um Kommunikationsprobleme zu verringern.",
-      "target": ""
+      "de": "Programmiergerät gefunden.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0014",
-      "de": "Beim Installieren der Ger",
-      "target": ""
+      "de": "Programmiergerät nicht gefunden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0015",
-      "de": "Betriebsbereit,Installation fehlgeschlagen (Nicht signiert)7Installation fehlgeschlagen (Zertifikat ist abgelaufen)",
-      "target": ""
+      "de": "Chip kann nicht gelesen/geschrieben werden. Bitte prüfen!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0016",
-      "de": "DEinschalten dieses Attributes hat Vorrang vor der Ger",
-      "target": ""
+      "de": "Erstelle Schlüssel, bitte warten......",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0017",
-      "de": "De software voor de hardware-apparaten is niet door de wizard Apparaatstuurprogramma installeren bijgewerkt, omdat er geen betere versie van de software die nu is ge",
-      "target": ""
+      "de": "Schlüssel erstellt & gesperrt. Benutzen Sie ihn zum starten des Fahrzeugs.\r\nFalls der Motor nicht startet nutzen Sie die\"\"Schlüssel hinzufügen\"\" Funktion, um den Schlüssel zum CAS hinzuzufügen.\nFalls der Motor startet, aber die Keyless-Funktion nicht geht, nutzen Sie die \"\"Repariere Keyless-Schlüssel\"\" Funktion.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0018",
-      "de": "Default-,Gerade,Ungerade,Keine,Markierung,Leerzeichen",
-      "target": ""
+      "de": "Schlüssel erfolgreich hinzugefügt",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0019",
-      "de": "Der Assistent zum Installieren der Ger",
-      "target": ""
+      "de": "Schlüssel hinzufügen fehlgeschlagen!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0020",
-      "de": "Der Treiber kann nicht installiert werden, weil der erforderlicher Endbenutzer-Lizenzvertrag (EULA) fehlt.",
-      "target": ""
+      "de": "Modul wird nicht unterstützt",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0021",
-      "de": "Der Treiber kann nicht installiert werden, weil er entweder keine digitale Signatur hat oder nicht ordnungsgem",
-      "target": ""
+      "de": "Daten gelesen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0022",
-      "de": "Der opstod fejl under installationen af softwaren til enhederne. Se i kolonnen Status for at f",
-      "target": ""
+      "de": "Daten konnten nicht gelesen werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0023",
-      "de": "Die Baudrate muss positiv sein.",
-      "target": ""
+      "de": "Schreibe Daten, bitte warten......",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0024",
-      "de": "Die Software f",
-      "target": ""
+      "de": "Daten geschrieben.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0025",
-      "de": "Die Treiber wurden auf dem Computer installiert.",
-      "target": ""
+      "de": "Daten konnten nicht geschrieben werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0026",
-      "de": "Die Treiber wurden auf dem Computer installiert. Falls ein Ger",
-      "target": ""
+      "de": "Datei gespeichert.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0027",
-      "de": "Die aktuelle Sprache wird vom Ger",
-      "target": ""
+      "de": "Datei konnten nicht gespeichert werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0028",
-      "de": "Diese Betaversion ist abgelaufen. Senden Sie eine E-Mail in englischer Sprache an die folgende E-Mail-Adresse, um weitere Informationen",
-      "target": ""
+      "de": "Datei geladen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0029",
-      "de": "Diese Schnittstelle wurde von einer anderen Anwendung ge",
-      "target": ""
+      "de": "Datei konnten nicht geladen werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0030",
-      "de": "Einige Treiber wurden auf dem Computer installiert. Einige Treiber konnten nicht installiert werden. Weitere Details finden Sie in der Spalte \"Status\".",
-      "target": ""
+      "de": "Verschlüsseltes CAS gefunden! Bitte erstellen Sie den Schlüssel via OBD!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0031",
-      "de": "Es wird empfohlen, diese Anwendungen zu deinstallieren, wenn Sie diesen Ger",
-      "target": ""
+      "de": "CAS Eeprom Daten beschädigt. Der erstellte Schlüssel kann nicht zum Starten verwendet werden.\nWollen Sie fortfahren?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0032",
-      "de": "Es wurden keine Treiber f",
-      "target": ""
+      "de": "EEPROM dump - Händlerschlüssel erstellen",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0033",
-      "de": "Fjern driverpakkeKAlle enheder, der bruger denne driver, vil blive fjernet. Vil du forts",
-      "target": ""
+      "de": "Falsche Dateigröße!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0034",
-      "de": "For de enheder, hvor der ikke blev installeret en driver, skal du kontakte enhedsproducenten.",
-      "target": ""
+      "de": "Der Schlüssel ist dem Fahrzeug bereits zugeordnet!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0035",
-      "de": "Guiden Installation af enhedsdriver kunne ikke finde nogen drivere, der er udviklet til denne computer. Kontakt leverand",
-      "target": ""
+      "de": "Schlüssel-Typ",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0036",
-      "de": "Hvis der blev leveret en enhed med softwaren, kan du tilslutte enheden til computeren nu.",
-      "target": ""
+      "de": "Bitte laden Sie den EEPROM dump. \"\"OK\"\" drücken zum fortfahren.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0037",
-      "de": "IDPInst.exe kann auf dem aktuellen Betriebssystem nicht ausgef",
-      "target": ""
+      "de": "Bitte speichern Sie den neuen EEPROM dump. \"\"OK\"\" drücken zum fortfahren.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0038",
-      "de": "Ich stimme dem Lizenzvertrag &nicht zu",
-      "target": ""
+      "de": "Vollständig.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0039",
-      "de": "K  /EL \t Aktiverer alle sprog, der ikke eksplicit er optegnet i XML-filen.",
-      "target": ""
+      "de": "Händlerschlüssel erstellt. Bitte nutzen Sie den neuen Schüssel zum starten. \nSpielen Sie den neuen EEprom-Dump in das CAS, falls nicht erfolgreich",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0040",
-      "de": "Met deze wizard kunt u de stuurprogramma's installeren die sommige apparaten voor uw computer nodig hebben om goed te kunnen functioneren.,De wizard Apparaatstuurprogramma installeren",
-      "target": ""
+      "de": "Händlerschlüssels erfolgreich erstellt.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0041",
-      "de": "Nicht genug Speicher f",
-      "target": ""
+      "de": "Entfernen Sie den Händlerschlüssel aus dem Zündschloss\r\nBei Keyless aus dem Fahrzeug entfernen\r\nWenn es keinen Schlüssel in der Zündung, weiter sowieso\r\n\r\n \"\"OK\"\" drücken zum fortfahren.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0042",
-      "de": "OK\tAbbrechen\tSta&ndard'Advanced Communications Port Properties",
-      "target": ""
+      "de": "Händlerschlüssel kann auf dieser Position nicht erstellt werden! Andere Position auswählen und nochmal probieren",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0043",
-      "de": "Port Settings:Abschalten der Modemansteuerung beim Hochfahren des Ger",
-      "target": ""
+      "de": "Rufe Geräte-Info ab, bitte warten...",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0044",
-      "de": "Serieller Drucker>Abbrechen der Kommunikation, wenn das Ger",
-      "target": ""
+      "de": "Geräte-Info abrufen fehlgeschlagen!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0045",
-      "de": "Sie k",
-      "target": ""
+      "de": "Geräte SN     :",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0046",
-      "de": "Sie m",
-      "target": ""
+      "de": "Geräte Version:",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0047",
-      "de": "Speichern &unter...",
-      "target": ""
+      "de": "Geräte-Info erfolgreich abgerufen",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0048",
-      "de": "Treiber werden installiert...",
-      "target": ""
+      "de": "Rufe Informationen vom Gerät ab, bitte warten...",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0049",
-      "de": "V  /EL \t Alle talen inschakelen die niet expliciet worden vermeld in het XML-bestand.",
-      "target": ""
+      "de": "Geräteupdate erfolgreich. Bitte verbinden Sie die HW neu.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0050",
-      "de": "WWarten Sie, bis die Treiber installiert wurden. Dieser Vorgang kann einige Zeit dauern.",
-      "target": ""
+      "de": "Geräteupdate fehlgeschlagen!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0051",
-      "de": "Wenden Sie sich an den Hersteller der Ger",
-      "target": ""
+      "de": "Wählen Sie Method",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0052",
-      "de": "Wenden Sie sich an den Hersteller, von dem Sie dieses Paket erhalten haben.",
-      "target": ""
+      "de": "Schlüssel hinzufügen: Sie sollten einen funktionierenden Schlüssel in das Zünd einzufügen und Gerät mit dem Auto bisher.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0053",
-      "de": "Wenden Sie sich an den Hersteller, von dem Sie dieses Paket erhalten haben.>Sind Sie sicher, dass Sie die Installation abbrechen m",
-      "target": ""
+      "de": "Händlerschlüssel kann nicht erstellt werden. Wenden Sie sich an den Support!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0054",
-      "de": "Wenn Sie diesen Ger",
-      "target": ""
+      "de": "Protokoll wird nicht unterstützt. CAS direkt via OBD verbinden und nochmal probieren.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0055",
-      "de": "Y  /F \t Installation erzwingen, wenn das Treiberpaket nicht besser als das aktuelle ist.",
-      "target": ""
+      "de": "Kann das Fahrzeug gestartet werden? Nutzen Sie diese Option nicht, falls Sie alle Schlüssel verloren haben.\nNutzen Sie die Funktion nicht, wenn es startet.\nJa für weiter. Nein für Abbruch.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0056",
-      "de": "[  /EL \t Aktiviert alle Sprachen, die nicht ausdr",
-      "target": ""
+      "de": "Hat der neue Schlüssel Keyless. Falls ja Ja, ansonsten Nein.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0057",
-      "de": "[/U INF-Datei][/S | /Q][/LM][/P][/F][/SH][/SA][/A][/PATH Pfad][/EL][/L Sprach-ID][/C][/D][/LogTitle Titel][/SW][/? | /h | /help]",
-      "target": ""
+      "de": "Schlüssel entsperren",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0058",
-      "de": "^  /C \t Protokollierungsausgabe auf angeschlossener Konsole speichern (Windows XP und h",
-      "target": ""
+      "de": "Entsperren mit Schlüssel-EEprom",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0059",
-      "de": "ber die Fehlerursache zu erhalten.",
-      "target": ""
+      "de": "Schlüssel-Position",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0060",
-      "de": "chten Sie diesen Ger",
-      "target": ""
+      "de": "KM ändern",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0061",
-      "de": "cken Sie die BILD-AB-TASTE, um den gesamten Vertrag anzuzeigen.",
-      "target": ""
+      "de": "Wollen Sie das Program beenden?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0062",
-      "de": "cklich in der XML-Datei aufgef",
-      "target": ""
+      "de": "Schlüssel lernen",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0063",
-      "de": "ckt das EULA.",
-      "target": ""
+      "de": "BMW Protokoll kann nicht initialisiert werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0064",
-      "de": "computeren. Hvis der blev leveret en enhed med softwaren, kan du tilslutte enheden til computeren nu. Hvis enheden blev leveret med en vejledning, b",
-      "target": ""
+      "de": "Wähle auto detect BMW Protokoll",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0065",
-      "de": "der ikke i kraft f",
-      "target": ""
+      "de": "Wähle Protokoll OBDII KWP-E6X, E7x, E9x, E81, E82, E87, E89",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0066",
-      "de": "dvendig (der er ingen enhed til opdatering)IAnnullerer driverinstallationen! Det kan tage flere minutter at fuldf",
-      "target": ""
+      "de": "Wähle Protokoll KWP-CAN bus 100",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0067",
-      "de": "eEs wird bereits der beste Ger",
-      "target": ""
+      "de": "Wähle Protokoll KWP-CAN bus 500",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0068",
-      "de": "en Sie eine oder mehrere Windows-Anwendungen um den verf",
-      "target": ""
+      "de": "Wähle Protokoll OBDII DS2-E3x, E5x, E83, E85, E86",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0069",
-      "de": "en der Verbindung RTS aktiv setzen",
-      "target": ""
+      "de": "Verarbeite Daten, wollen Sie wirklich abbrechen?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0070",
-      "de": "en. Falls Sie",
-      "target": ""
+      "de": "Leses Schlüssel-Info",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0071",
-      "de": "enTReduzieren Sie die Werte, um Performance-Probleme bei geringen Baudraten zu beheben.6Erh",
-      "target": ""
+      "de": "Schlüsselposition für die Aufgabe auswählen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0072",
-      "de": "er Kraft gesetzt werden?",
-      "target": ""
+      "de": "Erst Schlüssel-Info abrufen, Dann Händlerschlüssel erstellen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0073",
-      "de": "ffnet. Diese Schnittstelle umzubenennen kann unvorhersehbare Auswirkungen auf diese Anwendung haben. Wollen Sie weitermachen?2Es gab einen Fehler beim umbenennen des COM-Ports.",
-      "target": ""
+      "de": "Schlüssel-Info speichern",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0074",
-      "de": "ft die Hardware nach passenden Ger",
-      "target": ""
+      "de": "Schlüssel-Info laden",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0075",
-      "de": "ft, aber keine zu aktualisierenden Ger",
-      "target": ""
+      "de": "Schreibe Schlüssel-Info",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0076",
-      "de": "g  /P \t Dialog, wenn das Treiberpaket, das installiert werden soll, nicht besser als das aktuelle ist.",
-      "target": ""
+      "de": "Benutzen Sie \"\"Schlüssel-Info speichern\"\" um die original Daten zu speichern.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0077",
-      "de": "gen, sollten Sie diese zuerst lesen.",
-      "target": ""
+      "de": "Aktuelles Modul unterstützt diese Datei nicht, Bitte prüfen!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0078",
-      "de": "gen/entfernen\", der normalerweise f",
-      "target": ""
+      "de": "Benutzen Sie \"\"Schlüssel-Info laden\"\" um die Schlüssel-Infos zu laden.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0079",
-      "de": "glicherweise wurde diese INF f",
-      "target": ""
+      "de": "Bitte starten Sie die SW neu zur Übernahme der Änderungen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0080",
-      "de": "gte computeren, men fandt ikke nogen enheder, der skulle opdateres.2Ikke n",
-      "target": ""
+      "de": "Fehler bei Ändern der Sprache! Führen Software mit Administrator!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0081",
-      "de": "hen Sie die Werte f",
-      "target": ""
+      "de": "Warnung: Firmware für diese CAS-Version aktualisieren, kann CAS-Stop-Arbeit verursachen!\r\n\r\nAbbrechen Update Firmware drücken \"JA\"\r\nFortsetzen Update Firmware drücken \"NEIN\"",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0082",
-      "de": "hren Sie den Assistenten ggf. erneut aus. Wenden Sie sich an den Ger",
-      "target": ""
+      "de": "Die aktuellsten Updates und Informationen finden Sie hier : <a>web site</a>.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0083",
-      "de": "hrt werden.6Klicken Sie auf \"Weiter\", um den Vorgang fortzusetzen.",
-      "target": ""
+      "de": "Geräte-Info und Dongle Update",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0084",
-      "de": "ig durchsucht das Tool das aktuelle Verzeichnis und versucht, alle gefundenen Treiberpakete zu installieren.",
-      "target": ""
+      "de": "Fehler beim abrufen der Versionsliste",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0085",
-      "de": "j/fjern programmer, der normalt oprettes for hver driverpakke.",
-      "target": ""
+      "de": "Dongle-Version kann nicht abgerufen werden!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0086",
-      "de": "ldre tilstand. Accepterer usignerede driverpakker og pakker, der mangler filer. Disse pakker kan ikke installeres p",
-      "target": ""
+      "de": "Geräte-Info",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0087",
-      "de": "nderungen werden erst nach einem Neustart des Computers wirksam.",
-      "target": ""
+      "de": "Lese Schlüssel-Infos......",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0088",
-      "de": "nnen Sie Softwaretreiber installieren, die zum ordnungsgem",
-      "target": ""
+      "de": "Geräte Update",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0089",
-      "de": "nnen Sie es jetzt an den Computer anschlie",
-      "target": ""
+      "de": "EGS Codelänge Fehler!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0090",
-      "de": "nnen jetzt das Ger",
-      "target": ""
+      "de": "DME Codelänge Fehler!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0091",
-      "de": "nnen.hVerwenden Sie die Bildlaufleiste oder dr",
-      "target": ""
+      "de": "CAS und DME werden abgeglichen. Fortfahren?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0092",
-      "de": "nnte es sein, dass diese Anwendungen nicht ordnungsgem",
-      "target": ""
+      "de": "Synchronisation nicht möglich!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0093",
-      "de": "r die Hardwareger",
-      "target": ""
+      "de": "Synchronisation vollständig.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0094",
-      "de": "r die Windows Registry besitzen, um die erweiterten Einstellungen von diesem Ger",
-      "target": ""
+      "de": "Neuer Schlüssel in das CAS geschrieben.\nSie können den Motor jetzt damit starten. Nutzen Sie den original Schlüssel zuerst, wenn es nicht funktioniert.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0095",
-      "de": "r die ein Ger",
-      "target": ""
+      "de": "Gerätetakt nagative Antwort!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0096",
-      "de": "r diese Treiberinstallationsdatei ist nicht vorhanden. M",
-      "target": ""
+      "de": "CAS-Daten sind verschlüssel, Händlerschlüssel erstellen. Kontaktieren Sie den Support, falls es fehlschlägt!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0097",
-      "de": "rdateien des Treibers nach der Deinstallation l",
-      "target": ""
+      "de": "Neuen Schlüssel in das Programmiergerät legen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0098",
-      "de": "ren en installeren waarvoor een apparaat aanwezig is. Alleen geldig voor stuurprogramma's die Plug en Play-compatibel zijn.",
-      "target": ""
+      "de": "Füge Schlüssel hinzu......",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0099",
-      "de": "rger om driverpakken, der skal installeres er bedre end den aktuelle.",
-      "target": ""
+      "de": "Der eingelegte Schlüssel ist kein Händlerschlüssel, oder kein Zugriff auf den Schlüssel. Bitte prüfen!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0100",
-      "de": "s) tilstand. Skjuler Guiden Enhedsinstallation og alle dialogbokse, der vises af operativsystemet.",
-      "target": ""
+      "de": "Aktuelles EEProm ist nicht komplett. Bitte auslese und speicher und dann fortfahren.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0101",
-      "de": "signiert wurde.",
-      "target": ""
+      "de": "Schlüssel \"\"%d\"\" wird deaktiviert.Fortfahren?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0102",
-      "de": "ssen dem folgenden Lizenzvertrag zustimmen, um die Installation fortsetzen zu k",
-      "target": ""
+      "de": "Schlüssel \"\"%d\"\" wird aktiviert. Fortfahren?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0103",
-      "de": "ssen die 64-Bit-Version von DPInst.exe auf diesem Computer ausf",
-      "target": ""
+      "de": "Schlüssel deaktiviert.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0104",
-      "de": "t mit der Software geliefert wurden, k",
-      "target": ""
+      "de": "Schlüssel nicht deaktiviert!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0105",
-      "de": "t vorhanden)QDie Treiberinstallation wird abgebrochen! Dieser Vorgang kann einige Zeit dauern.DDer Assistent zum Installieren der Ger",
-      "target": ""
+      "de": "Schlüssel aktiviert.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0106",
-      "de": "t wurde aktualisiert",
-      "target": ""
+      "de": "Schlüssel nicht aktiviert!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0107",
-      "de": "te konnte nicht installiert werden, weil Sie dem Endbenutzer-Lizenzvertrag nicht zugestimmt haben.",
-      "target": ""
+      "de": "Schlüssel deaktivieren",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0108",
-      "de": "te nicht eindeutig identifiziert werden und sind dadurch nicht ansprechbar oder erhalten die falschen Einstellungen. Wollen Sie weitermachen? 4Ung",
-      "target": ""
+      "de": "Schlüssel aktivieren",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0109",
-      "de": "te wurde nicht aktualisiert, weil sie nicht besser als die zurzeit installierte Software ist.",
-      "target": ""
+      "de": "Fehlercodes nicht gelöscht!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0110",
-      "de": "te, bei denen der Treiber nicht installiert wurde.",
-      "target": ""
+      "de": "Shadow-Speicher nicht gelöscht!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0111",
-      "de": "te, die diesen Treiber verwenden, werden entfernt. Soll der Vorgang fortgesetzt werden? Ich &stimme dem Lizenzvertrag zu&Ich stimme dem Lizenzvertrag &nicht zu",
-      "target": ""
+      "de": "Aktueller Schlüssel im Schloß:",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0112",
-      "de": "tehersteller, falls das Problem weiterhin besteht.",
-      "target": ""
+      "de": "Kein Schlüssel",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0113",
-      "de": "teinstallations-Assistenten. Das Betriebssystem l",
-      "target": ""
+      "de": "Schlüssel %d",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0114",
-      "de": "ten und kopiert und installiert nur die Treiber, f",
-      "target": ""
+      "de": "Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie \"JA\", sonst \"NO\". \nWenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel vor Presse \"NO\". \nIst der Motor jetzt starten?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0115",
-      "de": "tesoftware sind Fehler aufgetreten. Weitere Details finden Sie in der Spalte \"Status\".",
-      "target": ""
+      "de": "1.Kombiinstrument ausbauen, KM manuell ändern.\n2.Die Funktion ausführen zum KM-Stand im CAS ändern. \n3.Kombiinstrument einbauen.\nFortfahren?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0116",
-      "de": "tetreiber hat Ihren Computer erfolgreich",
-      "target": ""
+      "de": "Verloren alle wichtigen Arbeiten, werden Sie 16 atemps haben.\nEs ist vielleicht brauchen die CAS EEPROM support, solltest du besser eine Sicherungskopie der eeprom mit anderen bdm Programmierer.\nFortfahren?",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0117",
-      "de": "tetreiber werden gesucht...",
-      "target": ""
+      "de": "Verschlüsseltes CAS, benötige funktionierenden Schlüssel zum Händlerschlüssel erstellen.\nFortfahren? Falls Sie fortfahren funktionierenden Schlüssel einlegen.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0118",
-      "de": "tetreiber wurde abgebrochen. 0Installation fehlgeschlagen (Ung",
-      "target": ""
+      "de": "Der eingelegte Schlüssel gehört nicht zu diesem CAS!",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0119",
-      "de": "tetreiberinstallations-Assistent nicht unterst",
-      "target": ""
+      "de": "Gerät nicht gefunden. Verbindung prüfen",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0120",
-      "de": "tetreiberinstallation~Es wird bereits der beste Ger",
-      "target": ""
+      "de": "Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.\r\nWenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.",
+      "target": "",
+      "context": ""
     },
     {
       "id": "s0121",
-      "de": "~Wenden Sie sich an den Hersteller oder den Standortadministrator, um weitere Informationen",
-      "target": ""
+      "de": "CAS-EEprom Dump beschädigt. Trotzdem probieren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0122",
+      "de": "Schlüssel entsperrt",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0123",
+      "de": "Schlüssel kann nicht entsperrt werden. Datei prüfen",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0124",
+      "de": "Gesperrten Schlüssel einlegen",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0125",
+      "de": "Schlüssel wird entsperrt, bitte warten......",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0126",
+      "de": "CAS Syn Code nicht gefunden. Abbruch!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0127",
+      "de": "Datei KM ändern",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0128",
+      "de": "EEPROM KM ändern",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0129",
+      "de": "KM ind Immo erfolgreich geändert, neue Datei in das Steuergerät schreiben. \nKM-Stand im Tacho manuell vor einbau ändern",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0130",
+      "de": "KM-Stand geändert. Neue Datei in den M35080 schreiben.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0131",
+      "de": "CAS mit CAS-Stecker verbinden und dann nochmal probieren.\nZum Schlüssel anlernen \"Schlüssel anlernen\" verwenden. CAS-Stecker wird dann nicht benötigt",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0132",
+      "de": "CAS SW Update nicht nötig,Fortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0133",
+      "de": "Authentifikation nicht erfolgreich!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0134",
+      "de": "Warte auf Steuergerät...",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0135",
+      "de": "Prüfe Signatur...nicht OK!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0136",
+      "de": "Schlüssel einlegen und dann entfernen. Der Schlüssel wird erst nach Abschluss der Prozedur funktionieren",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0137",
+      "de": "Upload ist völlig Erfolg. \nWenn gearbeitet haben Schlüssel, um die Zündung einsetzen und versuchen, wenn es zu finden. \nUnd zurück und versuchen Sie es erneut diese Funktion funktioniert.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0138",
+      "de": "Fehler beim Flash löschen!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0139",
+      "de": "Aktuelle CAS-Version wird nicht über OBD unterstützt. Nutzen Sie ein BDM Programmiergerät.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0140",
+      "de": "CAS EEProm benötigt. Vorher im Hauptfenster über CAS EEprom lesen. \nAlternativ mit BDM Programmiergerät. \nFortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0141",
+      "de": "Aktuelles CAS unterstütz die Funktion nicht, Zum Schlüssel anlernen \"\"Schlüssel lernen\"\" Funktion nutzen.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0142",
+      "de": "Diese Software benötigt Firmware 1.0.6 oder höher. Einige Funktionen sind sonst eingeschränkt d.\nZum Update :  \"\"Hilfe->Geräte-Update\"\" zum Updaten\nNächstes mal erinnern?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0143",
+      "de": "Achtung: Zum Schlüssel anlernen brauchen Sie das CAS-EEprom nicht.\n \"\"Schlüssel Lernen\"\" Funktion direkt benutzen.\nMit Eeprom lesen fortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0144",
+      "de": "Aktuelle CAS ISTAP-45 version nicht unterstützt, Support kontaktieren.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0145",
+      "de": "Reparatur nicht erfolgreich, nochmal probieren",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0146",
+      "de": "Programmiere Schlüssel-Info",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0147",
+      "de": "Aktueller Schlüssel ist %. Type %s.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0148",
+      "de": "Keyless Schlüssel",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0149",
+      "de": "Schlüssel-Info laden oder zuerst über OBD auslesen",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0150",
+      "de": "Kein benutzter Schlüssel",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0151",
+      "de": "Fehler bei der Eingabe! Erneut prüfen.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0152",
+      "de": "Bekannte CAS ID zur Reparatur nutzen.Sie erhalten Sie mit \"Verbinden\"",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0153",
+      "de": "Das aktuelle Arbeitsschlüssel wird nicht mit der Taste Info!\r\n\r\nErster Start-Motor mit dieser Taste->Zündung ausschalten->Zündung einschalten, dann lesen neuesten keyinfo.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0154",
+      "de": "Achtung: Bevor weiter, sollten Sie das Gerät mit car.Before update flash verbinden, müssen Sie CAS FLASH und EEPROM mit BDM programmer.The Update-Prozess lesen müssen CAS in CAR. Aktualisieren CAS mit CAS PLUS vielleicht sperren ELV.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0155",
+      "de": "Keyless Schlüssel reparieren",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0156",
+      "de": "Legen erste schlüssellose Schlüssel in Programmiergerät. Drücken Sie OK, um fortzufahren",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0157",
+      "de": "Wenn Sie zweite schlüssellose Schlüssel. Legen Sie es zu Programmierer\r\n\r\nHaben Sie zweite schlüssellose Schlüssel?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0158",
+      "de": "Warnung: Keyless Schlüssel zu dieser Position hinzufügen, werden Sie intelligente Funktion nicht. Du solltest besser wählen andere leere Position.\r\n\r\nWollen Sie immer noch hinzufügen Keyless Schlüssel hier?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0159",
+      "de": "Schlüssel ausgetastet. Bitte stellen Sie erneut.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0160",
+      "de": "Kann nicht auf Auto verbinden, überprüfen Sie bitte OBD-Anschluss!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0161",
+      "de": "Verlorene Alle Key:. Sollten Sie einen neuen Schlüssel in das Zünd einzufügen und Gerät mit dem Auto, bevor weiter (Sie müssen Backup CAS EEPROM für CAS3 encrypt Version und ISTA P4 * verison Bitte trennen Sie Gerät mit Auto, wenn kein Backup noch nicht.)",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0162",
+      "de": "Nicht finden Arbeitsschlüssel info, Plese die Zündung einschalten und laufen \"Get Key Info\" erneut.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0163",
+      "de": "Wählen Sie protocol BMW EWS KLine",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0164",
+      "de": "Lesen EWS EEPROM erfolgreich. \r\nSpeichern die Datei zuerst, dann können Sie Fachhändler Taste mit der gespeicherten Datei Verwendung Funktion \"Datei Make Key\" vorzubereiten.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0165",
+      "de": "Bitte laden Sie richtig EWS Daten zuerst.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0166",
+      "de": "Bitte verbinden CAS PLUG mit Gerät und verbinden CAS PLUG mit EWS, Unterstützung +12 v CAS PLUG \r\nDie connect-Methode kann in der Bedienungsanleitung werden zu finden. \r\nKlicken Ordnung nach verbunden.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0167",
+      "de": "Legen Sie einen Schlüssel in das Zündschloss, brechen die Bremse zwei Mal, öffnen Sie die Autoscheinwerfer.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0168",
+      "de": "Bereiten Händler Schlüssel Programmierer",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0169",
+      "de": "Bereiten Händler Schlüssel mit Zündschalter",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0170",
+      "de": "Kann nicht die Sync-Code!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0171",
+      "de": "Unerwartete EPROM Layout. Sie können fortfahren, aber es gibt keine Garantie, dass das Verfahren erfolgreich sein wird.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0172",
+      "de": "Bitte geben Sie einen neuen Schlüssel in den Programmer.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0173",
+      "de": "Pre-Prozess Schlüssel zum Erfolg. Bitte geben Sie den Schlüssel in Zündschloss.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0174",
+      "de": "Pre-Prozess Schlüssel fehlgeschlagen! Bitte versuchen Sie es erneut.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0175",
+      "de": "Der Schlüssel Programmierer ist nicht 7936 Transponder.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0176",
+      "de": "Schritt 2: Legen Sie neue Schlüssel zum Programmierer. Key benötigen Pre-Prozess.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0177",
+      "de": "Schritt 3: Legen Sie einen neuen Schlüssel (Schritt 2 vorverarbeitet) in Zündschloss.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0178",
+      "de": "Schritt 4: Drücken Sie WEITER, um fortzufahren",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0179",
+      "de": "Pre-Prozess neuen Schlüssel",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0180",
+      "de": "Nächste",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0181",
+      "de": "Es ist der Schlüssel auf dieser Position, die überschrieben werden!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0182",
+      "de": "Fernbedienungs-Setup:\r\n1.Remove der Schlüssel von der Zündung \r\n2.Put der Schlüssel in der Zündung\r\n3.Press der Start/Stopp-Taste.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0183",
+      "de": "Update drücken info failed!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0184",
+      "de": "DME nicht reagiert. Drücken Sie die Taste, drücken Sie die Start/Stopp-Taste \nWarnung:. Versuchen Sie nicht, den Motor zu starten.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0185",
+      "de": "Der Versuch den Schlüssel Test, bitte warten ...... bitte nicht den Prozess beenden.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0186",
+      "de": "Der Schlüssel Programmierer ist 7936 Transponder.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0187",
+      "de": "Ändern KM Erfolg. Bitte Flash neue Datei in das Instrument EEPROM.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0188",
+      "de": "Key schriftliche erfolgreich.\r\nGO Fahrzeug mit dem Schlüssel. Nicht brauchen write back EERPOM.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0189",
+      "de": "Kann nicht schreiben Schlüssel!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0190",
+      "de": "Der Schlüssel wird in anderen Auto verwendet oder gesperrt!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0191",
+      "de": "Ungültiger Schlüssel Inhalt! Wahrscheinlich Schlüssel ist nicht für BMW!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0192",
+      "de": "Kann nicht finden CAS4 Antenne plugin, bitte schließen Sie es wieder!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0193",
+      "de": "Setzen Sie neue Antenne fehlgeschlagen!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0194",
+      "de": "Verbinden Sie Gerät ...",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0195",
+      "de": "Daten konnten nicht mit CAS4 Antenne übertragen!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0196",
+      "de": "Bereiten Händler Taste Notwendigkeit ca. 30 Sekunden, das Fenster vielleicht falschen Toten.\r\nBitte für das Ende zu warten. Geben Sie den neuen Schlüssel zu Programmierer dann weiter.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0197",
+      "de": "Wählen Sie Schlüsseltyp im Schlüssel wählen Sie Fenster",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0198",
+      "de": "Verloren alle wichtigen Arbeiten, werden Sie 64 atemps haben.\nFortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0199",
+      "de": "Starten Sie dem Nützlichen verbinden data ...",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0200",
+      "de": "Kann nicht auf Dongle anschließen!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0201",
+      "de": "Nicht finden können nützliche Daten zu kombinieren, überprüfen Sie bitte die EEPROM-Datei.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0202",
+      "de": "Unknown CAS4 Version, senden Sie bitte EEPROM Dump zum Händler!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0203",
+      "de": "Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu Programmierer und weiter",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0204",
+      "de": "Haben ECU-Dump-Datei. Weiter wird ECU-Dump-Datei laden",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0205",
+      "de": "Der Eingang ist ISN Fehler. Bitte geben Sie korrekt ISN!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0206",
+      "de": "ISN-Formatfehler, geben Sie bitte 16 Byte hexadezimale Daten!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0207",
+      "de": "Kann nicht finden, ISN-Dump von ECU. Bestätigen Last die richtige dump!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0208",
+      "de": "Warnung: CAS4 + verschlüsseln erkannt Weiter Händlerschlüssel vorbereiten können nur Fern kann der Motor nicht gestartet\r\nSoll ..?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0209",
+      "de": "Haben Sie einen Arbeitsschlüssel. Legen Sie Arbeitsschlüssel zu CAS4 Programmierer und weiter",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0210",
+      "de": "Erkennen verschlüsseln CAS-Version. Aber CAS ISN Wert verloren. Weiter vorbereiten Schlüssel kann nicht Motor zu starten. \r\n Weiter?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0211",
+      "de": "Kann nicht finden ISN von der Arbeit drücken. Stellen Sie sicher, Arbeitsschlüssel Gleiches mit CAS-Dump-Datei!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0212",
+      "de": "Bitte verwenden aktuellen Schlüssel, um den Motor zu starten, wenn start drücken Sie \"JA\", sonst \"NO\". \nWenn kann der Motor nicht gestartet, bitte nehmen Sie den Schlüssel Und legen Sie die Programmierer vor Presse \"NO\". \nIst der Motor jetzt starten?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0213",
+      "de": "Neuen CAS-DUmp schreiben und den neuen Schlüssel zum starten nutzen.\r\nWenn cas gehören zu Version ISTAP4*, schreiben Sie nicht zurück zur neuen Deponie CAS.\r\nWenn das Auto die Zündung einzuschalten SELBST kann es nicht Motor zu starten. Schreiben Sie nicht zurück zur neuen Deponie CAS\r\nGeben Sie versuchen Verfahren zu starten klicken Sie auf Ja, schreiben Sie eeprom Dump klicken NO",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0214",
+      "de": "Verwenden Sie versuchen zu starten Methode, um Motor zu starten, arbeiten keine Notwendigkeit Taste oder Motor-Dump-Datei",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0215",
+      "de": "Kann Transponder nicht erkennt, geben Sie bitte die Taste zu Programmierer.\r\n\r\nMöchten Sie erkennen agian wollen?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0216",
+      "de": "CAS4 verschlüsseln Version festgestellt. Diese Funktion braucht \"Condor Automatic Key Cutting Machine\" genehmigen und neueste Firmware zu aktualisieren.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0217",
+      "de": "Fehler: BMW Multi Tool gerät bereits gebundenen!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0218",
+      "de": "Erfolg. Bitte aktualisieren Sie Ihre Geräte-Firmware auf die neueste Funktion Unterstützung zu bekommen.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0219",
+      "de": "Fehler: Fehler beim binden! Unbekannter Fehler  %.1X !",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0220",
+      "de": "Schließen Sie auf  \"Condor Automatic Key Cutting Machine\"...",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0221",
+      "de": "ISN lesen vielleicht von Arbeitsschlüssel Fehler! Sie müssen ISN Schlüssel von der Arbeit zu lesen.\r\n\r\nMöchten Sie fortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0222",
+      "de": "Wähle Protokoll BMW F-Serie",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0223",
+      "de": "Bitte legen Sie eine Arbeitsschlüssel in der Nähe von Auto Zündspule. \r\n\r\nFortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0224",
+      "de": "Können den Vorgang nicht ausführen mit aktuellen Schlüsselposition. Bitte wählen Sie andere Schlüsselposition!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0225",
+      "de": "Warnung:\r\n1. Ein Auto können 2 keys höchstens \r\n2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel\r\n3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste\r\n4. Keyless Schlüssel kann nicht nach erfolgreich zu entsperren machen\r\n\r\nFortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0226",
+      "de": "Warnung:\r\n1. Ein Auto können 2 keys höchstens \r\n2. Sie sollten deaktivieren oder löschen das verlorene Schlüssel Keyless vor neue hinzufügen Keyless Schlüssel\r\n3. Achten Sie darauf, keine Keyless-Taste oder nur ein Keyless-Taste im CAS-System, bevor neue hinzufügen Keyless-Taste\r\n\r\nFortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0227",
+      "de": "Einige Tasten sind gesperrt. Es wird empfohlen, um Änderungen in den immo.Make Änderungen vornehmen?\r\n\r\nNach Änderungen vornehmen, müssen Sie schreiben neue Datei EWS und legen Sie es erneut",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0228",
+      "de": "Kann nicht automatisch erkennen CAS Typ, wählen Sie bitte geben Sie manuell!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0229",
+      "de": "Diese Software benötigen höhere Firmware-Unterstützung. Bitte aktualisieren Sie Ihr Gerät auf neueste Firmware.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0230",
+      "de": "Legen Sie Schlüssel zur Zündung und einschalten.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0231",
+      "de": "Warnung: Dieser Schlüssel ist alte Art, remote und Keyless nicht mit CAS4 verschlüsseln Version\r\n\r\nVorschlagen ändern andere neue Art Schlüssel\r\n\r\nTrotzdem fortfahren?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0232",
+      "de": "Das Gerät Batterie niedriger ist, wenden Sie sich bitte an Ihren Fachhändler für Batterie ersetzen.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0233",
+      "de": "Verbinden mit Gerät, bitte warten ...",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0234",
+      "de": "Achtung: %s Freigabe der neuesten Version: %s, Bitte aktualisieren Sie Ihre Software mit BMW TOOL-Update-Tool.",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0235",
+      "de": "Schreibe neue EEPROM CAS Ihren Betrieb anzuwenden\r\n\r\nVerwenden Sie die neuen EEPROM-Dump neuen Schlüssel machen",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0236",
+      "de": "Haben Sie bereits neue Schlüssel an der Taste %.1d zu machen?\r\n\r\nWenn schon neue Schlüssel gemacht (gespeichert bereits neue EEPROM-Dump) drücken Sie YES, sonst NEIN",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0237",
+      "de": "Aktuelle CAS kann nicht Firmware über OBD aktualisieren! Wenn Sie Firmware aktualisieren möchten, verbinden CAS CAS PLUG!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0238",
+      "de": "Verlorene Datenbank! Bitte installieren Sie Software-Datenbank zu reparieren!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0239",
+      "de": "Zielgerät nicht reagiert, oder Antwortfehler Befehl!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0240",
+      "de": "Schreiben verschlüsselung",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0241",
+      "de": "Wählen Karosserie",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0242",
+      "de": "Wählen Sie die Einheit",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0243",
+      "de": "Konnte nicht Gerät Codierung Index finden",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0244",
+      "de": "Konnte nicht Gerätenamen finden",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0245",
+      "de": "Gerätedatenbankfehler: %s.C%.2X. Bitte stellen Sie sicher, richtige Karosserie wählen!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0246",
+      "de": "Achtung: Diese Codierung Datei kommen aus %.2X Einheit. Aktuelle Auswahleinheit ist %.2X.\r\n\r\nWollen Sie ändern Dateieinheit zu Codierung?",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0247",
+      "de": "Bitte laden EEPROM-Dump-Datei zuerst!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0248",
+      "de": "Laden EEPROM-Dump-Datei",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0249",
+      "de": "Schlüssel %.1d",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0250",
+      "de": "Sehen Sie alle Schlüssel die dünne",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0251",
+      "de": "Schlüssel Informationen",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0252",
+      "de": "Schlüssel %.2d",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0253",
+      "de": "Fehler: Keine neuesten Update-Informationen zu finden!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0254",
+      "de": "Aktuelle CAS unterstützt nicht über OBD lesen! Bitte verwenden Sie Schlüssel via Dump!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0255",
+      "de": "Achtung: Vor der Synchronisation müssen Sie Ihr Gerät auf die neueste Firmware aktualisieren !!!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0256",
+      "de": "Bitte zuerst EEPROM-Datei lesen und dann File Make Key für diesen Typ ausführen!",
+      "target": "",
+      "context": ""
+    },
+    {
+      "id": "s0257",
+      "de": "Fehler beim Lesen der Geräteinformationen, bitte versuchen Sie es erneut!",
+      "target": "",
+      "context": ""
     }
   ]
 }
