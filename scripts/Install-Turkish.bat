@@ -37,17 +37,30 @@ if not exist "%PS%" (
   goto :fail
 )
 
-REM --- Kurulum klasorunu bul (parantezli FOR yerine duz if zinciri: paren tuzagi yok) ---
+REM --- Kurulum klasorunu bul ---
 if not "%BMWDIR%"=="" goto :havedir
-if not defined BMWDIR if exist "%ProgramFiles%\BMW TOOL\BMWTOOL\BMW_Language.dll" set "BMWDIR=%ProgramFiles%\BMW TOOL\BMWTOOL"
-if not defined BMWDIR if exist "%ProgramFiles(x86)%\BMW TOOL\BMWTOOL\BMW_Language.dll" set "BMWDIR=%ProgramFiles(x86)%\BMW TOOL\BMWTOOL"
-if not defined BMWDIR if exist "%ProgramW6432%\BMW TOOL\BMWTOOL\BMW_Language.dll" set "BMWDIR=%ProgramW6432%\BMW TOOL\BMWTOOL"
-if not defined BMWDIR if exist "C:\BMW TOOL\BMWTOOL\BMW_Language.dll" set "BMWDIR=C:\BMW TOOL\BMWTOOL"
+REM 1) Bilinen aday yollar (nested BMWTOOL ile VE olmadan)
+call :try "%ProgramFiles%\BMW TOOL\BMWTOOL"
+call :try "%ProgramFiles(x86)%\BMW TOOL\BMWTOOL"
+call :try "%ProgramW6432%\BMW TOOL\BMWTOOL"
+call :try "%ProgramFiles%\BMW TOOL"
+call :try "%ProgramFiles(x86)%\BMW TOOL"
+call :try "%ProgramW6432%\BMW TOOL"
+call :try "C:\BMW TOOL\BMWTOOL"
+call :try "C:\BMW TOOL"
+REM 2) Bulunamazsa Program Files koklerinde ozyinelemeli ara (C:\ tamami yavas olur, atlandi)
+if not defined BMWDIR echo BMW_Language.dll araniyor, lutfen bekleyin...
+call :search "%ProgramFiles%"
+call :search "%ProgramFiles(x86)%"
+call :search "%ProgramW6432%"
 
 if defined BMWDIR goto :havedir
 echo [HATA] BMW TOOL kurulumu otomatik bulunamadi.
-echo        BMW_Language.dll iceren klasoru ikinci parametre olarak verin, orn:
-echo        Install-Turkish.bat %FIELD% "C:\Program Files\BMW TOOL\BMWTOOL"
+echo.
+echo Cozum: BMW_Language.dll'in yerini bul ^(PowerShell'de^):
+echo   Get-ChildItem C:\ -Recurse -Filter BMW_Language.dll -ErrorAction SilentlyContinue ^| Select -First 5 FullName
+echo ve klasoru ikinci parametre olarak ver:
+echo   Install-Turkish.bat %FIELD% "BULUNAN\KLASOR\YOLU"
 goto :fail
 
 :havedir
@@ -102,6 +115,29 @@ echo Orijinale donmek icin: BMW_Language.dll.orig dosyasini BMW_Language.dll yap
 echo.
 pause
 exit /b 0
+
+REM ===== altyordamlar =====
+:try
+REM %1 = aday klasor. Icinde BMW_Language.dll varsa BMWDIR ayarla.
+if defined BMWDIR goto :eof
+if "%~1"=="" goto :eof
+if exist "%~1\BMW_Language.dll" set "BMWDIR=%~1"
+goto :eof
+
+:search
+REM %1 = ozyinelemeli aranacak kok. Ilk eslesme kullanilir.
+if defined BMWDIR goto :eof
+if "%~1"=="" goto :eof
+if not exist "%~1" goto :eof
+for /f "delims=" %%F in ('where /r "%~1" BMW_Language.dll 2^>nul') do (
+  set "BMWDIR=%%~dpF"
+  goto :searchstrip
+)
+goto :eof
+:searchstrip
+REM %%~dpF sonunda ters-bolu birakir; kaldir.
+if defined BMWDIR if "%BMWDIR:~-1%"=="\" set "BMWDIR=%BMWDIR:~0,-1%"
+goto :eof
 
 :fail
 echo.
