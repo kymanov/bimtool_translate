@@ -46,6 +46,26 @@ function words) while excluding Hungarian/Polish/Spanish/Italian/Danish
 - `i18n/translations.de.json` — **257** German UI strings **with English (`en`) and Turkish (`tr`) translations**, schema below.
 - `i18n/translations.de.csv` — same, as `id,de,en,tr` (UTF-8 BOM, Excel-friendly).
 - `scripts/extract_strings.py` — re-extracts German from `BMW_Language.dll`.
+- `scripts/patch_language_dll.py` — writes the translation back into `BMW_Language.dll` (full `.rsrc` rebuild, no truncation) to run the app translated.
+
+## Running the app translated
+
+1. Patch the language DLL with the Turkish translations:
+   ```bash
+   python3 -I scripts/patch_language_dll.py BMW_Language.dll i18n/translations.de.json \
+       --field tr -o BMW_Language.patched.dll
+   ```
+2. Back up and replace the installed DLL (`...\BMW TOOL\BMWTOOL\BMW_Language.dll`)
+   with `BMW_Language.patched.dll`.
+3. In the installed folder, set `SKIPHTTP=1` and `SKIPACPRO=1` in
+   `bmwtool_config.ini` — the online update check crashes under Wine, and this
+   disables it.
+4. Run `BMW TOOL.exe`. In the app's language menu: **Deutsch** now shows the
+   translation; **English** is the untouched built-in language — switch any time.
+
+> The patch only rebuilds the German RT_STRING slot; it does not touch the app's
+> logic. VVDI2 needs its hardware dongle for the actual key operations, but the
+> translated UI is visible without it. The proprietary DLL is not committed here.
 
 ## Translation file schema
 
