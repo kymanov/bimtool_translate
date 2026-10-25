@@ -1,18 +1,21 @@
 <#
 .SYNOPSIS
-    VVDI2 BMW_Language.dll yamalayıcı — Python GEREKTİRMEZ (saf PowerShell).
+    VVDI2 BMW_Language.dll patcher -- NO Python required (pure PowerShell).
 
 .DESCRIPTION
-    scripts/patch_language_dll.py dosyasının birebir PowerShell karşılığı.
-    Almanca (Deutsch) RT_STRING kaynak yuvasını seçilen çeviriyle (örn. Türkçe)
-    değiştirir ve çalıştırılabilir bir DLL üretir. UI metni standart Win32
-    RT_STRING kaynakları olarak (16'lı string demetleri) saklanır. Bu script her
-    string demetini yeniden kurar — kaynağı bir Almanca metinle eşleşen her
-    string'i çevirisiyle değiştirir (tam uzunluk, kırpma yok) — sonra .rsrc
-    bölümünü yeniden yazar, her kaynak veri-girişi RVA/boyutunu yamalar, .reloc'u
-    kaydırır ve bölüm başlıklarını düzeltir. Bölüm sanal adresleri sabit kalır,
-    böylece relocation'lar geçerli kalır. Çeviriyi görmek için uygulamada
-    "Deutsch" seçin; yerleşik "English" yuvası dokunulmadan kalır.
+    A faithful PowerShell port of scripts/patch_language_dll.py.
+    Replaces the German (Deutsch) RT_STRING resource slot with a chosen
+    translation (e.g. Turkish) and produces a runnable DLL. The UI text is
+    stored as standard Win32 RT_STRING resources (bundles of 16 strings). This
+    script rebuilds every string bundle -- replacing any string whose source
+    text matches a German entry with its translation (full length, no
+    truncation) -- then rewrites the .rsrc section, patches every resource
+    data-entry RVA/size, shifts .reloc, and fixes the section headers. Section
+    virtual addresses stay fixed, so relocations remain valid. Pick "Deutsch"
+    in the app to see the translation; the built-in "English" slot is untouched.
+
+    ASCII-only on purpose: Windows PowerShell 5.1 reads BOM-less .ps1 files as
+    the system ANSI codepage, so non-ASCII bytes would break parsing.
 
 .EXAMPLE
     powershell -ExecutionPolicy Bypass -File scripts\patch_language_dll.ps1 `
@@ -21,9 +24,9 @@
 #>
 [CmdletBinding()]
 param(
-    [Parameter(Mandatory = $true)] [string] $Dll,            # BMW_Language.dll (orijinal)
-    [Parameter(Mandatory = $true)] [string] $Translations,   # çeviri JSON (de + hedef alanlar)
-    [string] $Field = "tr",                                  # uygulanacak hedef alan: tr | en
+    [Parameter(Mandatory = $true)] [string] $Dll,            # BMW_Language.dll (original)
+    [Parameter(Mandatory = $true)] [string] $Translations,   # translations JSON (de + target fields)
+    [string] $Field = "tr",                                  # target field to apply: tr | en
     [string] $Out   = "BMW_Language.patched.dll"
 )
 
@@ -41,7 +44,7 @@ $Translations = (Resolve-Path -LiteralPath $Translations).Path
 
 $d = [System.IO.File]::ReadAllBytes($Dll)
 
-# ---- çevirileri yükle: de -> hedef (büyük/küçük harfe duyarlı, ordinal) ----
+# ---- load translations: de -> target (case-sensitive, ordinal) ----
 $jsonText = [System.IO.File]::ReadAllText($Translations, [System.Text.Encoding]::UTF8)
 $strings  = (ConvertFrom-Json $jsonText).strings
 $tr = New-Object 'System.Collections.Generic.Dictionary[string,string]'
@@ -50,7 +53,7 @@ foreach ($x in $strings) {
     if (-not [string]::IsNullOrEmpty($val)) { $tr[$x.de] = $val }
 }
 
-# ---- PE başlıklarını oku ----
+# ---- read PE headers ----
 $pe     = Read-U32 $d 0x3C
 $nsec   = Read-U16 $d ($pe + 6)
 $opt    = Read-U16 $d ($pe + 20)
@@ -74,7 +77,7 @@ $next_va = [int]$secs[".reloc"][2]
 
 function R2F([int]$r) { return $r - $va0 + $ro0 }
 
-# ---- kaynak ağacını dolaş, her veri girişini topla ----
+# ---- walk the resource tree, collect every data entry ----
 $script:ents = New-Object System.Collections.ArrayList
 
 function Walk([int]$off, [int[]]$path) {
@@ -101,7 +104,7 @@ foreach ($e in $script:ents) {
     if ($e[1] -lt $data_start_rva) { throw "data precedes directory" }
 }
 
-# prefix = kaynak dizini bloğu (ilk veri girişinden önceki her şey)
+# prefix = resource directory block (everything before the first data entry)
 $prefixLen = (R2F $data_start_rva) - $ro0
 $prefix = New-Object byte[] $prefixLen
 [Array]::Copy($d, $ro0, $prefix, 0, $prefixLen)
@@ -116,12 +119,13 @@ function Rebuild-Bundle([byte[]]$blob) {
             for ($j = $i; $j -lt $blob.Length; $j++) { $out.Add($blob[$j]) }
             break
         }
-        # [int] cast şart: [byte] sol operandında -shl sonucu byte'a kırpılır ([byte]1 -shl 8 = 0)
+        # [int] cast is required: with a [byte] left operand, -shl truncates to a
+        # byte ([byte]1 -shl 8 = 0), which would corrupt the length prefix.
         $ln = [int]$blob[$i] -bor ([int]$blob[$i + 1] -shl 8)
         $i += 2
         $sLen = $ln * 2
-        # Python dilimlemesi gibi: blob sonunu aşan uzunluğu kırp, ama i'yi tam
-        # ilan edilen uzunluk kadar ilerlet (bozuk son demetleri birebir koru).
+        # Match Python slicing: clip a length that runs past the blob end, but
+        # still advance i by the full declared length (preserve malformed tails).
         $avail = $blob.Length - $i
         if ($avail -lt 0) { $avail = 0 }
         $copyLen = [Math]::Min($sLen, $avail)
@@ -140,10 +144,10 @@ function Rebuild-Bundle([byte[]]$blob) {
             if ($s.Length -gt 0) { $out.AddRange($s) }
         }
     }
-    return ,$out.ToArray()   # tekli virgül: PowerShell'in diziyi açmasını engeller
+    return ,$out.ToArray()   # unary comma: stops PowerShell from unrolling the array
 }
 
-# ---- veri bloklarını RVA sırasına göre yeniden kur ----
+# ---- rebuild data blocks in RVA order ----
 $new_data = New-Object System.Collections.Generic.List[byte]
 $sorted = $script:ents | Sort-Object { $_[1] }
 foreach ($e in $sorted) {
@@ -159,35 +163,34 @@ foreach ($e in $sorted) {
     if ($nb.Length -gt 0) { $new_data.AddRange($nb) }
 }
 
-# ---- yeni .rsrc'i birleştir ----
+# ---- assemble the new .rsrc ----
 $new_rsrc = New-Object System.Collections.Generic.List[byte]
 $new_rsrc.AddRange($prefix)
 $new_rsrc.AddRange($new_data.ToArray())
 $new_vs = $new_rsrc.Count
-if (($va0 + $new_vs) -gt $next_va) { throw "rsrc virtual overflow — bölüm kaydırması gerekir" }
+if (($va0 + $new_vs) -gt $next_va) { throw "rsrc virtual overflow -- would need a section shift" }
 $new_raw = [int]([math]::Floor(($new_vs + $falign - 1) / $falign) * $falign)
-$pad = $new_raw - $new_vs
 $new_rsrc_padded = New-Object byte[] $new_raw
 [Array]::Copy($new_rsrc.ToArray(), 0, $new_rsrc_padded, 0, $new_vs)
-# (kalan baytlar zaten 0)
+# (remaining bytes are already 0)
 
-# ---- .reloc ham verisi ----
+# ---- .reloc raw data ----
 $reloc_ro = [int]$secs[".reloc"][4]
 $reloc_rs = [int]$secs[".reloc"][3]
 $reloc_raw = New-Object byte[] $reloc_rs
 if ($reloc_rs -gt 0) { [Array]::Copy($d, $reloc_ro, $reloc_raw, 0, $reloc_rs) }
 
-# ---- başlığı kopyala ve yamala ----
+# ---- copy the header and patch it ----
 $head = New-Object byte[] $ro0
 [Array]::Copy($d, 0, $head, 0, $ro0)
-Set-U32 $head ([int]$secs[".rsrc"][0] + 8)  ([uint32]$new_vs)          # .rsrc VirtualSize
-Set-U32 $head ([int]$secs[".rsrc"][0] + 16) ([uint32]$new_raw)        # .rsrc SizeOfRawData
+Set-U32 $head ([int]$secs[".rsrc"][0] + 8)  ([uint32]$new_vs)           # .rsrc VirtualSize
+Set-U32 $head ([int]$secs[".rsrc"][0] + 16) ([uint32]$new_raw)         # .rsrc SizeOfRawData
 Set-U32 $head ([int]$secs[".reloc"][0] + 20) ([uint32]($ro0 + $new_raw)) # .reloc PointerToRawData
 if ($magic -eq 0x10B) { $ddoff = $pe + 24 + 96 } else { $ddoff = $pe + 24 + 112 }
-Set-U32 $head ($ddoff + 2 * 8 + 4) ([uint32]$new_vs)                 # kaynak dizini boyutu
-Set-U32 $head ($pe + 24 + 64) ([uint32]0)                            # checksum sıfırla
+Set-U32 $head ($ddoff + 2 * 8 + 4) ([uint32]$new_vs)                  # resource directory size
+Set-U32 $head ($pe + 24 + 64) ([uint32]0)                             # zero the checksum
 
-# ---- çıktıyı yaz ----
+# ---- write the output ----
 $fs = [System.IO.File]::Open($Out, [System.IO.FileMode]::Create, [System.IO.FileAccess]::Write)
 try {
     $fs.Write($head, 0, $head.Length)
@@ -197,4 +200,4 @@ try {
     $fs.Dispose()
 }
 
-"{0} yamalandı: {1} kaynak string, yeni .rsrc vsize=0x{2:X}" -f $Out, $tr.Count, $new_vs
+"patched {0}: {1} source strings, new .rsrc vsize=0x{2:X}" -f $Out, $tr.Count, $new_vs
